@@ -24,7 +24,44 @@ All you need to do is fork this repository, implement all 31  algorithms and sen
 Check out our FAQ for more information.
 
 ## Index
-[**FAQ**](#faq)
+  - [**December 1 - William Butcher's Mission**](#december-1---william-butchers-mission)
+  - [**FAQ**](#faq)
+  
+  
+## Algorithms
+
+ ### December 1 - William Butcher's Mission
+
+   #### Problem Statement
+   The mission of William Butcher and his crew is to free the US from the control of Supes. The Supes are seeking to destabilize the country by infiltrating the military in an effort to influence the administration. 
+   
+  A refugee in the United States from Asia, a Supe, was able to get away from the concentration camps. A crew member who was originally from Spain had an unplanned encounter with them and sought to make up with her despite having trouble understanding her when she tried to speak with the crew. 
+  
+  After careful analysis, MM discovered that she had employed a string of Hexadecimal characters and digits. 
+  
+  Design an algorithm to help the crew fully comprehend her hints.
+
+
+   <p align="center"><img src="https://tv-fanatic-res.cloudinary.com/iu/s--_6a9P6vj--/t_xlarge_l/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1598652323/the-boys-cast-from-the-boys-season-2.jpg" width="400"></p>
+   
+   #### Sample Input/Output
+   ```
+      Input: { 56, 6F, 75, 67, 68, 74}
+
+      Output: Vought
+
+   ```
+   ```
+      Input: { 49, 6E, 76, 61, 64, 65}, {4D, 69, 6C, 69, 74, 61, 72, 79}
+      Output: Invade Military
+
+   ``` 
+- **References**
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Hexadecimals and ASCII](https://circuitdigest.com/calculators/hex-to-ascii-calculator)
+----
 
 FAQ
 ======
