@@ -24,7 +24,11 @@ All you need to do is fork this repository, implement all 31  algorithms and sen
 Check out our FAQ for more information.
 
 ## Index
-[**FAQ**](#faq)
+  - [**FAQ**](#faq)
+  
+  
+## Algorithms
+
 
 FAQ
 ======
