@@ -33,14 +33,21 @@ Check out our FAQ for more information.
  ### December 1 - William Butcher's Mission
 
    #### Problem Statement
-   The mission of William Butcher and his crew is to free the US from the control of Supes. The Supes are seeking to destabilize the country by infiltrating the military in an effort to influence the administration. A refugee in the United States from Asia, a Supe, was able to get away from the concentration camps. A crew member who was originally from Spain had an unplanned encounter with them and sought to make up with her despite having trouble understanding her when she tried to speak with the crew. After careful analysis, MM discovered that she had employed a string of Hexadecimal characters and digits. Design an algorithm to help the crew fully comprehend her hints.
+   The mission of William Butcher and his crew is to free the US from the control of Supes. The Supes are seeking to destabilize the country by infiltrating the military in an effort to influence the administration. 
+   
+  A refugee in the United States from Asia, a Supe, was able to get away from the concentration camps. A crew member who was originally from Spain had an unplanned encounter with them and sought to make up with her despite having trouble understanding her when she tried to speak with the crew. 
+  
+  After careful analysis, MM discovered that she had employed a string of Hexadecimal characters and digits. 
+  
+  Design an algorithm to help the crew fully comprehend her hints.
 
 
-   <p align="center"><img src="https://media3.giphy.com/media/nxgSkZNaOFMoo/giphy.gif?cid=ecf05e47lvyzgys0csclvx3lnblvzgr2q32yk6vr1euioe7n&rid=giphy.gif&ct=g"></p>
+   <p align="center"><img src="https://tv-fanatic-res.cloudinary.com/iu/s--_6a9P6vj--/t_xlarge_l/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1598652323/the-boys-cast-from-the-boys-season-2.jpg" width="400"></p>
    
    #### Sample Input/Output
    ```
       Input: { 56, 6F, 75, 67, 68, 74}
+
       Output: Vought
 
    ```
