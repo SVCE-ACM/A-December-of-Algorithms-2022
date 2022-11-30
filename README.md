@@ -1,7 +1,7 @@
 # A-December-of-Algorithms-2022
-<div align="center">
+<div align="left">
 <h1>
-    <img alt="header" src="https://user-images.githubusercontent.com/105559815/204576737-21be2ad2-1b86-477d-9af6-33eb562c6f1c.jpeg" width="500"></img>
+    <p align="center"><img alt="header" src="https://user-images.githubusercontent.com/105559815/204576737-21be2ad2-1b86-477d-9af6-33eb562c6f1c.jpeg" width="500"></img></p>
 </h1>
 Welcome to A December of Algorithms (2022). 
 
