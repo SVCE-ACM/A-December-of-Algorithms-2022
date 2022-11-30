@@ -1,7 +1,7 @@
 # A-December-of-Algorithms-2022
-<div align="center">
+<div align="left">
 <h1>
-    <img alt="header" src="https://user-images.githubusercontent.com/105559815/204576737-21be2ad2-1b86-477d-9af6-33eb562c6f1c.jpeg" width="500"></img>
+    <p align="center"><img alt="header" src="https://user-images.githubusercontent.com/105559815/204576737-21be2ad2-1b86-477d-9af6-33eb562c6f1c.jpeg" width="500"></img></p>
 </h1>
 Welcome to A December of Algorithms (2022). 
 
@@ -55,7 +55,11 @@ Check out our FAQ for more information.
       Input: { 49, 6E, 76, 61, 64, 65}, {4D, 69, 6C, 69, 74, 61, 72, 79}
       Output: Invade Military
 
-   ```  
+   ``` 
+- **Resources**
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
 ----
 
 FAQ
