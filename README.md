@@ -56,10 +56,11 @@ Check out our FAQ for more information.
       Output: Invade Military
 
    ``` 
-- **Resources**
+- **References**
     - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
     - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
     - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Hexadecimals and ASCII](https://circuitdigest.com/calculators/hex-to-ascii-calculator)
 ----
 
 FAQ
