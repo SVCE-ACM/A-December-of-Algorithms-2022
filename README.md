@@ -67,35 +67,38 @@ Check out our FAQ for more information.
  ### December 2 - The Secret Language
 
    #### Problem Statement
-   The mission of William Butcher and his crew is to free the US from the control of Supes. The Supes are seeking to destabilize the country by infiltrating the military in an effort to influence the administration. 
+   Leonard and Sheldon are the best of friends. They know each other so well that they even developed their own language to exchange secret messages. However, they have recently made a new friend, Raj, who has difficulty understanding the two when they communicate in their language.
    
-  A refugee in the United States from Asia, a Supe, was able to get away from the concentration camps. A crew member who was originally from Spain had an unplanned encounter with them and sought to make up with her despite having trouble understanding her when she tried to speak with the crew. 
-  
-  After careful analysis, MM discovered that she had employed a string of Hexadecimal characters and digits. 
-  
-  Design an algorithm to help the crew fully comprehend her hints.
+Leonard and Sheldon’s language is similar to Pig Latin. Their unique language consists of usual English words transformed by shifting the first two letters in a word to the end and adding a suffix 'ae'.
+
+Help Raj translate and decode his friends' secret messages.
 
 
-   <p align="center"><img src="https://tv-fanatic-res.cloudinary.com/iu/s--_6a9P6vj--/t_xlarge_l/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1598652323/the-boys-cast-from-the-boys-season-2.jpg" width="400"></p>
+
+   <p align="center"><img src="https://user-images.githubusercontent.com/119515193/205096868-e17042f7-379d-4e8f-95f9-7ad1ce84bc10.gif" width="400"></p>
 
    
    #### Sample Input/Output
    ```
-      Input: { 56, 6F, 75, 67, 68, 74}
+      
+      Input: kipediawiae
 
-      Output: Vought
+      Output: wikipedia
 
    ```
    ```
-      Input: { 49, 6E, 76, 61, 64, 65}, {4D, 69, 6C, 69, 74, 61, 72, 79}
-      Output: Invade Military
+      
+      Input: ammargrae
+      
+      Output: grammar
 
    ``` 
 - **References**
-    - [Strings in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
-    - [Strings in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
     - [Pig Latin](https://en.wikipedia.org/wiki/Pig_Latin)
-    - [String in Python](https://circuitdigest.com/calculators/hex-to-ascii-calculator)
+    - [Strings in C++](https://www.tutorialspoint.com/cplusplus/cpp_strings.htm)
+    - [Strings in Java](https://www.tutorialspoint.com/java/java_strings.htm)
+    - [String in Python](https://www.tutorialspoint.com/python/python_strings.htm)
+    
 ----
 
 FAQ
