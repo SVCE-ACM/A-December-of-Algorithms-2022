@@ -14,14 +14,16 @@ public class GREEDnim_day1_java {
         Scanner in=new Scanner(System.in);
         StringBuilder ans= new StringBuilder();
         int noOfWords=0;
-        noOfWords=Integer.parseInt(in.nextLine());
+        noOfWords=Integer.parseInt(in.nextLine().strip());
 
         for(int i=0;i<noOfWords;i++)
         {
-            String word=in.nextLine();
-            String[] arrayOfWord=word.split(" ",0);
+            String word=in.nextLine().strip();
+            String[] arrayOfWord=word.split("\\s+",0);
+            System.out.println(Arrays.toString(arrayOfWord));
             for(String hex:arrayOfWord)
             {
+                hex=hex.strip();
                 int decimal=Integer.parseInt(hex,16);
                 ans.append((char) decimal);
             }
