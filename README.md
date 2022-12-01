@@ -25,6 +25,7 @@ Check out our FAQ for more information.
 
 ## Index
   - [**December 1 - William Butcher's Mission**](#december-1---william-butchers-mission)
+  - [**December 2 - The Secret Language**](#december-2---the-secret-language)
   - [**FAQ**](#faq)
   
   
@@ -61,6 +62,40 @@ Check out our FAQ for more information.
     - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
     - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
     - [Hexadecimals and ASCII](https://circuitdigest.com/calculators/hex-to-ascii-calculator)
+----
+
+ ### December 2 - The Secret Language
+
+   #### Problem Statement
+   The mission of William Butcher and his crew is to free the US from the control of Supes. The Supes are seeking to destabilize the country by infiltrating the military in an effort to influence the administration. 
+   
+  A refugee in the United States from Asia, a Supe, was able to get away from the concentration camps. A crew member who was originally from Spain had an unplanned encounter with them and sought to make up with her despite having trouble understanding her when she tried to speak with the crew. 
+  
+  After careful analysis, MM discovered that she had employed a string of Hexadecimal characters and digits. 
+  
+  Design an algorithm to help the crew fully comprehend her hints.
+
+
+   <p align="center"><img src="https://user-images.githubusercontent.com/105559815/205094336-c1d29bbc-d9af-460a-b2c9-c253b21601d1.gif" width="400"></p>
+
+   
+   #### Sample Input/Output
+   ```
+      Input: { 56, 6F, 75, 67, 68, 74}
+
+      Output: Vought
+
+   ```
+   ```
+      Input: { 49, 6E, 76, 61, 64, 65}, {4D, 69, 6C, 69, 74, 61, 72, 79}
+      Output: Invade Military
+
+   ``` 
+- **References**
+    - [Strings in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Strings in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Pig Latin](https://en.wikipedia.org/wiki/Pig_Latin)
+    - [String in Python](https://circuitdigest.com/calculators/hex-to-ascii-calculator)
 ----
 
 FAQ
