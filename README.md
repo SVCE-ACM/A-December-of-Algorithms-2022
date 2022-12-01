@@ -25,6 +25,7 @@ Check out our FAQ for more information.
 
 ## Index
   - [**December 1 - William Butcher's Mission**](#december-1---william-butchers-mission)
+  - [**December 2 - The Secret Language**](#december-2---the-secret-language)
   - [**FAQ**](#faq)
   
   
@@ -61,6 +62,43 @@ Check out our FAQ for more information.
     - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
     - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
     - [Hexadecimals and ASCII](https://circuitdigest.com/calculators/hex-to-ascii-calculator)
+----
+
+ ### December 2 - The Secret Language
+
+   #### Problem Statement
+   Leonard and Sheldon are the best of friends. They know each other so well that they even developed their own language to exchange secret messages. However, they have recently made a new friend, Raj, who has difficulty understanding the two when they communicate in their language.
+   
+Leonard and Sheldon’s language is similar to Pig Latin. Their unique language consists of usual English words transformed by shifting the first two letters in a word to the end and adding a suffix 'ae'.
+
+Help Raj translate and decode his friends' secret messages.
+
+
+
+   <p align="center"><img src="https://user-images.githubusercontent.com/119515193/205096868-e17042f7-379d-4e8f-95f9-7ad1ce84bc10.gif" width="400"></p>
+
+   
+   #### Sample Input/Output
+   ```
+      
+      Input: kipediawiae
+
+      Output: wikipedia
+
+   ```
+   ```
+      
+      Input: ammargrae
+      
+      Output: grammar
+
+   ``` 
+- **References**
+    - [Pig Latin](https://en.wikipedia.org/wiki/Pig_Latin)
+    - [Strings in C++](https://www.tutorialspoint.com/cplusplus/cpp_strings.htm)
+    - [Strings in Java](https://www.tutorialspoint.com/java/java_strings.htm)
+    - [String in Python](https://www.tutorialspoint.com/python/python_strings.htm)
+    
 ----
 
 FAQ
