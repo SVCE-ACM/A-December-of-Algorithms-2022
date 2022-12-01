@@ -76,7 +76,7 @@ Check out our FAQ for more information.
   Design an algorithm to help the crew fully comprehend her hints.
 
 
-   <p align="center"><img src="https://user-images.githubusercontent.com/105559815/205094336-c1d29bbc-d9af-460a-b2c9-c253b21601d1.gif" width="400"></p>
+   <p align="center"><img src="https://tv-fanatic-res.cloudinary.com/iu/s--_6a9P6vj--/t_xlarge_l/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1598652323/the-boys-cast-from-the-boys-season-2.jpg" width="400"></p>
 
    
    #### Sample Input/Output
