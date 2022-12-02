@@ -105,9 +105,7 @@ Help Raj translate and decode his friends' secret messages.
  ### December 3 - Minesweeper
 
    #### Problem Statement
-  Consider a minefield made up of # and -, where each hash (#) represents a mine and each dash (-) represents a mine-free spot. Display the minefield where each dash is replaced by the number of mines immediately adjacent to the spot (horizontally, vertically, and diagonally).
-  
-The output should contain the arrays of digits showing number of mines immediately adjacent to the spot you have selected accordingly.
+  Consider a minefield made up of # and -, where each hash (#) represents a mine and each dash (-) represents a mine-free spot. Display the minefield where each dash is replaced by the number of mines immediately adjacent to the spot (horizontally, vertically, and diagonally). 
 
    <p align="center"><img src="https://user-images.githubusercontent.com/119505502/205342027-d03a8be3-4032-44ca-a959-afbf55756d5b.jpeg" width="400"></p>
    
@@ -116,26 +114,56 @@ The output should contain the arrays of digits showing number of mines immediate
    #### Sample Input/Output
    ```
  Input:
-
-​​numGrid([
+    5
   ["-", "-", "-", "-", "-"],
   ["-", "-", "-", "-", "-"],
   ["-", "-", "#", "-", "-"],
   ["-", "-", "-", "-", "-"],
   ["-", "-", "-", "-", "-"]
-]) ➞ 
 
  Output:
  
-[
   ["0", "0", "0", "0", "0"],
   ["0", "1", "1", "1", "0"],
   ["0", "1", "#", "1", "0"],
   ["0", "1", "1", "1", "0"],
   ["0", "0", "0", "0", "0"],
-]
 
-   ``` 
+  ```
+  ```
+ Input:
+    5
+  ["-", "#", "-", "-", "#"],
+  ["-", "-", "-", "-", "-"],
+  ["-", "-", "#", "-", "-"],
+  ["-", "#", "-", "-", "#"],
+  ["-", "#", "-", "-", "#"]
+
+ Output:
+ 
+  ["1", "#", "1", "1", "#"],
+  ["1", "2", "1", "2", "1"],
+  ["1", "2", "#", "1", "1"],
+  ["2", "#", "3", "3", "#"],
+  ["2", "#", "2", "2", "#"]
+
+```
+
+```
+    Explanation:
+    
+    The first line of input shows the number of rows and columns of the minefield (2D array).
+    The next line(s) of input show the minefield with the mines and the mine-free spots. 
+    
+    ["0", "0", "0", "0", "0"],
+    ["0", "1", "1", "1", "0"],
+    ["0", "1", "#", "1", "0"],
+    ["0", "1", "1", "1", "0"],
+    ["0", "0", "0", "0", "0"],
+    
+    The output should contain the arrays of digits showing number of mines immediately adjacent (horizontally, vertically and diagonally) to a given position in the array.
+    
+```
 - **References**
     - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
     - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
