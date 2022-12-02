@@ -26,6 +26,7 @@ Check out our FAQ for more information.
 ## Index
   - [**December 1 - William Butcher's Mission**](#december-1---william-butchers-mission)
   - [**December 2 - The Secret Language**](#december-2---the-secret-language)
+  - [**December 3 - Minesweeper**](#december-3---minesweeper)
   - [**FAQ**](#faq)
   
   
@@ -99,6 +100,47 @@ Help Raj translate and decode his friends' secret messages.
     - [Strings in Java](https://www.tutorialspoint.com/java/java_strings.htm)
     - [String in Python](https://www.tutorialspoint.com/python/python_strings.htm)
     
+----
+
+ ### December 3 - Minesweeper
+
+   #### Problem Statement
+  Consider a minefield made up of # and -, where each hash (#) represents a mine and each dash (-) represents a mine-free spot. Display the minefield where each dash is replaced by the number of mines immediately adjacent to the spot (horizontally, vertically, and diagonally).
+  
+The output should contain the arrays of digits showing number of mines immediately adjacent to the spot you have selected accordingly.
+
+   <p align="center"><img src="https://user-images.githubusercontent.com/119505502/205342027-d03a8be3-4032-44ca-a959-afbf55756d5b.jpeg" width="400"></p>
+   
+
+   
+   #### Sample Input/Output
+   ```
+ Input:
+
+​​numGrid([
+  ["-", "-", "-", "-", "-"],
+  ["-", "-", "-", "-", "-"],
+  ["-", "-", "#", "-", "-"],
+  ["-", "-", "-", "-", "-"],
+  ["-", "-", "-", "-", "-"]
+]) ➞ 
+
+ Output:
+ 
+[
+  ["0", "0", "0", "0", "0"],
+  ["0", "1", "1", "1", "0"],
+  ["0", "1", "#", "1", "0"],
+  ["0", "1", "1", "1", "0"],
+  ["0", "0", "0", "0", "0"],
+]
+
+   ``` 
+- **References**
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Minesweeper](https://en.wikipedia.org/wiki/Minesweeper_(video_game))
 ----
 
 FAQ
