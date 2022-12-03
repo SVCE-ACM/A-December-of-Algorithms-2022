@@ -48,16 +48,32 @@ Check out our FAQ for more information.
    
    #### Sample Input/Output
    ```
-      Input: { 56, 6F, 75, 67, 68, 74}
+      Input: 
+      1
+      { 56, 6F, 75, 67, 68, 74}
 
       Output: Vought
 
    ```
    ```
-      Input: { 49, 6E, 76, 61, 64, 65}, {4D, 69, 6C, 69, 74, 61, 72, 79}
-      Output: Invade Military
+      Input: 
+      2
+      { 49, 6E, 76, 61, 64, 65} 
+      {4D, 69, 6C, 69, 74, 61, 72, 79}
+      
+      Output: 
+      Invade 
+      Military
 
    ``` 
+   
+   ```
+     Explanation:
+     
+        The first line of input will specify the number of words (n). The subsequent 'n' lines will specify the word to be translated.
+        
+   ```
+    
 - **References**
     - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
     - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
@@ -94,6 +110,7 @@ Help Raj translate and decode his friends' secret messages.
       Output: grammar
 
    ``` 
+   
 - **References**
     - [Pig Latin](https://en.wikipedia.org/wiki/Pig_Latin)
     - [Strings in C++](https://www.tutorialspoint.com/cplusplus/cpp_strings.htm)
@@ -142,8 +159,8 @@ Help Raj translate and decode his friends' secret messages.
  Output:
  
   ["1", "#", "1", "1", "#"],
-  ["1", "2", "1", "2", "1"],
-  ["1", "2", "#", "1", "1"],
+  ["1", "2", "2", "2", "1"],
+  ["1", "2", "#", "2", "1"],
   ["2", "#", "3", "3", "#"],
   ["2", "#", "2", "2", "#"]
 
@@ -164,11 +181,13 @@ Help Raj translate and decode his friends' secret messages.
     The output should contain the arrays of digits showing number of mines immediately adjacent (horizontally, vertically and diagonally) to a given position in the array.
     
 ```
+
 - **References**
     - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
     - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
     - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
     - [Minesweeper](https://en.wikipedia.org/wiki/Minesweeper_(video_game))
+    
 ----
 
 FAQ
