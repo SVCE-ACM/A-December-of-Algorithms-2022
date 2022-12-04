@@ -28,6 +28,7 @@ Check out our FAQ for more information.
   - [**December 2 - The Secret Language**](#december-2---the-secret-language)
   - [**December 3 - Minesweeper**](#december-3---minesweeper)
   - [**December 4 - Industry**](#december-4---industry)
+  - [**December 5 - Don’t let Mason misspend!**](#december-5---dont-let-mason-misspend)
   - [**FAQ**](#faq)
   
   
@@ -256,6 +257,57 @@ Help Raj translate and decode his friends' secret messages.
     - [Maximum Sum Subarray](https://www.geeksforgeeks.org/maximum-subarray-sum-using-divide-and-conquer-algorithm/)
     - [Divide and Conquer](https://www.geeksforgeeks.org/introduction-to-divide-and-conquer-algorithm-data-structure-and-algorithm-tutorials/)
 ----
+
+### December 5 - Don’t let Mason misspend!
+#### Problem Statement
+MASON is a motoring enthusiast and he owns a sports bike . With the price of petrol going up and down in a pattern , MASON is worried whether his salary would be sufficient to meet his needs apart from fueling his bike . So he decides to calculate how much he spends on fueling his bike per month. Help MASON calculate his fuel expenditure. If he spends more than 10 PERCENTAGE of his INCOME give him  a warning message reading “EXPENDITURE EXCEEDING LIMIT”
+
+<p align="center"><img src="https://user-images.githubusercontent.com/113821083/205503831-d0cb042f-99ee-46e1-a55c-2570579ca947.jpeg" width="400"></p>
+
+ #### Conditions
+1. MASON fuels his bike twice a day .
+
+2. The PRICE of the fuel is 75 RUPEES/l initially.
+
+3. Every third day the price goes up by 3 rupees .
+
+4. Every fifth day the price goes down by 2 rupees .
+
+5. Help him to calculate his expense for a period of one month
+(31DAYS) .
+
+6. Check whether the expenditure is more than 10 percent of his income .
+
+ #### Sample Input/Output
+     
+```    
+ Input:
+If INCOME = 50000 RUPEES
+
+Output:
+Expenditure: 7000 Rs
+“EXPENDITURE EXCEEDING LIMIT”
+
+```
+    
+```
+Input:
+If INCOME =80000 RUPEES
+
+Output:
+If EXPENSE = 6000 RUPEES
+“EXPENDITURE WITHIN LIMIT”
+    
+```
+
+- **References**
+    - [Looping in C](https://www.tutorialspoint.com/cprogramming/c_loops.htm)
+    - [Looping in C++](https://www.programiz.com/cpp-programming/for-loop)
+    - [Looping in Java](https://www.geeksforgeeks.org/loops-in-java/)
+    - [Looping in Python](https://www.w3schools.com/python/python_for_loops.asp)
+
+----
+
 
 FAQ
 ======
