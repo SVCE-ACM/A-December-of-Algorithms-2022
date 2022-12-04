@@ -69,8 +69,8 @@ Check out our FAQ for more information.
 
    ``` 
    
+   #### Explanation
    ```
-     Explanation:
      
         The first line of input will specify the number of words (n). The subsequent 'n' lines will specify the word to be translated.
         
@@ -168,9 +168,9 @@ Help Raj translate and decode his friends' secret messages.
 
 ```
 
+#### Explanation
 ```
-    Explanation:
-    
+ 
     The first line of input shows the number of rows and columns of the minefield (2D array).
     The next line(s) of input show the minefield with the mines and the mine-free spots. 
     
@@ -236,8 +236,8 @@ Help Raj translate and decode his friends' secret messages.
 
 ```
 
+#### Explanation
 ```
-    Explanation:
     
     The first line of input is the number of days Harper is going to consider for her analysis.
     The second line of input is the stock market change values for those given days.
@@ -299,6 +299,14 @@ If EXPENSE = 6000 RUPEES
 “EXPENDITURE WITHIN LIMIT”
     
 ```
+
+ #### Explanation
+ ```
+ 
+        The input is the monthly income of Mason. 
+        The output is the amount he must spend on fueling his bike. 
+        If the expenditure exceeds 10% of the income, then an alert message must be displayed.
+ ```
 
 - **References**
     - [Looping in C](https://www.tutorialspoint.com/cprogramming/c_loops.htm)
