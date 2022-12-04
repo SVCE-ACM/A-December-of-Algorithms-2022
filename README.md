@@ -27,6 +27,7 @@ Check out our FAQ for more information.
   - [**December 1 - William Butcher's Mission**](#december-1---william-butchers-mission)
   - [**December 2 - The Secret Language**](#december-2---the-secret-language)
   - [**December 3 - Minesweeper**](#december-3---minesweeper)
+  - [**December 4 - Industry**](#december-4---industry)
   - [**FAQ**](#faq)
   
   
@@ -48,16 +49,32 @@ Check out our FAQ for more information.
    
    #### Sample Input/Output
    ```
-      Input: { 56, 6F, 75, 67, 68, 74}
+      Input: 
+      1
+      { 56, 6F, 75, 67, 68, 74}
 
       Output: Vought
 
    ```
    ```
-      Input: { 49, 6E, 76, 61, 64, 65}, {4D, 69, 6C, 69, 74, 61, 72, 79}
-      Output: Invade Military
+      Input: 
+      2
+      { 49, 6E, 76, 61, 64, 65} 
+      {4D, 69, 6C, 69, 74, 61, 72, 79}
+      
+      Output: 
+      Invade 
+      Military
 
    ``` 
+   
+   ```
+     Explanation:
+     
+        The first line of input will specify the number of words (n). The subsequent 'n' lines will specify the word to be translated.
+        
+   ```
+    
 - **References**
     - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
     - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
@@ -94,6 +111,7 @@ Help Raj translate and decode his friends' secret messages.
       Output: grammar
 
    ``` 
+   
 - **References**
     - [Pig Latin](https://en.wikipedia.org/wiki/Pig_Latin)
     - [Strings in C++](https://www.tutorialspoint.com/cplusplus/cpp_strings.htm)
@@ -142,8 +160,8 @@ Help Raj translate and decode his friends' secret messages.
  Output:
  
   ["1", "#", "1", "1", "#"],
-  ["1", "2", "1", "2", "1"],
-  ["1", "2", "#", "1", "1"],
+  ["1", "2", "2", "2", "1"],
+  ["1", "2", "#", "2", "1"],
   ["2", "#", "3", "3", "#"],
   ["2", "#", "2", "2", "#"]
 
@@ -164,11 +182,79 @@ Help Raj translate and decode his friends' secret messages.
     The output should contain the arrays of digits showing number of mines immediately adjacent (horizontally, vertically and diagonally) to a given position in the array.
     
 ```
+
 - **References**
     - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
     - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
     - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
     - [Minesweeper](https://en.wikipedia.org/wiki/Minesweeper_(video_game))
+    
+----
+
+### December 4 - Industry
+
+   #### Problem Statement
+  Harper is a graduate at a bank called Pierpoint, the first assignment given to her by her boss, Eric, is to analyse the stock market rise and fall for a given set of stock market change values for n days. 
+  She must submit a report to Eric highlighting the period of time when the company should sell to maximise their profit, she must also mention the profit value. 
+  
+  Given a set of values, help Harper gather the necessary data for her report. 
+
+   <p align="center"><img src="https://user-images.githubusercontent.com/105559815/205451731-fa4f9219-8449-4f1e-a31f-0453b858bda3.gif" width="400"></p>
+   
+   
+   #### Sample Input/Output
+   ```
+ Input:
+ 
+    No. of days: 5
+
+    Given stock market change values: { 5,4,-1,7,8}
+
+  
+ Output:
+ 
+  Profit Value: 23
+  Proposed days to sell: Day: 1 to Day: 5
+  Stock market Change Values: {5,4,-1,7,8}
+
+
+  ```
+  ```
+ Input:
+ 
+    No. of Days:19
+    Given stock market change values: { 5,-4,12,-2, -5, 6, -2,-3, 1, 5, -6,-11,7,-31,9,2,-3,8,-5 }
+
+
+ Output:
+ 
+  Profit Value: 16
+  Proposed days to sell: Day: 15 to Day: 18
+  Stock market Change Values: {9, 2, -3, 8}
+
+
+```
+
+```
+    Explanation:
+    
+    The first line of input is the number of days Harper is going to consider for her analysis.
+    The second line of input is the stock market change values for those given days.
+
+    In order to find the best period of time to sell in order to maximise profit, 
+    Harper must find the maximum sum of all the stock change values in every possible subset of days from the given set.
+
+    In the given sample input, it is found that out of all the subsets obtained, the one having the maximum sum was the entire set as a whole. 
+    And thus, the company will be able to make maximum profit if they sell on all the days in that given period of time.
+
+    
+```
+- **References**
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Maximum Sum Subarray](https://www.geeksforgeeks.org/maximum-subarray-sum-using-divide-and-conquer-algorithm/)
+    - [Divide and Conquer](https://www.geeksforgeeks.org/introduction-to-divide-and-conquer-algorithm-data-structure-and-algorithm-tutorials/)
 ----
 
 FAQ
