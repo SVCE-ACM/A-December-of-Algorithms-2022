@@ -17,18 +17,20 @@ public class GREEDnim_day4_java {
         {
             inp[i]=in.nextInt();
         }
+        
+        // kadanes algorithm
         int maxSum=Integer.MIN_VALUE;
-        int maxStartIndex=0;
-        int maxEndIndex=0;
+        int maxStartIndex=Integer.MIN_VALUE;
+        int maxEndIndex=Integer.MIN_VALUE;
 
-        int curSum=0;
-        int curStartIndex=0;
-        int curEndIndex=0;
+        int curSum=Integer.MIN_VALUE;
+        int curStartIndex=Integer.MIN_VALUE;
+        int curEndIndex=Integer.MIN_VALUE;
 
         System.out.println(Arrays.toString(inp));
         for(int i=0;i<inp.length;i++)
         {
-           if(curSum<=0 && curSum+inp[i]>curSum)
+           if(curSum<=0 && inp[i]>curSum)
            {
                curSum=inp[i];
                curStartIndex=i;
