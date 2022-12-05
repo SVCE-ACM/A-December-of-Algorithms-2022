@@ -273,12 +273,14 @@ MASON is a motoring enthusiast and he owns a sports bike . With the price of pet
 
 4. Every fifth day the price goes down by 2 rupees .
 
-5. Help him to calculate his expense for a period of one month
+5. On the other days the price of the fuel remains x/l.
+
+6. Help him to calculate his expense for a period of one month
 (31DAYS) .
 
-6. Check whether the expenditure is more than 10 percent of his income .
+7. Check whether the expenditure is more than 10 percent of his income .
 
-7. His income is 50,000 rupees per month.
+8. His income is 50,000 rupees per month.
 
  #### Sample Input/Output
      
