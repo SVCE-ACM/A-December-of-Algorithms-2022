@@ -289,6 +289,8 @@ MASON is a motoring enthusiast and he owns a sports bike . With the price of pet
 Output:
 Expenditure=4686
 
+“EXPENDITURE WITHIN LIMIT”
+
 ```
     
 ```
@@ -298,7 +300,7 @@ fuel_price=97
 Output:
 Expenditure=6050
 
-“EXPENDITURE WITHIN LIMIT”
+“EXPENDITURE EXCEEDING LIMIT”
     
 ```
 
