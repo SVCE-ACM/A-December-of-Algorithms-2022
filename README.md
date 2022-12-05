@@ -337,7 +337,7 @@ The player whose turn it is loses the game when the value in the first position 
 Determine the winner of the game if both players play optimally and display the winner's name.
 
 
-<p align="center"><img src="https://user-images.githubusercontent.com/113821083/205503831-d0cb042f-99ee-46e1-a55c-2570579ca947.jpeg" width="400"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/205705632-898b9a40-ae67-48e6-a496-abb07e90aa36.png" width="400"></p>
 
  #### Sample Input/Output
      
