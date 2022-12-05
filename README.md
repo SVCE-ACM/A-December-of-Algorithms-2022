@@ -321,9 +321,6 @@ Expenditure=6050
     - [Looping in C++](https://www.programiz.com/cpp-programming/for-loop)
     - [Looping in Java](https://www.geeksforgeeks.org/loops-in-java/)
     - [Looping in Python](https://www.w3schools.com/python/python_for_loops.asp)
-    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
-    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
-    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
 
 ----
 
@@ -381,6 +378,9 @@ Output:
     - [Looping in C++](https://www.programiz.com/cpp-programming/for-loop)
     - [Looping in Java](https://www.geeksforgeeks.org/loops-in-java/)
     - [Looping in Python](https://www.w3schools.com/python/python_for_loops.asp)
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
 
 ----
 
