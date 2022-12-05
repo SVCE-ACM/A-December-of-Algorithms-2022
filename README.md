@@ -267,7 +267,7 @@ MASON is a motoring enthusiast and he owns a sports bike . With the price of pet
  #### Conditions
 1. MASON fuels his bike twice a day .
 
-2. The PRICE of the fuel is 75 RUPEES/l initially.
+2. The PRICE of the fuel is x/l initially.
 
 3. Every third day the price goes up by 3 rupees .
 
@@ -278,24 +278,26 @@ MASON is a motoring enthusiast and he owns a sports bike . With the price of pet
 
 6. Check whether the expenditure is more than 10 percent of his income .
 
+7. His income is 50,000 rupees per month.
+
  #### Sample Input/Output
      
 ```    
  Input:
-If INCOME = 50000 RUPEES
+  fuel_price=75
 
 Output:
-Expenditure: 7000 Rs
-“EXPENDITURE EXCEEDING LIMIT”
+Expenditure=4686
 
 ```
     
 ```
 Input:
-If INCOME =80000 RUPEES
+fuel_price=97
 
 Output:
-If EXPENSE = 6000 RUPEES
+Expenditure=6050
+
 “EXPENDITURE WITHIN LIMIT”
     
 ```
@@ -303,9 +305,9 @@ If EXPENSE = 6000 RUPEES
  #### Explanation
  ```
  
-        The input is the monthly income of Mason. 
+        The input is the rate of the fuel in the beginning of the month.
         The output is the amount he must spend on fueling his bike. 
-        If the expenditure exceeds 10% of the income, then an alert message must be displayed.
+        If the expenditure exceeds 10% of the income (i.e greater than 5000), then an alert message must be displayed.
  ```
 
 - **References**
