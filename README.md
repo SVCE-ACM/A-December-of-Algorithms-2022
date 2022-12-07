@@ -457,9 +457,8 @@ Arshith is a pre-final year student preparing for his aptitude, technical and in
 He has come across a mind-boggling problem statement that integrates a coding problem with a logical question as specified below:
 
 In a specific language, “DEMOCRACY” is coded as “EDOMRCCAY".
-Compute it using any approach of programming.
 
-Help Arshith develop a way to translate any given word to that particular language.
+Help Arshith develop a way to translate any given word to that particular language. Compute it using any approach of programming.
 
 
 <p align="center"><img src="https://user-images.githubusercontent.com/110989285/206233419-53af37a7-e675-4b59-b722-f67adfe0a5ae.png" width="400"></p>
