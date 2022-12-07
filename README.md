@@ -30,6 +30,7 @@ Check out our FAQ for more information.
   - [**December 4 - Industry**](#december-4---industry)
   - [**December 5 - Don’t let Mason misspend!**](#december-5---dont-let-mason-misspend)
   - [**December 6 - Swapped**](#december-6---swapped)
+  - [**December 7 - Word Map**](#december-7---word-map)
   - [**FAQ**](#faq)
   
   
@@ -386,6 +387,67 @@ Output:
 
 ----
 
+### December 7 - Word Map
+#### Problem Statement
+
+You are given a grid made up of random characters. 
+Given a word, your task is to determine whether the word can be constructed from the given grid.
+
+The word can be constructed from letters of sequentially adjacent cells, where adjacent cells are horizontally or vertically neighboring. 
+The same letter cell may not be used more than once.
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/205982685-c0637a1f-183d-449f-9e6f-4ef9dee62d3e.jpg" width="400"></p>
+
+ #### Sample Input/Output
+     
+```    
+ Input:
+  COMMUNICATION
+
+Output:
+  Found
+  
+```
+
+```    
+ Input:
+    DOCUMENT
+
+Output:
+  Not Found
+  
+```
+
+```   
+ Input:
+    MEDIATION
+
+Output:
+  Found
+  
+```
+
+ #### Explanation
+ ```
+     You are required to construct the given grid in the form of a 2D array of characters.
+     
+     All the characters must be either in uppercase.
+
+     The dimensions of the grid are 15x15.
+      
+     The input is a single word.
+      
+     The output is "Found" if the input word is found in the grid else it is "Not Found".
+ 
+ ```
+
+- **References**
+    - [Strings in C++](https://www.tutorialspoint.com/cplusplus/cpp_strings.htm)
+    - [Strings in Java](https://www.tutorialspoint.com/java/java_strings.htm)
+    - [String in Python](https://www.tutorialspoint.com/python/python_strings.htm)
+
+----
 
 FAQ
 ======
