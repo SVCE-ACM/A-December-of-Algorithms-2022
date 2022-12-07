@@ -31,6 +31,7 @@ Check out our FAQ for more information.
   - [**December 5 - Don’t let Mason misspend!**](#december-5---dont-let-mason-misspend)
   - [**December 6 - Swapped**](#december-6---swapped)
   - [**December 7 - Word Map**](#december-7---word-map)
+  - [**December 8 - Aptitude Check!**](#december-8---aptitude-check)
   - [**FAQ**](#faq)
   
   
@@ -446,6 +447,40 @@ Output:
     - [Strings in C++](https://www.tutorialspoint.com/cplusplus/cpp_strings.htm)
     - [Strings in Java](https://www.tutorialspoint.com/java/java_strings.htm)
     - [String in Python](https://www.tutorialspoint.com/python/python_strings.htm)
+    
+----
+    
+### December 8 - Aptitude Check!
+#### Problem Statement
+Arshith is a pre-final year student preparing for his aptitude, technical and interview rounds as part of his placement training. 
+
+He has come across a mind-boggling problem statement that integrates a coding problem with a logical question as specified below:
+
+In a specific language, “DEMOCRACY” is coded as “EDOMRCCAY".
+Compute it using any approach of programming.
+
+Help Arshith develop a way to translate any given word to that particular language.
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/110989285/206233419-53af37a7-e675-4b59-b722-f67adfe0a5ae.png" width="400"></p>
+
+ #### Sample Input/Output
+     
+```    
+ Input:  UNCOPYRIGHTABLE
+ Output: NUOCYPIRHGATLBE
+
+```
+
+```
+ Input:  SPEEDRUNNER
+ Output: PSEERDNUENR
+
+```
+- **References**
+    - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
+    - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
+    - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
 
 ----
 
