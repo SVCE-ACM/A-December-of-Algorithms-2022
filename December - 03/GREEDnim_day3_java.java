@@ -51,31 +51,26 @@ public class GREEDnim_day3_java {
     {
         arr[row][col]='#';
             int i=0;
-            for(int k=col-1;i<3;i++) //for prev row
+            for(int k=col-1;i<3;i++) //for each column
             {
-                if(k>=0 && k<arr[0].length)
-                {
-                    if(row-1>=0 && arr[row-1][k]!='#')
+                if (k >= 0 && k < arr[0].length) {
+                    if (row - 1 >= 0 && arr[row - 1][k] != '#') // for prev row
                     {
                         int val = arr[row - 1][k] + 1;
-                        arr[row - 1][k] = (char)val;
+                        arr[row - 1][k] = (char) val;
                     }
-                    if(arr[row][k]!='#')
+                    if (arr[row][k] != '#') // for cur row
                     {
                         int val = arr[row][k] + 1;
-                        arr[row ][k] = (char)val;
+                        arr[row][k] = (char) val;
                     }
-                    if(row+1<arr.length && arr[row+1][k]!='#')
+                    if (row + 1 < arr.length && arr[row + 1][k] != '#') // for next row
                     {
-                        int val = arr[row+1][k] + 1;
-                        arr[row +1][k] = (char)val;
+                        int val = arr[row + 1][k] + 1;
+                        arr[row + 1][k] = (char) val;
                     }
-
                 }
                 k++;
-
             }
-
-
     }
 }
