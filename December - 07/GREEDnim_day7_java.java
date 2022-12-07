@@ -5,22 +5,18 @@ import java.util.Scanner;
 public class GREEDnim_day7_java {
 
     static char[][] grid;
+    static boolean[][] checker;
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
+        String inp=in.next();
          grid=new char[15][15];
-        String a="ASSERTIVENESSLJCFOGOODPOSITIVEOPENBMUREW0PRPSMEDIATIONELDIOGMAASREGJEWINWINUCIAEMOEECSKENINEMRSHACDVTWTTLITEHOTLTSTERAOECASPLGLSIUNERFEAISAUSYTPOISEVFTTARTTDOCENPPIHIOGAIGUPYMGOOEEOGEPOAFPQIENOWANECONFLICTSDCERFNHTCATNOCEYEBT";
-//        System.out.println(a.length());
+         checker=new boolean[15][15];
+        String a="ASSERTIVENESSLJCFOGOODPOSITIVEOPENBMUREWOPRPSMEDIATIONELDIOGMAASREGJEWINWINUCIAEMOEECSKENINEMRSHACDVTWTTLITEHOTLTSTERAOECASPLGLSIUNERFEAISAUSYTPOISEVFTTARTTDOCENPPIHIOGAIGUPYMGOOEEOGEPOAFPQIENOWANECONFLICTSDCERFNHTCATNOCEYEBT";
         int index=0;
         for(int i=0;i<15;i++)
         {
-            for(int j=0;j<15;j++)
-            {
-                grid[i][j]=a.charAt(index++);
-//                System.out.print(grid[i][j]);
-            }
-//            System.out.println();
+            for(int j=0;j<15;j++) grid[i][j]=a.charAt(index++);
         }
-        String inp=in.next();
         boolean done=false;
         for(int i=0;i<15;i++)
         {
@@ -28,9 +24,7 @@ public class GREEDnim_day7_java {
             {
                 if(grid[i][j]==inp.charAt(0))
                 {
-
-                    done=findWord(inp,1,i+0,j+1) || findWord(inp,1,i+1,j+0);
-//                    System.out.println(i+" "+j+" "+done);
+                    done=findWord(inp,1,i,j+1,1)||findWord(inp,1,i,j-1,1)||findWord(inp,1,i+1,j,0)||findWord(inp,1,i-1,j,0);
                     if(done) break;
                 }
             }
@@ -40,11 +34,23 @@ public class GREEDnim_day7_java {
         else System.out.println("NOT FOUND");
 
     }
-    public static boolean findWord(String s,int index,int row,int col)
+    public static boolean findWord(String s,int index,int row,int col,int axis)
     {
+
         if(index==s.length()) return true;
         char c=s.charAt(index);
-        if( row>=15 || col>=15 || c!=grid[row][col]) return false;
-        return findWord(s,index+1,row+1,col) || findWord(s,index+1,row,col+1);
+        if( row>=15 || col>=15 || row<0|| col<0 || c!=grid[row][col] || checker[row][col]) return false;
+        checker[row][col]=true;
+        boolean ans;
+        if(axis==0)
+        {
+            ans=findWord(s,index+1,row+1,col,0)||findWord(s,index+1,row-1,col,0);
+        }
+        else{
+            ans=findWord(s,index+1,row,col+1,1)||findWord(s,index+1,row,col-1,1);
+        }
+        checker[row][col]=false;
+        return ans;
     }
 }
+//COMMUNICATION
