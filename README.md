@@ -32,7 +32,7 @@ Check out our FAQ for more information.
   - [**December 6 - Swapped**](#december-6---swapped)
   - [**December 7 - Word Map**](#december-7---word-map)
   - [**December 8 - Aptitude Check!**](#december-8---aptitude-check)
-  - [**December 8 - Kochouseph Konundrum!**](#december-9---kochouseph-konundrum)
+  - [**December 9 - Kochouseph Konundrum!**](#december-9---kochouseph-konundrum)
   - [**FAQ**](#faq)
   
   
@@ -484,7 +484,7 @@ Help Arshith develop a way to translate any given word to that particular langua
 
 ----
 
-### December 8 - Kochouseph Konundrum!
+### December 9 - Kochouseph Konundrum!
 #### Problem Statement
 Kochouseph Chittilappilly went to Dhruv Zplanet , a gaming space, with his friends and played a game called “Guess the Word”.
 
