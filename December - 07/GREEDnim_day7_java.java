@@ -24,7 +24,7 @@ public class GREEDnim_day7_java {
             {
                 if(grid[i][j]==inp.charAt(0))
                 {
-                    done=findWord(inp,1,i,j+1,1)||findWord(inp,1,i,j-1,1)||findWord(inp,1,i+1,j,0)||findWord(inp,1,i-1,j,0);
+                    done=findWord(inp,0,i,j);
                     if(done) break;
                 }
             }
@@ -34,7 +34,7 @@ public class GREEDnim_day7_java {
         else System.out.println("NOT FOUND");
 
     }
-    public static boolean findWord(String s,int index,int row,int col,int axis)
+    public static boolean findWord(String s,int index,int row,int col)
     {
 
         if(index==s.length()) return true;
@@ -42,13 +42,7 @@ public class GREEDnim_day7_java {
         if( row>=15 || col>=15 || row<0|| col<0 || c!=grid[row][col] || checker[row][col]) return false;
         checker[row][col]=true;
         boolean ans;
-        if(axis==0)
-        {
-            ans=findWord(s,index+1,row+1,col,0)||findWord(s,index+1,row-1,col,0);
-        }
-        else{
-            ans=findWord(s,index+1,row,col+1,1)||findWord(s,index+1,row,col-1,1);
-        }
+            ans=findWord(s,index+1,row+1,col)||findWord(s,index+1,row-1, col)||findWord(s,index+1,row,col+1)||findWord(s,index+1,row,col-1);
         checker[row][col]=false;
         return ans;
     }
