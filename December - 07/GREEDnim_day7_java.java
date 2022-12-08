@@ -36,16 +36,14 @@ public class GREEDnim_day7_java {
     }
     public static boolean findWord(String s,int index,int row,int col)
     {
-
         if(index==s.length()) return true;
         char c=s.charAt(index);
         if( row>=15 || col>=15 || row<0|| col<0 || c!=grid[row][col] || checker[row][col]) return false;
         checker[row][col]=true;
         boolean ans;
-            ans=findWord(s,index+1,row+1,col)||findWord(s,index+1,row-1, col)||findWord(s,index+1,row,col+1)||findWord(s,index+1,row,col-1);
+        ans=findWord(s,index+1,row+1,col)||findWord(s,index+1,row-1, col)||findWord(s,index+1,row,col+1)||findWord(s,index+1,row,col-1);
         checker[row][col]=false;
         return ans;
-        
     }
 }
 
