@@ -45,6 +45,7 @@ public class GREEDnim_day7_java {
             ans=findWord(s,index+1,row+1,col)||findWord(s,index+1,row-1, col)||findWord(s,index+1,row,col+1)||findWord(s,index+1,row,col-1);
         checker[row][col]=false;
         return ans;
+        
     }
 }
-//COMMUNICATION
+
