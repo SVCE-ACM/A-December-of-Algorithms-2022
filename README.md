@@ -32,6 +32,7 @@ Check out our FAQ for more information.
   - [**December 6 - Swapped**](#december-6---swapped)
   - [**December 7 - Word Map**](#december-7---word-map)
   - [**December 8 - Aptitude Check!**](#december-8---aptitude-check)
+  - [**December 8 - Kochouseph Konundrum!**](#december-9---kochouseph-konundrum)
   - [**FAQ**](#faq)
   
   
@@ -483,6 +484,40 @@ Help Arshith develop a way to translate any given word to that particular langua
 
 ----
 
+### December 8 - Kochouseph Konundrum!
+#### Problem Statement
+Kochouseph Chittilappilly went to Dhruv Zplanet , a gaming space, with his friends and played a game called “Guess the Word”.
+
+Rules of the game are –
+
+Computer displays some strings on the screen and the player should pick one string / word if this word matches with the random word that the computer picks then the player is declared as Winner.
+
+Kochouseph Chittilappilly’s friends played the game and no one won the game. This is Kochouseph Chittilappilly’s turn to play and he decided to must win the game.
+What he observed from his friend’s game is that the computer is picking up the string whose length is odd and also that should be maximum. Due to system failure computers sometimes cannot generate odd length words. In such cases you will lose the game anyways and it displays “better luck next time”. He needs your help. 
+ 
+Write a program for the above given problem statement.
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/110716198/206476505-7cc0c18c-4034-46e1-8cd4-7e2ef8f72801.png" width="400"></p>
+
+ #### Sample Input/Output
+     
+```    
+Input:
+5 → Number of strings
+Hello Good Morning Welcome You
+
+Output :
+Morning
+
+
+```
+- **References**
+    - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
+    - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
+    - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
+
+----
 FAQ
 ======
 
