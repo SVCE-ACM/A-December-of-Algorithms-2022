@@ -555,6 +555,8 @@ To Determine:  Whether it is easy to pronounce or not based on the rule above â€
 For the purposes of this problem, the vowels are the characters {a,e,i,o,u} and the consonants are the other 21 characters.
 Help them solve the problem.
 
+Explanation:
+
 Input Format:
 
 The first line of input will contain a single integer T, denoting the number of test cases.
