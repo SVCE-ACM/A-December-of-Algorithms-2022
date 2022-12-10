@@ -34,6 +34,7 @@ Check out our FAQ for more information.
   - [**December 8 - Aptitude Check!**](#december-8---aptitude-check)
   - [**December 9 - Kochouseph Konundrum!**](#december-9---kochouseph-konundrum)
   - [**December 10 - Play with words**](#december-10---play-with-words)
+  - [**December 11 - Monkey jump**](#december-11---monkey-jump)
   - [**FAQ**](#faq)
   
   
@@ -620,6 +621,39 @@ S contains only lowercase Latin characters, i.e, the characters {a,b,c…….z}
     - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
 
 ----
+### December 11 - Monkey jump
+#### Problem Statement
+
+A list is provided with a sequence of characters ‘_’ and ‘~’ in it Eg = [‘_’,’_’,’~’,’_’]. The character ‘_’ represents land and the character ‘~’ represents water. A monkey can move 1 step or 2 steps at a time. Another list is provided which contains the step that the monkey took Eg[1,1,2,1,2]. Whenever the monkey touches the water. The game is over and the score must be returned. Calculate the Jumps the monkey took before touching the water's surface.
+
+  <p align="center"><img src="https://user-images.githubusercontent.com/119505502/205342027-d03a8be3-4032-44ca-a959-afbf55756d5b.jpeg" width="400"></p>
+
+Input 1:
+
+[‘’_’,’~’,’_’,’_’,’_’,’_’,’~’,’_’,’_’,’~’,’_’,’~’]
+
+Output 1:
+
+Score = 8
+
+Input 2:
+
+[‘’_’,’~’,’_’,’~’,’_’,’_’,’~’,’_’,’_’,’~’,’_’,’~’]
+
+Output 2: 
+
+Score =2
+
+
+Explanation : 
+
+The input is a combination of ‘ _’ and ‘~’ representing land and water respectively.
+2 jumps indicate, for example, initially being on position 1 and ending up on position 3 without landing on position 2 in between.
+ 
+Monkey takes two jumps as first move and three single jumps as next moves. But after taking two jumps the monkey touches the water . 
+The jump sequence: [2,1,1,1,2,1,1,1,1]
+So the total jump count is 8.
+
 
 FAQ
 ======
