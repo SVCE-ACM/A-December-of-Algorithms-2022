@@ -33,6 +33,7 @@ Check out our FAQ for more information.
   - [**December 7 - Word Map**](#december-7---word-map)
   - [**December 8 - Aptitude Check!**](#december-8---aptitude-check)
   - [**December 9 - Kochouseph Konundrum!**](#december-9---kochouseph-konundrum)
+  - [**December 10 - Play with words**](#december-10---play-with-words)
   - [**FAQ**](#faq)
   
   
@@ -540,6 +541,86 @@ Better luck next time
     - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
 
 ----
+
+### December 10 - Play with words
+#### Problem Statement
+A group of students were playing a word game. They divided themselves into teams and had 4 rounds. 
+
+One round was the pronunciation round. One team challenged the other team to pronounce “schtschurowskia”. It was difficult for both the teams to pronounce the word. They approached their teacher for help. He gave them a hint. 
+
+Have a look at the hint!
+
+Hint:
+ A word is hard to pronounce if it contains 4 or more consonants in a row; otherwise it is easy to pronounce. 
+ 
+For example, "apple" and "polish" are easy to pronounce, but "schtschurowskia" is hard to pronounce.   After giving them an example, he asked them  to solve the following problem.
+ 
+Given: A string S consisting of N lowercase Latin characters. 
+
+To Determine:  Whether it is easy to pronounce or not based on the rule above — print YES if it is easy to pronounce and NO otherwise.
+For the purposes of this problem, the vowels are the characters {a,e,i,o,u} and the consonants are the other 21 characters.
+Help them solve the problem.
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/206757545-341cbd7a-d12a-4af9-8d1f-a4da640343b4.jpg" width="400"></p>
+
+ #### Sample Input/Output
+     
+```    
+Input:
+5
+5
+apple
+15
+schtschurowskia
+6
+polish
+5
+tryst
+3
+cry
+
+Output:
+YES
+NO
+YES
+NO
+YES
+ 
+ ```
+ 
+#### Explanation:
+
+ ```
+
+Input Format:
+
+The first line of input will contain a single integer T, denoting the number of test cases.
+Each test case consists of two lines of input.
+The first line of each test case contains a single integer N, the length of string S.
+The second line of each test case contains the string S.
+
+Output Format:
+
+For each test case, output on a new line the answer — YES if S is easy to pronounce, and NO otherwise.
+Each character of the output may be printed in either uppercase or lowercase. For example, the strings YES, yeS, yes, and YeS will all be treated as identical.
+
+Constraints:
+
+1≤T≤100
+
+1≤N≤100
+
+S contains only lowercase Latin characters, i.e, the characters {a,b,c…….z}
+
+```
+
+- **References**
+    - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
+    - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
+    - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
+
+----
+
 FAQ
 ======
 
