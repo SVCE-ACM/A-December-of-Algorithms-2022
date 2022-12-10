@@ -626,8 +626,9 @@ S contains only lowercase Latin characters, i.e, the characters {a,b,c…….z}
 
 A list is provided with a sequence of characters ‘_’ and ‘~’ in it Eg = [‘_’,’_’,’~’,’_’]. The character ‘_’ represents land and the character ‘~’ represents water. A monkey can move 1 step or 2 steps at a time. Another list is provided which contains the step that the monkey took Eg[1,1,2,1,2]. Whenever the monkey touches the water. The game is over and the score must be returned. Calculate the Jumps the monkey took before touching the water's surface.
 
-  <p align="center"><img src="https://user-images.githubusercontent.com/119505502/205342027-d03a8be3-4032-44ca-a959-afbf55756d5b.jpeg" width="400"></p>
+  <p align="center"><img src="https://user-images.githubusercontent.com/119495356/206857020-3aefe633-ed69-4eef-a285-ef6ab27ac6ff.jpg" width="400"></p>
 
+ 
 Input 1:
 
 [‘’_’,’~’,’_’,’_’,’_’,’_’,’~’,’_’,’_’,’~’,’_’,’~’]
