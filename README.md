@@ -1,7 +1,9 @@
 # A-December-of-Algorithms-2022
 <div align="left">
 <h1>
-    <p align="center"><img alt="header" src="https://user-images.githubusercontent.com/105559815/204576737-21be2ad2-1b86-477d-9af6-33eb562c6f1c.jpeg" width="500"></img></p>
+    <p align="center"><img alt="header" src="https://user-images.githubusercontent.com/105559815/206869067-620c21f7-9ba1-48b1-b690-c010be416ad2.jpg" width="500"></img></p>
+
+
 </h1>
 Welcome to A December of Algorithms (2022). 
 
@@ -33,6 +35,8 @@ Check out our FAQ for more information.
   - [**December 7 - Word Map**](#december-7---word-map)
   - [**December 8 - Aptitude Check!**](#december-8---aptitude-check)
   - [**December 9 - Kochouseph Konundrum!**](#december-9---kochouseph-konundrum)
+  - [**December 10 - Play with words**](#december-10---play-with-words)
+  - [**December 11 - Monkey jump**](#december-11---monkey-jump)
   - [**FAQ**](#faq)
   
   
@@ -540,6 +544,146 @@ Better luck next time
     - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
 
 ----
+
+### December 10 - Play with words
+#### Problem Statement
+A group of students were playing a word game. They divided themselves into teams and had 4 rounds. 
+
+One round was the pronunciation round. One team challenged the other team to pronounce “schtschurowskia”. It was difficult for both the teams to pronounce the word. They approached their teacher for help. He gave them a hint. 
+
+Have a look at the hint!
+
+Hint:
+ A word is hard to pronounce if it contains 4 or more consonants in a row; otherwise it is easy to pronounce. 
+ 
+For example, "apple" and "polish" are easy to pronounce, but "schtschurowskia" is hard to pronounce.   After giving them an example, he asked them  to solve the following problem.
+ 
+Given: A string S consisting of N lowercase Latin characters. 
+
+To Determine:  Whether it is easy to pronounce or not based on the rule above — print YES if it is easy to pronounce and NO otherwise.
+For the purposes of this problem, the vowels are the characters {a,e,i,o,u} and the consonants are the other 21 characters.
+Help them solve the problem.
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/206757545-341cbd7a-d12a-4af9-8d1f-a4da640343b4.jpg" width="400"></p>
+
+ #### Sample Input/Output
+     
+```    
+Input:
+5
+5
+apple
+15
+schtschurowskia
+6
+polish
+5
+tryst
+3
+cry
+
+Output:
+YES
+NO
+YES
+NO
+YES
+ 
+ ```
+ 
+#### Explanation:
+
+ ```
+
+Input Format:
+
+The first line of input will contain a single integer T, denoting the number of test cases.
+Each test case consists of two lines of input.
+The first line of each test case contains a single integer N, the length of string S.
+The second line of each test case contains the string S.
+
+Output Format:
+
+For each test case, output on a new line the answer — YES if S is easy to pronounce, and NO otherwise.
+Each character of the output may be printed in either uppercase or lowercase. For example, the strings YES, yeS, yes, and YeS will all be treated as identical.
+
+Constraints:
+
+1≤T≤100
+
+1≤N≤100
+
+S contains only lowercase Latin characters, i.e, the characters {a,b,c…….z}
+
+```
+
+- **References**
+    - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
+    - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
+    - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
+
+----
+
+
+### December 11 - Monkey jump
+#### Problem Statement
+
+A list is provided with a sequence of characters ‘_ _’    and ‘~’ in it Eg = [‘_’,’_’,’~’,’_’]. The character ‘_’ represents land and the character ‘~’ represents water. A monkey can move 1 step or 2 steps at a time. Another list is provided which contains the step that the monkey took Eg[1,1,2,1,2]. Whenever the monkey touches the water. The game is over and the score must be returned. Calculate the Jumps the monkey took before touching the water's surface.
+
+<p align="center"><img src="https://user-images.githubusercontent.com/119495356/206857020-3aefe633-ed69-4eef-a285-ef6ab27ac6ff.jpg" width="400" height="400"></p>
+ 
+
+ #### Sample Input/Output
+     
+```    
+Input 1:
+
+[‘_’,’~’,’_’,’_’,’_’,’_’,’~’,’_’,’_’,’~’,’_’,’~’]
+
+
+Output 1:
+
+Score =8
+
+Input 2:
+
+[‘_’,’~’,’_’,’~’,’_’,’_’,’~’,’_’,’_’,’~’,’_’,’~’]
+
+Output 2: 
+
+Score =2
+
+ ```
+ 
+#### Explanation:
+
+ ```
+
+The input is a combination of ‘_’ and ‘~’ representing land and water respectively.
+2 jumps indicate, for example, initially being on position 1 and ending up on position 3 without landing on position 2 in between.
+ 
+Monkey takes two jumps as first move and three single jumps as next moves. But after taking two jumps the monkey touches the water . 
+The jump sequence: [2,1,1,1,2,1,1,1,1]
+So the total jump count is 8.
+
+```
+
+- **References**
+- [Looping in C](https://www.tutorialspoint.com/cprogramming/c_loops.htm)
+- [Looping in C++](https://www.programiz.com/cpp-programming/for-loop)
+- [Looping in Java](https://www.geeksforgeeks.org/loops-in-java/)
+- [Looping in Python](https://www.w3schools.com/python/python_for_loops.asp)
+- [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+- [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+- [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+
+
+----
+
+
+
+
+ 
 FAQ
 ======
 
