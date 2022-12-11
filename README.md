@@ -705,7 +705,7 @@ Path = { {9,4,9,9}, {6,7,6,4}, {8,3,3,7}, {7,4,9,10} }
 
 OUTPUT 1:	
 
-path_taken={9,4,3,3,7,10}
+path_taken={9,4,7,3,3,7,10}
 The minimum coins dropped is 43
 ``` 
 ``` 
