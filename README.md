@@ -37,6 +37,7 @@ Check out our FAQ for more information.
   - [**December 9 - Kochouseph Konundrum!**](#december-9---kochouseph-konundrum)
   - [**December 10 - Play with words**](#december-10---play-with-words)
   - [**December 11 - Monkey jump**](#december-11---monkey-jump)
+  - [**December 12 - Shez in a Maze!**](#december-12---shez-in-a-maze)
   - [**FAQ**](#faq)
   
   
@@ -681,8 +682,66 @@ Since in the 9th jump the monkey touches water, the total jump count before he t
 
 
 ----
+### December 12 - Shez in a Maze!
+#### Problem Statement
+Shez went to an interesting maze where she was given 500 coins. The rule of the maze is when you choose a path in a maze you need to drop the amount indicated on the path and successfully reach the end.
 
+The winner is declared based on the amount you have spent. The person who has spent the least amount will be the winner.
 
+Can you help her win the maze?
+
+The cost of the path will be in a NxN matrix and the current path is indicated by path[i][j], from the current path you can either travel up, down, front or back.
+
+Note that the start of the maze is the top most left corner and the destination is the bottom most right corner.
+
+<p align="center"><img src="https://user-images.githubusercontent.com/113821083/206911442-4e4d9831-108d-4fcb-b46e-b08011205af5.png" width="400" height="400"></p>
+
+#### Sample Input/Output
+``` 
+INPUT 1:
+
+4
+Path = { {9,4,9,9}, {6,7,6,4}, {8,3,3,7}, {7,4,9,10} }
+
+OUTPUT 1:	
+
+path_taken={9,4,3,3,7,10}
+The minimum coins dropped is 43
+``` 
+``` 
+INPUT 2:	
+
+3
+Path = { {8,3,9}, {2,6,4}, {8,3,1}}
+
+OUTPUT 2:	
+
+path_taken={8,2,6,3,1}
+The minimum coins dropped is 20
+``` 
+#### Explanation:
+```
+
+The first line of input is the size of the NxN matrix.
+The next line of input is an NxN matrix where each element represents the number of coins you need to drop at that position.
+
+The output is a path_taken matrix and the minimum coins dropped amount. 
+
+9  4  9  9
+6  7  6  4
+8  3  3  7
+7  4  9  10
+Minimum cost  = 9 + 4 + 7 + 3 + 3 + 7 + 10 = 43
+So here we see that from the start point Shez can take 3 paths which are of costs 4,7,6 respectively. 
+
+Of these 3 paths the one with cost 4 is the path with minimum cost.  
+
+Now from 4 she can either take a path of cost 9 or 7 (Remember you can move only up, down, front, back and no diagonal movement is allowed) so she takes the path with cost 7.
+From 7 she has 4 options; paths of costs 6,6,3,4 (Taking path 4 is not advisable since that is from where we came to path 7) so now she takes path with cost 3 and then from this position 3 she can either take paths 8,7,3,4; the minimum cost is 3 so she proceeds in the path with cost 3. Following this logic she finishes the maze with spending a minimum amount of 43 units.
+
+```
+
+----
 
 
  
