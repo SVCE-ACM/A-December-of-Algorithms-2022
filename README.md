@@ -708,8 +708,13 @@ OUTPUT 2:	The minimum cost is 43
 8  3  3  7
 7  4  9  10
 Minimum cost  = 9 + 4 + 7 + 3 + 3 + 7 + 10 = 43
-So here we see that from the start point Shez can take 3 paths which are of costs 4,7,6 respectively. Of these 3 paths the one with cost 4 is the path with minimum cost.  Now from 4 she can either take a path of cost 9 or 7 (Remember you can move only up, down, front, back and no diagonal movement is allowed) so she takes the path with cost 7.
+So here we see that from the start point Shez can take 3 paths which are of costs 4,7,6 respectively. 
+
+Of these 3 paths the one with cost 4 is the path with minimum cost.  
+
+Now from 4 she can either take a path of cost 9 or 7 (Remember you can move only up, down, front, back and no diagonal movement is allowed) so she takes the path with cost 7.
 From 7 she has 4 options; paths of costs 6,6,3,4 (Taking path 4 is not advisable since that is from where we came to path 7) so now she takes path with cost 3 and then from this position 3 she can either take paths 8,7,3,4; the minimum cost is 3 so she proceeds in the path with cost 3. Following this logic she finishes the maze with spending a minimum amount of 43 units.
+
 ```
 
 ----
