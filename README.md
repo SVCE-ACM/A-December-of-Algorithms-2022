@@ -1,7 +1,9 @@
 # A-December-of-Algorithms-2022
 <div align="left">
 <h1>
-    <p align="center"><img alt="header" src="https://user-images.githubusercontent.com/105559815/204576737-21be2ad2-1b86-477d-9af6-33eb562c6f1c.jpeg" width="500"></img></p>
+    <p align="center"><img alt="header" src="https://user-images.githubusercontent.com/105559815/206869067-620c21f7-9ba1-48b1-b690-c010be416ad2.jpg" width="500"></img></p>
+
+
 </h1>
 Welcome to A December of Algorithms (2022). 
 
@@ -34,6 +36,7 @@ Check out our FAQ for more information.
   - [**December 8 - Aptitude Check!**](#december-8---aptitude-check)
   - [**December 9 - Kochouseph Konundrum!**](#december-9---kochouseph-konundrum)
   - [**December 10 - Play with words**](#december-10---play-with-words)
+  - [**December 11 - Monkey jump**](#december-11---monkey-jump)
   - [**FAQ**](#faq)
   
   
@@ -621,6 +624,66 @@ S contains only lowercase Latin characters, i.e, the characters {a,b,c…….z}
 
 ----
 
+
+### December 11 - Monkey jump
+#### Problem Statement
+
+A list is provided with a sequence of characters ‘_ _’    and ‘~’ in it Eg = [‘_’,’_’,’~’,’_’]. The character ‘_’ represents land and the character ‘~’ represents water. A monkey can move 1 step or 2 steps at a time. Another list is provided which contains the step that the monkey took Eg[1,1,2,1,2]. Whenever the monkey touches the water. The game is over and the score must be returned. Calculate the Jumps the monkey took before touching the water's surface.
+
+<p align="center"><img src="https://user-images.githubusercontent.com/119495356/206857020-3aefe633-ed69-4eef-a285-ef6ab27ac6ff.jpg" width="400" height="400"></p>
+ 
+
+ #### Sample Input/Output
+     
+```    
+Input 1:
+
+[‘_’,’~’,’_’,’_’,’_’,’_’,’~’,’_’,’_’,’~’,’_’,’~’]
+
+
+Output 1:
+
+Score =8
+
+Input 2:
+
+[‘_’,’~’,’_’,’~’,’_’,’_’,’~’,’_’,’_’,’~’,’_’,’~’]
+
+Output 2: 
+
+Score =2
+
+ ```
+ 
+#### Explanation:
+
+ ```
+
+The input is a combination of ‘_’ and ‘~’ representing land and water respectively.
+2 jumps indicate, for example, initially being on position 1 and ending up on position 3 without landing on position 2 in between.
+ 
+Monkey takes two jumps as first move and three single jumps as next moves. But after taking two jumps the monkey touches the water . 
+The jump sequence: [2,1,1,1,2,1,1,1,1]
+So the total jump count is 8.
+
+```
+
+- **References**
+- [Looping in C](https://www.tutorialspoint.com/cprogramming/c_loops.htm)
+- [Looping in C++](https://www.programiz.com/cpp-programming/for-loop)
+- [Looping in Java](https://www.geeksforgeeks.org/loops-in-java/)
+- [Looping in Python](https://www.w3schools.com/python/python_for_loops.asp)
+- [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+- [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+- [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+
+
+----
+
+
+
+
+ 
 FAQ
 ======
 
