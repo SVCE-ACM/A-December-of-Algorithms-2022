@@ -683,26 +683,48 @@ So the total jump count is 8.
 ### December 12 - Shez in a Maze!
 #### Problem Statement
 Shez went to an interesting maze where she was given 500 coins. The rule of the maze is when you choose a path in a maze you need to drop the amount indicated on the path and successfully reach the end.
-The winner is declared based on the amount you have spent. The person who has spent the least amount will be the winner. 
+
+The winner is declared based on the amount you have spent. The person who has spent the least amount will be the winner.
+
 Can you help her win the maze?
+
 The cost of the path will be in a NxN matrix and the current path is indicated by path[i][j], from the current path you can either travel up, down, front or back.
- Note that the start of the maze is the top most left corner and the destination is the  bottom most right corner.
+
+Note that the start of the maze is the top most left corner and the destination is the bottom most right corner.
 
 <p align="center"><img src="https://user-images.githubusercontent.com/113821083/206911442-4e4d9831-108d-4fcb-b46e-b08011205af5.png" width="400" height="400"></p>
 
 #### Sample Input/Output
 ``` 
-INPUT 1:	Path = { {9,4,9,9}, {6,7,6,4}, {8,3,3,7}, {7,4,9,10} }
+INPUT 1:
 
-OUTPUT 1:	The minimum cost is 43
+4
+Path = { {9,4,9,9}, {6,7,6,4}, {8,3,3,7}, {7,4,9,10} }
+
+OUTPUT 1:	
+
+path_taken={9,4,3,3,7,10}
+The minimum coins dropped is 43
 ``` 
 ``` 
-INPUT 2:	Path = { {8,3,9}, {2,6,4}, {8,3,1}}
+INPUT 2:	
 
-OUTPUT 2:	The minimum cost is 43
+3
+Path = { {8,3,9}, {2,6,4}, {8,3,1}}
+
+OUTPUT 2:	
+
+path_taken={8,2,6,3,1}
+The minimum coins dropped is 20
 ``` 
 #### Explanation:
 ```
+
+The first line of input is the size of the NxN matrix.
+The next line of input is an NxN matrix where each element represents the number of coins you need to drop at that position.
+
+The output is a path_taken matrix and the minimum coins dropped amount. 
+
 9  4  9  9
 6  7  6  4
 8  3  3  7
