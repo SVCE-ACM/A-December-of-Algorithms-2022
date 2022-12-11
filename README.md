@@ -628,7 +628,7 @@ S contains only lowercase Latin characters, i.e, the characters {a,b,c…….z}
 ### December 11 - Monkey jump
 #### Problem Statement
 
-A list is provided with a sequence of characters  <img src="https://user-images.githubusercontent.com/105559815/206890030-28a45bf0-2bcd-4e50-b81d-1c81bc714ccb.jpg" width="250">. The character ‘_’ represents land and the character ‘~’ represents water. A monkey can move 1 step or 2 steps at a time. Another list provided here contains the step that the monkey took Eg[1,1,2,1,2]. Whenever the monkey touches the water. The game is over and the score must be returned. Calculate the Jumps the monkey took before touching the water's surface.
+A list is provided with a sequence of characters  <img src="https://user-images.githubusercontent.com/105559815/206890030-28a45bf0-2bcd-4e50-b81d-1c81bc714ccb.jpg" width="250">. The character ‘_’ represents land and the character ‘~’ represents water. A monkey can move 1 step or 2 steps in a single jump. Another list provided here contains the step that the monkey took Eg[1,1,2,1,2]. Whenever the monkey touches the water. The game is over and the score must be returned. Calculate the jumps the monkey took before touching the water.
 
 <p align="center"><img src="https://user-images.githubusercontent.com/119495356/206857020-3aefe633-ed69-4eef-a285-ef6ab27ac6ff.jpg" width="400" height="400"></p>
 
@@ -665,8 +665,8 @@ The first line of input is a combination of ‘_’ and ‘~’ representing lan
 The second line of input ia a combination of 2's and 1's, 2 steps indicate, for example, initially being on position 1 and ending up on position 3 without landing on position 2 in between.
  
 Monkey takes two steps in a single jump as first move and three single steps as the next 3 moves/jumps. But after taking two steps the monkey touches the water . 
-The jump sequence: [2,1,1,1,2,1,1,1,1]
-Since in the 9th jump the monkey touches water, the total jump count before he touches the water is 8.
+Given the jump sequence: [2,1,1,1,2,1,1,1,1]
+Since in the 9th jump the monkey touches water, the total jump count before he touches the water is 8 and thus the score is 8.
 
 ```
 
