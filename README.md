@@ -641,7 +641,7 @@ Input 1:
 
 [‘_’,’~’,’_’,’_’,’_’,’_’,’~’,’_’,’_’,’~’,’_’,’~’]
 
-[2,1,1,1,2,1,1,1,1]
+[2,1,1,1,2,1,1,2,1]
 
 Output 1:
 
@@ -651,7 +651,7 @@ Input 2:
 
 [‘_’,’~’,’_’,’~’,’_’,’_’,’~’,’_’,’_’,’~’,’_’,’~’]
 
-[2,2,1,2,1,1,2,1,1]
+[2,2,1,1,1,1,2,1,1]
 
 Output 2: 
 Score =3
@@ -666,7 +666,7 @@ The first line of input is a combination of ‘_’ and ‘~’ representing lan
 The second line of input ia a combination of 2's and 1's, 2 steps indicate, for example, initially being on position 1 and ending up on position 3 without landing on position 2 in between.
  
 Monkey takes two steps in a single jump as first move and three single steps as the next 3 moves/jumps. But after taking two steps the monkey touches the water . 
-Given the jump sequence: [2,1,1,1,2,1,1,1,1]
+Given the jump sequence: [2,1,1,1,2,1,1,2,1]
 Since in the 9th jump the monkey touches water, the total jump count before he touches the water is 8 and thus the score is 8.
 
 ```
