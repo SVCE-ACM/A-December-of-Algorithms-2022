@@ -762,6 +762,7 @@ Help Theseus escape this Labyrinth if he can only move forward and backwards thr
 #### Sample Input/Output
 ``` 
 INPUT:
+4
 {1,0,0,0}
 {1,1,0,1}
 {0,1,0,0}
@@ -777,6 +778,7 @@ OUTPUT:
 ``` 
 ``` 
 INPUT:	
+4
 {1,1,1,0}
 {1,0,1,1}
 {0,1,0,1}
@@ -792,7 +794,7 @@ OUTPUT:
 ``` 
 #### Explanation:
 ```
-
+The first line of input is the size of the N*N matrix.
 In the given samples, the input matrix specifies the structure of the maze in which 0's represent the dead ends, and 1's represent the clear blocks. 
 After computing a path to the destination, the output matrix represents the path to the destination block using 1’s.
 
