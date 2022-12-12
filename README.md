@@ -37,6 +37,7 @@ Check out our FAQ for more information.
   - [**December 9 - Kochouseph Konundrum!**](#december-9---kochouseph-konundrum)
   - [**December 10 - Play with words**](#december-10---play-with-words)
   - [**December 11 - Monkey jump**](#december-11---monkey-jump)
+  - [**December 12 - Shez in a Maze!**](#december-12---shez-in-a-maze)
   - [**FAQ**](#faq)
   
   
@@ -628,10 +629,10 @@ S contains only lowercase Latin characters, i.e, the characters {a,b,c…….z}
 ### December 11 - Monkey jump
 #### Problem Statement
 
-A list is provided with a sequence of characters ‘_ _’    and ‘~’ in it Eg = [‘_’,’_’,’~’,’_’]. The character ‘_’ represents land and the character ‘~’ represents water. A monkey can move 1 step or 2 steps at a time. Another list is provided which contains the step that the monkey took Eg[1,1,2,1,2]. Whenever the monkey touches the water. The game is over and the score must be returned. Calculate the Jumps the monkey took before touching the water's surface.
+A list is provided with a sequence of characters  <img src="https://user-images.githubusercontent.com/105559815/206890030-28a45bf0-2bcd-4e50-b81d-1c81bc714ccb.jpg" width="250">. The character ‘_’ represents land and the character ‘~’ represents water. A monkey can move 1 step or 2 steps in a single jump. Another list provided here contains the step that the monkey took Eg[1,1,2,1,2]. Whenever the monkey touches the water. The game is over and the score must be returned. Calculate the jumps the monkey took before touching the water.
 
 <p align="center"><img src="https://user-images.githubusercontent.com/119495356/206857020-3aefe633-ed69-4eef-a285-ef6ab27ac6ff.jpg" width="400" height="400"></p>
- 
+
 
  #### Sample Input/Output
      
@@ -640,6 +641,7 @@ Input 1:
 
 [‘_’,’~’,’_’,’_’,’_’,’_’,’~’,’_’,’_’,’~’,’_’,’~’]
 
+[2,1,1,1,2,1,1,1,1]
 
 Output 1:
 
@@ -649,9 +651,10 @@ Input 2:
 
 [‘_’,’~’,’_’,’~’,’_’,’_’,’~’,’_’,’_’,’~’,’_’,’~’]
 
-Output 2: 
+[2,2,1,2,1,1,2,1,1]
 
-Score =2
+Output 2: 
+Score =3
 
  ```
  
@@ -659,12 +662,12 @@ Score =2
 
  ```
 
-The input is a combination of ‘_’ and ‘~’ representing land and water respectively.
-2 jumps indicate, for example, initially being on position 1 and ending up on position 3 without landing on position 2 in between.
+The first line of input is a combination of ‘_’ and ‘~’ representing land and water respectively.
+The second line of input ia a combination of 2's and 1's, 2 steps indicate, for example, initially being on position 1 and ending up on position 3 without landing on position 2 in between.
  
-Monkey takes two jumps as first move and three single jumps as next moves. But after taking two jumps the monkey touches the water . 
-The jump sequence: [2,1,1,1,2,1,1,1,1]
-So the total jump count is 8.
+Monkey takes two steps in a single jump as first move and three single steps as the next 3 moves/jumps. But after taking two steps the monkey touches the water . 
+Given the jump sequence: [2,1,1,1,2,1,1,1,1]
+Since in the 9th jump the monkey touches water, the total jump count before he touches the water is 8 and thus the score is 8.
 
 ```
 
@@ -679,8 +682,66 @@ So the total jump count is 8.
 
 
 ----
+### December 12 - Shez in a Maze!
+#### Problem Statement
+Shez went to an interesting maze where she was given 500 coins. The rule of the maze is when you choose a path in a maze you need to drop the amount indicated on the path and successfully reach the end.
 
+The winner is declared based on the amount you have spent. The person who has spent the least amount will be the winner.
 
+Can you help her win the maze?
+
+The cost of the path will be in a NxN matrix and the current path is indicated by path[i][j], from the current path you can either travel up, down, front or back.
+
+Note that the start of the maze is the top most left corner and the destination is the bottom most right corner.
+
+<p align="center"><img src="https://user-images.githubusercontent.com/113821083/206911442-4e4d9831-108d-4fcb-b46e-b08011205af5.png" width="400" height="400"></p>
+
+#### Sample Input/Output
+``` 
+INPUT 1:
+
+4
+Path = { {9,4,9,9}, {6,7,6,4}, {8,3,3,7}, {7,4,9,10} }
+
+OUTPUT 1:	
+
+path_taken={9,4,7,3,3,7,10}
+The minimum coins dropped is 43
+``` 
+``` 
+INPUT 2:	
+
+3
+Path = { {8,3,9}, {2,6,4}, {8,3,1}}
+
+OUTPUT 2:	
+
+path_taken={8,2,6,3,1}
+The minimum coins dropped is 20
+``` 
+#### Explanation:
+```
+
+The first line of input is the size of the NxN matrix.
+The next line of input is an NxN matrix where each element represents the number of coins you need to drop at that position.
+
+The output is a path_taken matrix and the minimum coins dropped amount. 
+
+9  4  9  9
+6  7  6  4
+8  3  3  7
+7  4  9  10
+Minimum cost  = 9 + 4 + 7 + 3 + 3 + 7 + 10 = 43
+So here we see that from the start point Shez can take 3 paths which are of costs 4,7,6 respectively. 
+
+Of these 3 paths the one with cost 4 is the path with minimum cost.  
+
+Now from 4 she can either take a path of cost 9 or 7 (Remember you can move only up, down, front, back and no diagonal movement is allowed) so she takes the path with cost 7.
+From 7 she has 4 options; paths of costs 6,6,3,4 (Taking path 4 is not advisable since that is from where we came to path 7) so now she takes path with cost 3 and then from this position 3 she can either take paths 8,7,3,4; the minimum cost is 3 so she proceeds in the path with cost 3. Following this logic she finishes the maze with spending a minimum amount of 43 units.
+
+```
+
+----
 
 
  
