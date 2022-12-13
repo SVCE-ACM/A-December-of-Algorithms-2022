@@ -38,6 +38,7 @@ Check out our FAQ for more information.
   - [**December 10 - Play with words**](#december-10---play-with-words)
   - [**December 11 - Monkey jump**](#december-11---monkey-jump)
   - [**December 12 - Shez in a Maze!**](#december-12---shez-in-a-maze)
+  - [**December 13 - The Labyrinth**](#december-13---the-labyrinth)
   - [**FAQ**](#faq)
   
   
@@ -742,7 +743,66 @@ From 7 she has 4 options; paths of costs 6,6,3,4 (Taking path 4 is not advisable
 ```
 
 ----
+### December 13 - The Labyrinth
+#### Problem Statement
+In Ancient Greek mythology, the Labyrinth was an intricate maze constructed by the master inventor Daedalus as per the orders of King Minos of Crete. 
+Many heroes from afar contended to escape the maze and overpower the ferocious beast Minotaur, but none succeeded in their attempts except for one, the great Theseus of Athens.
+Imagine a modern-world Labyrinth similar to an N*N binary matrix of blocks such that:
+- The starting point is the upper leftmost block
+- The endpoint is the lower rightmost block
+- Dead ends are represented by 0
+- A clear path is represented by 1
 
+Help Theseus escape this Labyrinth if he can only move forward and backwards throughout his quest.
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/103169831/207067128-5d025f1e-da9f-4caa-bbbe-6546b2398d2b.jpg" width="400"></p>
+
+
+
+
+#### Sample Input/Output
+``` 
+INPUT:
+4
+{1,0,0,0}
+{1,1,0,1}
+{0,1,0,0}
+{1,1,1,1}
+
+
+OUTPUT:	
+{1,0,0,0}
+{1,1,0,0}
+{0,1,0,0}
+{0,1,1,1}
+
+``` 
+``` 
+INPUT:	
+4
+{1,1,1,0}
+{1,0,1,1}
+{0,1,0,1}
+{0,1,1,1}
+
+
+OUTPUT:	
+{1,1,1,0}
+{0,0,1,1}
+{0,0,0,1}
+{0,0,0,1}
+
+``` 
+#### Explanation:
+```
+The first line of input is the size of the N*N matrix.
+In the given samples, the input matrix specifies the structure of the maze in which 0's represent the dead ends, and 1's represent the clear blocks. 
+After computing a path to the destination, the output matrix represents the path to the destination block using 1’s.
+
+```
+
+----
 
  
 FAQ
