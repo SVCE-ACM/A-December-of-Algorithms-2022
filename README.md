@@ -834,7 +834,7 @@ INPUT:
 1 0 0 0 1 0
 
 OUTPUT:	
-The graph is Bipartite!!!
+The graph is Bipartite!
 
 ``` 
 ``` 
@@ -847,7 +847,7 @@ INPUT:
 1 0 1 0
 
 OUTPUT:	
-The graph is Bipartite!!!
+The graph is Bipartite!
 
 ``` 
 #### Explanation:
@@ -862,6 +862,9 @@ You are required to divide the given vertices into two sets such that:
 - **References**
 - [Bipartite graphs](https://www.tutorialspoint.com/bipartite-graphs)
 - [Adjacency matrices](https://www.javatpoint.com/what-is-an-adjacency-matrix)
+- [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+- [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+- [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
 
 ----
 
