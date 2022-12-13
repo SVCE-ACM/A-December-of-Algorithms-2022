@@ -39,6 +39,7 @@ Check out our FAQ for more information.
   - [**December 11 - Monkey jump**](#december-11---monkey-jump)
   - [**December 12 - Shez in a Maze!**](#december-12---shez-in-a-maze)
   - [**December 13 - The Labyrinth**](#december-13---the-labyrinth)
+  - [**December 14 - Math Mystery**](#december-14---math-mystery)
   - [**FAQ**](#faq)
   
   
@@ -801,6 +802,71 @@ In the given samples, the input matrix specifies the structure of the maze in wh
 After computing a path to the destination, the output matrix represents the path to the destination block using 1’s.
 
 ```
+
+----
+### December 14 - Math Mystery 
+#### Problem Statement
+Dr. Satheesh Kumar is an outstanding professor in Discrete Mathematics. However, he has been assigned to teach an unruly batch of students. The lesson he planned to cover in the upcoming class was of utmost importance for the students.
+
+The lesson was none other than “Graph Theory”, which required a concise understanding of fundamental theoretical concepts and numerous theorems.
+
+The professor decided to execute those theorems programmatically as the students belong to the Computer Science department. He prepared all the theorems as programs except one theorem, which discussed the topic of “Graph Bipartite”.
+
+Bipartite Graph: It is a graph whose vertices can be divided into 2 independent sets U and V such that every edge (u,v), either connects a vertex from U to V or a vertex from V to U. (We can also say that there is no edge that connects vertices of the same set).
+
+Help Dr. Satheesh Kumar come up with a program which obtains a graph as input and produces an output verifying its bipartite property.
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/119515193/207395361-b94676d6-2675-446a-a59e-a1725de869f1.png" width="400"></p>
+
+
+
+
+
+#### Sample Input/Output
+``` 
+INPUT:
+6
+
+0 1 0 0 0 1
+1 0 1 0 0 0 
+0 1 0 1 0 0 
+0 0 1 0 1 0
+0 0 0 1 0 1
+1 0 0 0 1 0
+
+OUTPUT:	
+The graph is Bipartite!
+
+``` 
+``` 
+INPUT:	
+4
+
+0 1 0 1
+1 0 1 0 
+0 1 0 1
+1 0 1 0
+
+OUTPUT:	
+The graph is Bipartite!
+
+``` 
+#### Explanation:
+```
+The first line of the input is the number of vertices in the graph.The next part of the input is the adjacency matrix of the graph,
+where every row/column is a vertex and the 1 represents an edge connecting two vertices. 
+You are required to divide the given vertices into two sets such that:
+          1. Every vertex in one set is connected to at least one vertex in the other set.
+          2. There is no edge between the vertices of the same set.
+
+```
+- **References**
+- [Bipartite graphs](https://www.tutorialspoint.com/bipartite-graphs)
+- [Adjacency matrices](https://www.javatpoint.com/what-is-an-adjacency-matrix)
+- [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+- [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+- [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
 
 ----
 
