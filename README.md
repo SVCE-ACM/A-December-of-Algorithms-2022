@@ -38,6 +38,7 @@ Check out our FAQ for more information.
   - [**December 10 - Play with words**](#december-10---play-with-words)
   - [**December 11 - Monkey jump**](#december-11---monkey-jump)
   - [**December 12 - Shez in a Maze!**](#december-12---shez-in-a-maze)
+  - [**December 13 - The Labyrinth**](#december-13---the-labyrinth)
   - [**FAQ**](#faq)
   
   
@@ -641,17 +642,17 @@ Input 1:
 
 [‘_’,’~’,’_’,’_’,’_’,’_’,’~’,’_’,’_’,’~’,’_’,’~’]
 
-[2,1,1,1,2,1,1,1,1]
+[2,1,1,1,2,1,2,1]
 
 Output 1:
 
-Score =8
+Score =7
 
 Input 2:
 
 [‘_’,’~’,’_’,’~’,’_’,’_’,’~’,’_’,’_’,’~’,’_’,’~’]
 
-[2,2,1,2,1,1,2,1,1]
+[2,2,1,1,1,1,2,1,1]
 
 Output 2: 
 Score =3
@@ -665,9 +666,9 @@ Score =3
 The first line of input is a combination of ‘_’ and ‘~’ representing land and water respectively.
 The second line of input ia a combination of 2's and 1's, 2 steps indicate, for example, initially being on position 1 and ending up on position 3 without landing on position 2 in between.
  
-Monkey takes two steps in a single jump as first move and three single steps as the next 3 moves/jumps. But after taking two steps the monkey touches the water . 
-Given the jump sequence: [2,1,1,1,2,1,1,1,1]
-Since in the 9th jump the monkey touches water, the total jump count before he touches the water is 8 and thus the score is 8.
+Monkey takes two steps in a single jump as first move and three single steps as the next 3 moves/jumps, another 2 jumps, 1 jump and another 2 jumps.  
+Given the jump sequence: [2,1,1,1,2,1,2,1]
+Since in the 8th jump the monkey touches water, the total jump count before he touches the water is 7 and thus the score is 7.
 
 ```
 
@@ -742,7 +743,66 @@ From 7 she has 4 options; paths of costs 6,6,3,4 (Taking path 4 is not advisable
 ```
 
 ----
+### December 13 - The Labyrinth
+#### Problem Statement
+In Ancient Greek mythology, the Labyrinth was an intricate maze constructed by the master inventor Daedalus as per the orders of King Minos of Crete. 
+Many heroes from afar contended to escape the maze and overpower the ferocious beast Minotaur, but none succeeded in their attempts except for one, the great Theseus of Athens.
+Imagine a modern-world Labyrinth similar to an N*N binary matrix of blocks such that:
+- The starting point is the upper leftmost block
+- The endpoint is the lower rightmost block
+- Dead ends are represented by 0
+- A clear path is represented by 1
 
+Help Theseus escape this Labyrinth if he can only move forward and backwards throughout his quest.
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/103169831/207067128-5d025f1e-da9f-4caa-bbbe-6546b2398d2b.jpg" width="400"></p>
+
+
+
+
+#### Sample Input/Output
+``` 
+INPUT:
+4
+{1,0,0,0}
+{1,1,0,1}
+{0,1,0,0}
+{1,1,1,1}
+
+
+OUTPUT:	
+{1,0,0,0}
+{1,1,0,0}
+{0,1,0,0}
+{0,1,1,1}
+
+``` 
+``` 
+INPUT:	
+4
+{1,1,1,0}
+{1,0,1,1}
+{0,1,0,1}
+{0,1,1,1}
+
+
+OUTPUT:	
+{1,1,1,0}
+{0,0,1,1}
+{0,0,0,1}
+{0,0,0,1}
+
+``` 
+#### Explanation:
+```
+The first line of input is the size of the N*N matrix.
+In the given samples, the input matrix specifies the structure of the maze in which 0's represent the dead ends, and 1's represent the clear blocks. 
+After computing a path to the destination, the output matrix represents the path to the destination block using 1’s.
+
+```
+
+----
 
  
 FAQ
