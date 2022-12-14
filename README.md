@@ -37,6 +37,9 @@ Check out our FAQ for more information.
   - [**December 9 - Kochouseph Konundrum!**](#december-9---kochouseph-konundrum)
   - [**December 10 - Play with words**](#december-10---play-with-words)
   - [**December 11 - Monkey jump**](#december-11---monkey-jump)
+  - [**December 12 - Shez in a Maze!**](#december-12---shez-in-a-maze)
+  - [**December 13 - The Labyrinth**](#december-13---the-labyrinth)
+  - [**December 14 - Math Mystery**](#december-14---math-mystery)
   - [**FAQ**](#faq)
   
   
@@ -628,10 +631,10 @@ S contains only lowercase Latin characters, i.e, the characters {a,b,c…….z}
 ### December 11 - Monkey jump
 #### Problem Statement
 
-A list is provided with a sequence of characters ‘_ _’    and ‘~’ in it Eg = [‘_’,’_’,’~’,’_’]. The character ‘_’ represents land and the character ‘~’ represents water. A monkey can move 1 step or 2 steps at a time. Another list is provided which contains the step that the monkey took Eg[1,1,2,1,2]. Whenever the monkey touches the water. The game is over and the score must be returned. Calculate the Jumps the monkey took before touching the water's surface.
+A list is provided with a sequence of characters  <img src="https://user-images.githubusercontent.com/105559815/206890030-28a45bf0-2bcd-4e50-b81d-1c81bc714ccb.jpg" width="250">. The character ‘_’ represents land and the character ‘~’ represents water. A monkey can move 1 step or 2 steps in a single jump. Another list provided here contains the step that the monkey took Eg[1,1,2,1,2]. Whenever the monkey touches the water. The game is over and the score must be returned. Calculate the jumps the monkey took before touching the water.
 
 <p align="center"><img src="https://user-images.githubusercontent.com/119495356/206857020-3aefe633-ed69-4eef-a285-ef6ab27ac6ff.jpg" width="400" height="400"></p>
- 
+
 
  #### Sample Input/Output
      
@@ -640,18 +643,20 @@ Input 1:
 
 [‘_’,’~’,’_’,’_’,’_’,’_’,’~’,’_’,’_’,’~’,’_’,’~’]
 
+[2,1,1,1,2,1,2,1]
 
 Output 1:
 
-Score =8
+Score =7
 
 Input 2:
 
 [‘_’,’~’,’_’,’~’,’_’,’_’,’~’,’_’,’_’,’~’,’_’,’~’]
 
-Output 2: 
+[2,2,1,1,1,1,2,1,1]
 
-Score =2
+Output 2: 
+Score =3
 
  ```
  
@@ -659,12 +664,12 @@ Score =2
 
  ```
 
-The input is a combination of ‘_’ and ‘~’ representing land and water respectively.
-2 jumps indicate, for example, initially being on position 1 and ending up on position 3 without landing on position 2 in between.
+The first line of input is a combination of ‘_’ and ‘~’ representing land and water respectively.
+The second line of input ia a combination of 2's and 1's, 2 steps indicate, for example, initially being on position 1 and ending up on position 3 without landing on position 2 in between.
  
-Monkey takes two jumps as first move and three single jumps as next moves. But after taking two jumps the monkey touches the water . 
-The jump sequence: [2,1,1,1,2,1,1,1,1]
-So the total jump count is 8.
+Monkey takes two steps in a single jump as first move and three single steps as the next 3 moves/jumps, another 2 jumps, 1 jump and another 2 jumps.  
+Given the jump sequence: [2,1,1,1,2,1,2,1]
+Since in the 8th jump the monkey touches water, the total jump count before he touches the water is 7 and thus the score is 7.
 
 ```
 
@@ -679,9 +684,191 @@ So the total jump count is 8.
 
 
 ----
+### December 12 - Shez in a Maze!
+#### Problem Statement
+Shez went to an interesting maze where she was given 500 coins. The rule of the maze is when you choose a path in a maze you need to drop the amount indicated on the path and successfully reach the end.
+
+The winner is declared based on the amount you have spent. The person who has spent the least amount will be the winner.
+
+Can you help her win the maze?
+
+The cost of the path will be in a NxN matrix and the current path is indicated by path[i][j], from the current path you can either travel up, down, front or back.
+
+Note that the start of the maze is the top most left corner and the destination is the bottom most right corner.
+
+<p align="center"><img src="https://user-images.githubusercontent.com/113821083/206911442-4e4d9831-108d-4fcb-b46e-b08011205af5.png" width="400" height="400"></p>
+
+#### Sample Input/Output
+``` 
+INPUT 1:
+
+4
+Path = { {9,4,9,9}, {6,7,6,4}, {8,3,3,7}, {7,4,9,10} }
+
+OUTPUT 1:	
+
+path_taken={9,4,7,3,3,7,10}
+The minimum coins dropped is 43
+``` 
+``` 
+INPUT 2:	
+
+3
+Path = { {8,3,9}, {2,6,4}, {8,3,1}}
+
+OUTPUT 2:	
+
+path_taken={8,2,6,3,1}
+The minimum coins dropped is 20
+``` 
+#### Explanation:
+```
+
+The first line of input is the size of the NxN matrix.
+The next line of input is an NxN matrix where each element represents the number of coins you need to drop at that position.
+
+The output is a path_taken matrix and the minimum coins dropped amount. 
+
+9  4  9  9
+6  7  6  4
+8  3  3  7
+7  4  9  10
+Minimum cost  = 9 + 4 + 7 + 3 + 3 + 7 + 10 = 43
+So here we see that from the start point Shez can take 3 paths which are of costs 4,7,6 respectively. 
+
+Of these 3 paths the one with cost 4 is the path with minimum cost.  
+
+Now from 4 she can either take a path of cost 9 or 7 (Remember you can move only up, down, front, back and no diagonal movement is allowed) so she takes the path with cost 7.
+From 7 she has 4 options; paths of costs 6,6,3,4 (Taking path 4 is not advisable since that is from where we came to path 7) so now she takes path with cost 3 and then from this position 3 she can either take paths 8,7,3,4; the minimum cost is 3 so she proceeds in the path with cost 3. Following this logic she finishes the maze with spending a minimum amount of 43 units.
+
+```
+
+----
+### December 13 - The Labyrinth
+#### Problem Statement
+In Ancient Greek mythology, the Labyrinth was an intricate maze constructed by the master inventor Daedalus as per the orders of King Minos of Crete. 
+Many heroes from afar contended to escape the maze and overpower the ferocious beast Minotaur, but none succeeded in their attempts except for one, the great Theseus of Athens.
+Imagine a modern-world Labyrinth similar to an N*N binary matrix of blocks such that:
+- The starting point is the upper leftmost block
+- The endpoint is the lower rightmost block
+- Dead ends are represented by 0
+- A clear path is represented by 1
+
+Help Theseus escape this Labyrinth if he can only move forward and backwards throughout his quest.
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/103169831/207067128-5d025f1e-da9f-4caa-bbbe-6546b2398d2b.jpg" width="400"></p>
 
 
 
+
+#### Sample Input/Output
+``` 
+INPUT:
+4
+{1,0,0,0}
+{1,1,0,1}
+{0,1,0,0}
+{1,1,1,1}
+
+
+OUTPUT:	
+{1,0,0,0}
+{1,1,0,0}
+{0,1,0,0}
+{0,1,1,1}
+
+``` 
+``` 
+INPUT:	
+4
+{1,1,1,0}
+{1,0,1,1}
+{0,1,0,1}
+{0,1,1,1}
+
+
+OUTPUT:	
+{1,1,1,0}
+{0,0,1,1}
+{0,0,0,1}
+{0,0,0,1}
+
+``` 
+#### Explanation:
+```
+The first line of input is the size of the N*N matrix.
+In the given samples, the input matrix specifies the structure of the maze in which 0's represent the dead ends, and 1's represent the clear blocks. 
+After computing a path to the destination, the output matrix represents the path to the destination block using 1’s.
+
+```
+
+----
+### December 14 - Math Mystery 
+#### Problem Statement
+Dr. Satheesh Kumar is an outstanding professor in Discrete Mathematics. However, he has been assigned to teach an unruly batch of students. The lesson he planned to cover in the upcoming class was of utmost importance for the students.
+
+The lesson was none other than “Graph Theory”, which required a concise understanding of fundamental theoretical concepts and numerous theorems.
+
+The professor decided to execute those theorems programmatically as the students belong to the Computer Science department. He prepared all the theorems as programs except one theorem, which discussed the topic of “Graph Bipartite”.
+
+Bipartite Graph: It is a graph whose vertices can be divided into 2 independent sets U and V such that every edge (u,v), either connects a vertex from U to V or a vertex from V to U. (We can also say that there is no edge that connects vertices of the same set).
+
+Help Dr. Satheesh Kumar come up with a program which obtains a graph as input and produces an output verifying its bipartite property.
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/119515193/207395361-b94676d6-2675-446a-a59e-a1725de869f1.png" width="400"></p>
+
+
+
+
+
+#### Sample Input/Output
+``` 
+INPUT:
+6
+
+0 1 0 0 0 1
+1 0 1 0 0 0 
+0 1 0 1 0 0 
+0 0 1 0 1 0
+0 0 0 1 0 1
+1 0 0 0 1 0
+
+OUTPUT:	
+The graph is Bipartite!
+
+``` 
+``` 
+INPUT:	
+4
+
+0 1 0 1
+1 0 1 0 
+0 1 0 1
+1 0 1 0
+
+OUTPUT:	
+The graph is Bipartite!
+
+``` 
+#### Explanation:
+```
+The first line of the input is the number of vertices in the graph.The next part of the input is the adjacency matrix of the graph,
+where every row/column is a vertex and the 1 represents an edge connecting two vertices. 
+You are required to divide the given vertices into two sets such that:
+          1. Every vertex in one set is connected to at least one vertex in the other set.
+          2. There is no edge between the vertices of the same set.
+
+```
+- **References**
+- [Bipartite graphs](https://www.tutorialspoint.com/bipartite-graphs)
+- [Adjacency matrices](https://www.javatpoint.com/what-is-an-adjacency-matrix)
+- [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+- [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+- [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+
+----
 
  
 FAQ
