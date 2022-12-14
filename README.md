@@ -897,7 +897,11 @@ Output: Frank, Laurel, Annalise.
 ``` 
 #### Explanation:
 ```
-When a meeting participant presses the unmute button, their name and the moment it was pressed are recorded. There are therefore three inputs, each with a timestamp and a name.
+When a meeting participant presses the unmute button, their name and the moment it was pressed are recorded. 
+
+There are therefore three inputs, each with a timestamp and a name. {name, timestamp}.
+
+The timestamp is in the format of hh:mm:ss.
 
 They will now be organized into a queue based on when they pressed the microphone button, and once they are in a queue, the output is produced based on the time difference and the queue's arrangement. As a result, they will have quick access to unmute their mics.
 
