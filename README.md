@@ -40,6 +40,7 @@ Check out our FAQ for more information.
   - [**December 12 - Shez in a Maze!**](#december-12---shez-in-a-maze)
   - [**December 13 - The Labyrinth**](#december-13---the-labyrinth)
   - [**December 14 - Math Mystery**](#december-14---math-mystery)
+  - [**December 15 - The Murderers Meet**](#december-15---the-murderers-meet)
   - [**FAQ**](#faq)
   
   
@@ -870,6 +871,7 @@ You are required to divide the given vertices into two sets such that:
 
 
 ### December 15 - THE MURDERERS MEET 
+
 #### Problem Statement
 
 The death of Sam Keating, Annalise Keating's husband, caused the entire city to be in suspense as to who killed him because of the city of Philadelphia's soaring murder rate. The best defense attorney in Philadelphia, Annalise Keating also teaches law undergrads in addition to turning heads in the courtroom. She chooses pupils from her class for Keating 5. Due to security concerns, the Keating 5 have been conducting confidential missions via virtual meetings since her husband's death. The tech lead is Oliver, a hacker who organizes their meetings in a covert manner. Oliver is quite skilled at doing this. The last meeting, however, was chaotic due to the traffic that broke out as a result of several inmates speaking at once while muted.
