@@ -943,7 +943,10 @@ Output: 49
 ```
 #### Explanation:
 ```
-The above vertical lines are represented by an array [1,8,6,2,5,4,8,3,7]. In this case,the area between lines 7 and 8 will be maximum. 
+The above vertical lines are represented by an array [1,8,6,2,5,4,8,3,7]. 
+
+In this case,the area between lines 7 and 8 will be maximum. 
+
 7 and 8 are 7 units in distance apart, so the size of the base is 7 . 
 
 Height of the container is min(7,8)= 7. So the max area of water (blue section) the container can contain is 49.
