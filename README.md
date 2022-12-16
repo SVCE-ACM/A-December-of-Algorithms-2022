@@ -41,6 +41,7 @@ Check out our FAQ for more information.
   - [**December 13 - The Labyrinth**](#december-13---the-labyrinth)
   - [**December 14 - Math Mystery**](#december-14---math-mystery)
   - [**December 15 - The Murderers Meet**](#december-15---the-murderers-meet)
+  - [**December 16 - H2O Receptacle**](#december-16---h2o-receptacle)
   - [**FAQ**](#faq)
   
   
@@ -913,6 +914,53 @@ They will now be organized into a queue based on when they pressed the microphon
 - [Queue in Java](https://www.geeksforgeeks.org/queue-interface-java/)
 - [Queue in Python](https://www.geeksforgeeks.org/queue-interface-java/)
 
+----
+
+
+### December 16 - H2O Receptacle 
+
+#### Problem Statement
+
+John has an integer array height of n non-negative integers height [n], where each value represents a point at coordinate (i, height[i]). Now n vertical lines are drawn such that the two endpoints of line i are at (i, 0) and (i, height[i]). Here each pair of a line with the x-axis forms a container.
+
+Determine two lines that together with the x-axis form a container, such that the container contains the most water.
+
+Return the maximum amount of water a container can store.
+
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/120033475/207920281-6c1e2392-e7e4-429b-9a65-86b871fa6381.JPG" width="400"></p>
+
+
+
+#### Sample Input/Output
+``` 
+Input: height = [6,2,5,4,8]
+Output: 24
+
+
+Input: height = [1,8,6,2,5,4,8,3,7]
+Output: 49
+
+```
+#### Explanation:
+```
+The above vertical lines are represented by an array [1,8,6,2,5,4,8,3,7]. 
+
+In this case,the area between lines 7 and 8 will be maximum. 
+
+7 and 8 are 7 units in distance apart, so the size of the base is 7 . 
+
+Height of the container is min(7,8)= 7. So the max area of water (blue section) the container can contain is 49.
+
+```
+- **References**
+- [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+- [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+- [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+
+
+----
 FAQ
 ======
 
