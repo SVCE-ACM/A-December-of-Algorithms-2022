@@ -1,7 +1,8 @@
 #include <iostream>
 #include <vector>
-#include <climits>
 #include <numeric>
+#include <algorithm>
+#include <cstdlib>
 
 using namespace std;
 
@@ -28,7 +29,7 @@ int maxPossibleVolume(vector<int>& water, int n){
             e=r;
         }
     }
-    return accumulate(water.begin()+s, water.begin()+e+1, 0); // without e+1, last element is not considered, idk why
+    return min(water[s],water[e]) * abs(s-e); // calculate volume and return it
 }
 
 vector<int> input(int n){
