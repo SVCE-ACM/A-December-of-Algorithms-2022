@@ -42,6 +42,7 @@ Check out our FAQ for more information.
   - [**December 14 - Math Mystery**](#december-14---math-mystery)
   - [**December 15 - The Murderers Meet**](#december-15---the-murderers-meet)
   - [**December 16 - H2O Receptacle**](#december-16---h2o-receptacle)
+  - [**December 17 - Zig Zag Conversion**](#december-17---zig-zag-conversion)
   - [**FAQ**](#faq)
   
   
@@ -957,8 +958,72 @@ Height of the container is min(7,8)= 7. So the max area of water (blue section) 
 - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
 - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
 
+----
+
+
+### December 17 - Zig Zag Conversion 
+
+#### Problem Statement
+
+You are given a string ‘Str’ and an integer ‘Row’. You have to convert and print the row into a zig-
+zag pattern with rows equal to ‘Row’ and display the output row-wise. You may refer to the given sample input/output.
+
+
+
+#### Sample Input/Output
+``` 
+Input:
+
+Str = “spaghettigood”
+Row = 4
+
+Output:
+
+Zig-zag pattern:
+s        t      d
+p     e  t    o
+a   h    i  o
+g        g
+
+Row-wise output: “stdpetoahiogg”
+
+Input:
+
+Str = “spritebetter”
+Row = 3
+
+Output:
+
+Zig-zag pattern:
+s       t       t
+p   i   e   e   t   r
+r       b       e
+
+Row-wise output: “sttpieetrrbe”
+
+```
+#### Explanation:
+```
+Input Format :
+
+The first line of each test case contains a string ‘Str’, denoting the input string.
+The second line of each test case contains a single integer ‘Row’, denoting the number of rows in the
+zig-zag pattern to be created.
+
+Output Format :
+
+For each test case, print the new string after zig-zag conversion.
+Output for each test case should be printed in a separate line.
+
+```
+- **References**
+- [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+- [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+- [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
 
 ----
+
+
 FAQ
 ======
 
