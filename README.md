@@ -978,14 +978,7 @@ Str = “spaghettigood”
 Row = 4
 
 Output:
-
-Zig-zag pattern:
-s        t      d
-p     e  t    o
-a   h    i  o
-g        g
-
-Row-wise output: “stdpetoahiogg”
+stdpetoahiogg
 
 Input:
 
@@ -993,13 +986,7 @@ Str = “spritebetter”
 Row = 3
 
 Output:
-
-Zig-zag pattern:
-s       t       t
-p   i   e   e   t   r
-r       b       e
-
-Row-wise output: “sttpieetrrbe”
+sttpieetrrbe
 
 ```
 #### Explanation:
@@ -1007,6 +994,13 @@ Row-wise output: “sttpieetrrbe”
 Input Format :
 
 The first line of each test case contains a string ‘Str’, denoting the input string.
+
+Zig-zag pattern:
+s        t      d
+p     e  t    o
+a   h    i  o
+g        g
+
 The second line of each test case contains a single integer ‘Row’, denoting the number of rows in the
 zig-zag pattern to be created.
 
