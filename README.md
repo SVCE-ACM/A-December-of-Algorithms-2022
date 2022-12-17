@@ -43,6 +43,7 @@ Check out our FAQ for more information.
   - [**December 15 - The Murderers Meet**](#december-15---the-murderers-meet)
   - [**December 16 - H2O Receptacle**](#december-16---h2o-receptacle)
   - [**December 17 - Zig Zag Conversion**](#december-17---zig-zag-conversion)
+  - [**December 18 - Find the way**](#december-18---find-the-way)
   - [**FAQ**](#faq)
   
   
@@ -1017,7 +1018,7 @@ Output for each test case should be printed in a separate line.
 
 ----
 
-### December 17 - Find the way
+### December 18 - Find the way
 
 #### Problem Statement
 
@@ -1058,7 +1059,11 @@ Time complexity is 0(V^2)
 
 ```
 - **References**
-- [Bipartite graphs](https://www.tutorialspoint.com/bipartite-graphs)
+- [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+- [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+- [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+- [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+- [Adjacency matrices](https://www.javatpoint.com/what-is-an-adjacency-matrix)
 
 ----
 
