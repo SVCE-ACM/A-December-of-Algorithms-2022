@@ -43,6 +43,7 @@ Check out our FAQ for more information.
   - [**December 15 - The Murderers Meet**](#december-15---the-murderers-meet)
   - [**December 16 - H2O Receptacle**](#december-16---h2o-receptacle)
   - [**December 17 - Zig Zag Conversion**](#december-17---zig-zag-conversion)
+  - [**December 18 - Find the way**](#december-18---find-the-way)
   - [**FAQ**](#faq)
   
   
@@ -1019,6 +1020,54 @@ Output for each test case should be printed in a separate line.
 
 ----
 
+### December 18 - Find the way
+
+#### Problem Statement
+
+Pooja and Ravi are two close friends that live in the city chosen by the user. The graph below shows the cities P, Q, R, S, T, U, V and W represented by the vertices and the rail connections between them represented by edges. The numbers on the edges are the times, in hours, it takes to travel by train between each of the cities. find the shortest time to travel by train between chosen city and W. Also find the time taken.
+
+
+![find the way](https://user-images.githubusercontent.com/119495356/208252824-4486cb25-7557-411f-afa9-dc17f767e00a.png)
+
+
+
+#### Sample Input/Output
+``` 
+Input:
+
+City chosen: P
+
+Output:
+
+Shortest path: P – R – V – W
+Shortest time: 7 hours
+
+
+
+```
+#### Explanation:
+```
+Input Format :
+
+The argument given is the city that they choose
+
+Output Format :
+
+Return the shortest path between the chosen city and w. If chosen city is W then the shortest path is 0. Also return the time taken.
+
+CONSTRAINT:
+Time complexity is 0(V^2)
+
+
+```
+- **References**
+- [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+- [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+- [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+- [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+- [Adjacency matrices](https://www.javatpoint.com/what-is-an-adjacency-matrix)
+
+----
 
 FAQ
 ======
