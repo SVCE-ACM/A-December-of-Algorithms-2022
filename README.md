@@ -44,7 +44,7 @@ Check out our FAQ for more information.
   - [**December 16 - H2O Receptacle**](#december-16---h2o-receptacle)
   - [**December 17 - Zig Zag Conversion**](#december-17---zig-zag-conversion)
   - [**December 18 - Find the way**](#december-18---find-the-way)
-  - [**December 19 - Hidden Anagram**](#december-18---hidden-anagram)
+  - [**December 19 - Hidden Anagram**](#december-19---hidden-anagram)
   - [**FAQ**](#faq)
   
   
