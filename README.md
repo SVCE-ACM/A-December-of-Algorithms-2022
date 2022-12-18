@@ -44,6 +44,7 @@ Check out our FAQ for more information.
   - [**December 16 - H2O Receptacle**](#december-16---h2o-receptacle)
   - [**December 17 - Zig Zag Conversion**](#december-17---zig-zag-conversion)
   - [**December 18 - Find the way**](#december-18---find-the-way)
+  - [**December 19 - Hidden Anagram**](#december-18---hidden-anagram)
   - [**FAQ**](#faq)
   
   
@@ -1064,6 +1065,77 @@ Time complexity is 0(V^2)
 - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
 - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
 - [Adjacency matrices](https://www.javatpoint.com/what-is-an-adjacency-matrix)
+
+----
+
+### December 19 - Hidden Anagram
+
+#### Problem Statement
+
+You are given two strings (String 1 and String 2). The first string contains a sentence containing the letters of the second string in a consecutive sequence but in a different order. 
+
+Your task is to find the hidden anagram of the second string in the first string. 
+
+The hidden anagram must contain all the letters, including duplicates, from the second string in any order and must not contain any other alphabetic characters.
+
+Write a program to find the anagram of the second string embedded somewhere in the first string. 
+
+You should ignore character case, any spaces, and punctuation marks and return the anagram as a lower case string with no spaces or punctuation marks.
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/208308540-47a8606c-35a9-48a3-81d0-ffef185377c6.jpg" width="400"></p>
+
+
+
+#### Sample Input/Output
+``` 
+Input:
+
+String 1:
+"My world evolves in a beautiful space called Tesh."
+
+String 2:
+"sworn love lived" 
+
+
+Output:
+
+"worldevolvesin"
+
+```
+
+``` 
+Input:
+
+String 1:
+"Mr. Mojo Rising could be a song title"
+
+String 2:
+"Jim Morrison" 
+
+
+Output:
+
+"mrmojorisin"
+
+
+```
+
+#### Explanation:
+```
+
+The sequence "world evolves in" is a perfect anagram of "sworn love lived".
+
+The sequence "Mr. Mojo Risin" ignoring the full stop, is a perfect
+Anagram of "Jim Morrison".
+
+
+```
+- **References**
+    - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
+    - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
+    - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
+
 
 ----
 
