@@ -1,17 +1,23 @@
-
-#code
-from collections import OrderedDict
-import numpy as np
-n=int(input("enter the number of inputs"))
-d=dict(input("enter the key and value:").split() for i in range (n))
-print(d)
-keys = list(d.keys())
-values = list(d.values())
-sorted_value_index = np.argsort(values)
-sorted_dict = {keys[i]: values[i] for i in sorted_value_index}
-print("the result is")
-print(sorted_dict)
-
+def findLargest(arr):
+	secondLargest = 0
+	largest = min(arr)
+	for i in range(len(arr)):
+		if arr[i] > largest:
+			secondLargest = largest
+			largest = arr[i]
+		else:
+			secondLargest = max(secondLargest, arr[i])
+	return secondLargest
+n = int(input("Enter number of elements : "))
+a = list(map(int,input("\nEnter the numbers : ").strip().split()))[:n]
+print("\nList is - ", a)
+j=int(findLargest(a))
+m=a.index(max(a))
+l=a.index(j)
+print(m,l)
+diff=abs(m-l)
+result=int(diff*j)
+print(result)
 
 
 
