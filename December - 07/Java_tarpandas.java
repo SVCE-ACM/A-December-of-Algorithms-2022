@@ -1,9 +1,5 @@
 import java.util.Scanner;
 public class Java_tarpandas {
-
-    static void checkPossibilities(int arr[][], int i, int j, int n) {
-        if(n>i)
-    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String input = sc.next().toUpperCase();
@@ -30,8 +26,7 @@ public class Java_tarpandas {
         for(int i=0; i<wordMap.length; i++) {
             for(int j=0; j<wordMap[i].length; j++) {
                 if(wordMap[i][j] == input.charAt(0)) {
-                    checkPossibilities(wordMap, i, j, input.length());
-
+                    if(arr[i].length == true)
                 }
             }
         }
