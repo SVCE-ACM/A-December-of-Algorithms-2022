@@ -1,5 +1,4 @@
 #code
-
 def findLargest(arr):
 	secondLargest = 0
 	largest = min(arr)
