@@ -40,6 +40,12 @@ Check out our FAQ for more information.
   - [**December 12 - Shez in a Maze!**](#december-12---shez-in-a-maze)
   - [**December 13 - The Labyrinth**](#december-13---the-labyrinth)
   - [**December 14 - Math Mystery**](#december-14---math-mystery)
+  - [**December 15 - The Murderers Meet**](#december-15---the-murderers-meet)
+  - [**December 16 - H2O Receptacle**](#december-16---h2o-receptacle)
+  - [**December 17 - Zig Zag Conversion**](#december-17---zig-zag-conversion)
+  - [**December 18 - Find the way**](#december-18---find-the-way)
+  - [**December 19 - Hidden Anagram**](#december-19---hidden-anagram)
+  - [**December 20 - Code a Subsequence**](#december-20---code-a-subsequence)
   - [**FAQ**](#faq)
   
   
@@ -870,7 +876,359 @@ You are required to divide the given vertices into two sets such that:
 
 ----
 
- 
+
+### December 15 - THE MURDERERS MEET 
+
+#### Problem Statement
+
+The death of Sam Keating, Annalise Keating's husband, caused the entire city to be in suspense as to who killed him because of the city of Philadelphia's soaring murder rate. The best defense attorney in Philadelphia, Annalise Keating also teaches law undergrads in addition to turning heads in the courtroom. She chooses pupils from her class for Keating 5. Due to security concerns, the Keating 5 have been conducting confidential missions via virtual meetings since her husband's death. The tech lead is Oliver, a hacker who organizes their meetings in a covert manner. Oliver is quite skilled at doing this. The last meeting, however, was chaotic due to the traffic that broke out as a result of several inmates speaking at once while muted.
+
+Help Oliver by creating an algorithm that uses mouse-based and timestamps to implement Queue in unmuting in order to get around this technical traffic.
+
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/119505502/207613844-569c5777-6207-44c0-88e5-ed45afb92400.gif" width="400"></p>
+
+
+
+#### Sample Input/Output
+``` 
+Input: {Wes, 12:00:30},{Michella, 12:03:40},{Asher, 12:00:01}
+
+Output: Asher, Wes, Michella.
+
+Input: {Annalise, 01:09:00},{ Frank, 01:02:30},{Laurel, 01:04:19}
+
+Output: Frank, Laurel, Annalise.
+
+``` 
+#### Explanation:
+```
+When a meeting participant presses the unmute button, their name and the moment it was pressed are recorded. 
+
+There are therefore three inputs, each with a timestamp and a name. {name, timestamp}.
+
+The timestamp is in the format of hh:mm:ss.
+
+They will now be organized into a queue based on when they pressed the microphone button, and once they are in a queue, the output is produced based on the time difference and the queue's arrangement. As a result, they will have quick access to unmute their mics.
+
+```
+- **References**
+- [Queue data structure](https://www.javatpoint.com/data-structure-queue)
+- [Queue in Java](https://www.geeksforgeeks.org/queue-interface-java/)
+- [Queue in Python](https://www.geeksforgeeks.org/queue-interface-java/)
+
+----
+
+
+### December 16 - H2O Receptacle 
+
+#### Problem Statement
+
+John has an integer array height of n non-negative integers height [n], where each value represents a point at coordinate (i, height[i]). Now n vertical lines are drawn such that the two endpoints of line i are at (i, 0) and (i, height[i]). Here each pair of a line with the x-axis forms a container.
+
+Determine two lines that together with the x-axis form a container, such that the container contains the most water.
+
+Return the maximum amount of water a container can store.
+
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/120033475/207920281-6c1e2392-e7e4-429b-9a65-86b871fa6381.JPG" width="400"></p>
+
+
+
+#### Sample Input/Output
+``` 
+Input: height = [6,2,5,4,8]
+Output: 24
+
+
+Input: height = [1,8,6,2,5,4,8,3,7]
+Output: 49
+
+```
+#### Explanation:
+```
+The above vertical lines are represented by an array [1,8,6,2,5,4,8,3,7]. 
+
+In this case,the area between lines 7 and 8 will be maximum. 
+
+7 and 8 are 7 units in distance apart, so the size of the base is 7 . 
+
+Height of the container is min(7,8)= 7. So the max area of water (blue section) the container can contain is 49.
+
+```
+- **References**
+- [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+- [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+- [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+
+----
+
+
+### December 17 - Zig Zag Conversion 
+
+#### Problem Statement
+
+You are given a string ‘Str’ and an integer ‘Row’. You have to convert and print the row into a zig-
+zag pattern with rows equal to ‘Row’ and display the output row-wise. You may refer to the given sample input/output.
+
+
+
+#### Sample Input/Output
+``` 
+Input:
+
+Str = “spaghettigood”
+Row = 4
+
+Output:
+stdpetoahiogg
+
+Input:
+
+Str = “spritebetter”
+Row = 3
+
+Output:
+sttpieetrrbe
+
+```
+#### Explanation:
+```
+Input Format :
+
+The first line of each test case contains a string ‘Str’, denoting the input string.
+
+Zig-zag pattern:
+s        t      d
+p     e  t    o
+a   h    i  o
+g        g
+
+The second line of each test case contains a single integer ‘Row’, denoting the number of rows in the
+zig-zag pattern to be created.
+
+Output Format :
+
+For each test case, print the new string after zig-zag conversion.
+Output for each test case should be printed in a separate line.
+
+```
+- **References**
+- [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+- [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+- [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+
+----
+
+### December 18 - Find the way
+
+#### Problem Statement
+
+Pooja and Ravi are two close friends that live in the city chosen by the user. The graph below shows the cities P, Q, R, S, T, U, V and W represented by the vertices and the rail connections between them represented by edges. The numbers on the edges are the times, in hours, it takes to travel by train between each of the cities. find the shortest time to travel by train between chosen city and W. Also find the time taken.
+
+
+![find the way](https://user-images.githubusercontent.com/119495356/208252824-4486cb25-7557-411f-afa9-dc17f767e00a.png)
+
+
+
+#### Sample Input/Output
+``` 
+Input:
+
+City chosen: P
+
+Output:
+
+Shortest path: P – R – V – W
+Shortest time: 7 hours
+
+
+
+```
+#### Explanation:
+```
+Input Format :
+
+The argument given is the city that they choose
+
+Output Format :
+
+Return the shortest path between the chosen city and w. If chosen city is W then the shortest path is 0. Also return the time taken.
+
+CONSTRAINT:
+Time complexity is 0(V^2)
+
+
+```
+- **References**
+- [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+- [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+- [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+- [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+- [Adjacency matrices](https://www.javatpoint.com/what-is-an-adjacency-matrix)
+
+----
+
+### December 19 - Hidden Anagram
+
+#### Problem Statement
+
+You are given two strings (String 1 and String 2). The first string contains a sentence containing the letters of the second string in a consecutive sequence but in a different order. 
+
+Your task is to find the hidden anagram of the second string in the first string. 
+
+The hidden anagram must contain all the letters, including duplicates, from the second string in any order and must not contain any other alphabetic characters.
+
+Write a program to find the anagram of the second string embedded somewhere in the first string. 
+
+You should ignore character case, any spaces, and punctuation marks and return the anagram as a lower case string with no spaces or punctuation marks.
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/208308540-47a8606c-35a9-48a3-81d0-ffef185377c6.jpg" width="400"></p>
+
+
+
+#### Sample Input/Output
+``` 
+Input:
+
+String 1:
+"My world evolves in a beautiful space called Tesh."
+
+String 2:
+"sworn love lived" 
+
+
+Output:
+
+"worldevolvesin"
+
+```
+
+``` 
+Input:
+
+String 1:
+"Mr. Mojo Rising could be a song title"
+
+String 2:
+"Jim Morrison" 
+
+
+Output:
+
+"mrmojorisin"
+
+
+```
+
+#### Explanation:
+```
+
+The sequence "world evolves in" is a perfect anagram of "sworn love lived".
+
+The sequence "Mr. Mojo Risin" ignoring the full stop, is a perfect
+Anagram of "Jim Morrison".
+
+
+```
+- **References**
+    - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
+    - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
+    - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
+
+
+----
+
+### December 20 - Code a Subsequence
+
+#### Problem Statement
+
+A subsequence of a sequence is a sequence which is obtained by deleting zero or more elements from the sequence. 
+
+You are given a sequence A in which every element is a pair of integers  i.e  A = [(a1, w1), (a2, w2),..., (aN, wN)].
+
+For a subsequence B = [(b1, v1), (b2, v2), ...., (bM, vM)] of the given sequence : 
+
+We call it increasing if for every i (1 <= i < M ) , bi < bi+1.
+
+Weight(B) = v1 + v2 + ... + vM.
+
+Task:
+Given a sequence, output the maximum weight formed by an increasing subsequence.
+
+Input:
+
+The first line of input contains a single integer T. T test-cases follow. The first line of each test-case contains an integer N. The next line contains a1, a2 ,... , aN separated by a single space. The next line contains w1, w2, ..., wN separated by a single space.
+
+Output:
+
+For each test-case output a single integer: The maximum weight of increasing subsequences of the given sequence.
+Constraints:
+1 <= T <= 5
+1 <= N <= 150000
+1 <= ai <= 109, where i ∈ [1..N]
+1 <= wi <= 109, where i ∈ [1..N]
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/208486892-82747ab6-bbbf-4e6c-a188-0049a3276987.PNG" width="400"></p>
+
+#### Sample Input/Output
+``` 
+Input:
+
+2  
+4  
+1 2 3 4  
+10 20 30 40  
+8  
+1 2 3 4 1 2 3 4  
+10 20 30 40 15 15 15 50
+
+
+Output:
+
+100  
+110
+
+
+```
+
+#### Explanation:
+
+```
+
+In the first sequence, the maximum size increasing subsequence is 4, and there's only one of them. We choose B = [(1, 10), (2, 20), (3, 30), (4, 40)], and we have Weight(B) = 100.
+In the second sequence, the maximum size increasing subsequence is still 4, but there are now 5 possible subsequences:
+1 2 3 4  
+10 20 30 40
+
+1 2 3 4  
+10 20 30 50
+
+1 2 3 4  
+10 20 15 50
+
+1 2 3 4  
+10 15 15 50
+
+1 2 3 4  
+15 15 15 50
+
+Of those, the one with the greatest weight is B = [(1, 10), (2, 20), (3, 30), (4, 50)], with Weight(B) = 110.
+Please note that this is not the maximum weight generated from picking the highest value element of each index. That value, 115, comes from [(1, 15), (2, 20), (3, 30), (4, 50)], which is not a valid subsequence because it cannot be created by only deleting elements in the original sequence.
+
+
+```
+- **References**
+    - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
+    - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
+    - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
+    - [Dynamic Programming](https://www.geeksforgeeks.org/dynamic-programming/)
+
+
+----
 FAQ
 ======
 
