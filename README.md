@@ -1170,6 +1170,8 @@ Constraints:
 1 <= ai <= 109, where i ∈ [1..N]
 1 <= wi <= 109, where i ∈ [1..N]
 
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/208486892-82747ab6-bbbf-4e6c-a188-0049a3276987.PNG" width="400"></p>
+
 #### Sample Input/Output
 ``` 
 Input:
@@ -1215,8 +1217,6 @@ In the second sequence, the maximum size increasing subsequence is still 4, but 
 Of those, the one with the greatest weight is B = [(1, 10), (2, 20), (3, 30), (4, 50)], with Weight(B) = 110.
 Please note that this is not the maximum weight generated from picking the highest value element of each index. That value, 115, comes from [(1, 15), (2, 20), (3, 30), (4, 50)], which is not a valid subsequence because it cannot be created by only deleting elements in the original sequence.
 
-
-<p align="center"><img src="https://user-images.githubusercontent.com/110716198/208448951-96a2d28b-715b-4672-8190-e62f13d1cb29.jpg" width="400"></p>
 
 ```
 - **References**
