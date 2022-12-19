@@ -1223,6 +1223,7 @@ Please note that this is not the maximum weight generated from picking the highe
     - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
     - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
     - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
+    - [Dynamic Programming](https://www.geeksforgeeks.org/dynamic-programming/)
 
 
 ----
