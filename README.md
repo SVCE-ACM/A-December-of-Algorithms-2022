@@ -46,6 +46,7 @@ Check out our FAQ for more information.
   - [**December 18 - Find the way**](#december-18---find-the-way)
   - [**December 19 - Hidden Anagram**](#december-19---hidden-anagram)
   - [**December 20 - Code a Subsequence**](#december-20---code-a-subsequence)
+  - [**December 21 - The Devil Towers**](#december-21---the-devil-towers)
   - [**FAQ**](#faq)
   
   
@@ -1227,6 +1228,87 @@ Please note that this is not the maximum weight generated from picking the highe
 
 
 ----
+
+### December 21 - The Devil Towers
+
+#### Problem Statement
+
+Morpheus, the ruler of the Kingdom of Dreaming was summoned and robbed of his possessions and kept in confinement for 106 years. Upon his escape from the shackles of time, Morpheus now wishes to find his lost possessions, a scarlet ruby, a pouch of sand, and his helm, a ceremonial crown he must dorn to become King of Dreaming again.
+
+To his utter shock, his helm resides in the hands of a Lesser Daemon in the depths of Hell. Morpheus descends into hell and is immediately in an audience with Pandaemonium’s ruler, Lucifer Morningstar. The Lesser Daemon challenges Morpheus to a tourney of brilliance, to a game known as the Devil Towers.
+
+The Daemon gives Morpheus 3 towers. At the end of the game, all discs must be stacked on only a single tower, leaving the others empty.
+
+The Daemon claims Lucifer as his champion, while Morpheus calls you in as his, and so you are tasked with moving all discs from the first to the third tower, heeding the Daemon’s rules:-
+
+        - You can only move one disc at a time.
+        
+        - Only the disc at the top of the tower can be moved. 
+        
+        - Discs can only be moved by first moving discs above them.
+        
+        - No disc may be placed on top of a smaller disc.
+        
+        - You have only certain fixed moves:
+        
+                    left->right, left->middle
+               
+                    middle->left, middle->right
+                    
+                    right->left, right->middle
+                    
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/208724678-d03ae57c-2940-42ad-bbae-1721df372728.gif" width="400"></p>
+
+
+#### Sample Input/Output
+``` 
+Input:
+
+Number of discs: 3
+
+Output:
+
+The sequence of moves :
+Move disk 1 from tower I to tower III
+Move disk 2 from tower I to tower II
+Move disk 1 from tower III to tower II
+Move disk 3 from tower I to tower III
+Move disk 1 from tower II to tower I
+Move disk 2 from tower II to tower III
+Move disk 1 from tower I to tower III
+
+```
+
+``` 
+Input:
+
+Number of discs: 2
+
+Output:
+
+The sequence of moves :
+ Move disk 1 from tower I to tower II
+ Move disk 2 from tower I to tower III
+ Move disk 1 from tower II to tower III
+
+```
+
+#### Explanation:
+
+```
+
+Your input will be a number indicating the total number of disks on the first (left) tower.
+Your output must be the sequence of moves for the given number of discs.
+
+```
+- **References**
+    - [Recursive Algorithms](https://www.geeksforgeeks.org/introduction-to-recursion-data-structure-and-algorithm-tutorials/)
+
+
+----
+
 FAQ
 ======
 
