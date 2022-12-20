@@ -1,10 +1,56 @@
 import java.util.Scanner;
 public class Java_tarpandas {
+
+    static boolean wordSearch(char arr[][], int i, int j, String input) {
+        
+        int xDirection[] = {-1, -1, -1, 0, 0, 1, 1, 1};
+        int yDirection[] = {-1, 0, 1, -1, 1, -1, 0, 1};
+        
+        
+        if(arr[i][j] != input.charAt(0)) {
+            return false;
+        }
+
+        for(int k = 0; k < 8; k++) {
+            int l;
+            int rowDir = i + xDirection[k];
+            int colDir = j + yDirection[k];
+            for(l = 1; l < input.length(); l++) {
+                if(rowDir >= arr.length || rowDir < 0
+                || colDir >= arr[i].length || colDir < 0)
+                    break;
+                
+                if (arr[rowDir][colDir] != input.charAt(l))
+                    break;
+
+                rowDir += xDirection[k];
+                colDir += yDirection[k];
+            }
+            if(l == input.length())
+                return true;
+        }
+        return false;
+    }
+
+    static boolean searchPattern(char arr[][], String input) {
+        int rowSize = arr.length;
+        int columnSize = arr[0].length;
+        System.out.println(rowSize+" "+columnSize);
+
+        for(int i=0; i<rowSize;i++) {
+            for(int j=0; j< columnSize; j++) {
+                if(arr[i][j] == input.charAt(0) && wordSearch(arr, i, j, input)) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String input = sc.next().toUpperCase();
-        int noOfLetters = input.length();
-        char wordMap[][] = 
+        sc.close();
+        char wordGrid[][] = 
         {
             {'A','S','S','E','R','T','I','V','E','N','E','S','S','L','J'},
             {'C','F','O','G','O','O','D','P','O','S','I','T','I','V','E'},
@@ -23,12 +69,10 @@ public class Java_tarpandas {
             {'F','N','H','T','C','A','T','N','O','C','E','T','E','B','T'}
         };
 
-        for(int i=0; i<wordMap.length; i++) {
-            for(int j=0; j<wordMap[i].length; j++) {
-                if(wordMap[i][j] == input.charAt(0)) {
-                    if(arr[i].length == true)
-                }
-            }
+        if(searchPattern(wordGrid, input)){
+            System.out.println("Found");
+        } else {
+            System.out.println("Not found");
         }
     }
 }
