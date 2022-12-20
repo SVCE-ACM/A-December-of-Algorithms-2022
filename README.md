@@ -44,6 +44,8 @@ Check out our FAQ for more information.
   - [**December 16 - H2O Receptacle**](#december-16---h2o-receptacle)
   - [**December 17 - Zig Zag Conversion**](#december-17---zig-zag-conversion)
   - [**December 18 - Find the way**](#december-18---find-the-way)
+  - [**December 19 - Hidden Anagram**](#december-19---hidden-anagram)
+  - [**December 20 - Code a Subsequence**](#december-20---code-a-subsequence)
   - [**FAQ**](#faq)
   
   
@@ -1069,6 +1071,164 @@ Time complexity is 0(V^2)
 
 ----
 
+### December 19 - Hidden Anagram
+
+#### Problem Statement
+
+You are given two strings (String 1 and String 2). The first string contains a sentence containing the letters of the second string in a consecutive sequence but in a different order. 
+
+Your task is to find the hidden anagram of the second string in the first string. 
+
+The hidden anagram must contain all the letters, including duplicates, from the second string in any order and must not contain any other alphabetic characters.
+
+Write a program to find the anagram of the second string embedded somewhere in the first string. 
+
+You should ignore character case, any spaces, and punctuation marks and return the anagram as a lower case string with no spaces or punctuation marks.
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/208308540-47a8606c-35a9-48a3-81d0-ffef185377c6.jpg" width="400"></p>
+
+
+
+#### Sample Input/Output
+``` 
+Input:
+
+String 1:
+"My world evolves in a beautiful space called Tesh."
+
+String 2:
+"sworn love lived" 
+
+
+Output:
+
+"worldevolvesin"
+
+```
+
+``` 
+Input:
+
+String 1:
+"Mr. Mojo Rising could be a song title"
+
+String 2:
+"Jim Morrison" 
+
+
+Output:
+
+"mrmojorisin"
+
+
+```
+
+#### Explanation:
+```
+
+The sequence "world evolves in" is a perfect anagram of "sworn love lived".
+
+The sequence "Mr. Mojo Risin" ignoring the full stop, is a perfect
+Anagram of "Jim Morrison".
+
+
+```
+- **References**
+    - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
+    - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
+    - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
+
+
+----
+
+### December 20 - Code a Subsequence
+
+#### Problem Statement
+
+A subsequence of a sequence is a sequence which is obtained by deleting zero or more elements from the sequence. 
+
+You are given a sequence A in which every element is a pair of integers  i.e  A = [(a1, w1), (a2, w2),..., (aN, wN)].
+
+For a subsequence B = [(b1, v1), (b2, v2), ...., (bM, vM)] of the given sequence : 
+
+We call it increasing if for every i (1 <= i < M ) , bi < bi+1.
+
+Weight(B) = v1 + v2 + ... + vM.
+
+Task:
+Given a sequence, output the maximum weight formed by an increasing subsequence.
+
+Input:
+
+The first line of input contains a single integer T. T test-cases follow. The first line of each test-case contains an integer N. The next line contains a1, a2 ,... , aN separated by a single space. The next line contains w1, w2, ..., wN separated by a single space.
+
+Output:
+
+For each test-case output a single integer: The maximum weight of increasing subsequences of the given sequence.
+Constraints:
+1 <= T <= 5
+1 <= N <= 150000
+1 <= ai <= 109, where i ∈ [1..N]
+1 <= wi <= 109, where i ∈ [1..N]
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/208486892-82747ab6-bbbf-4e6c-a188-0049a3276987.PNG" width="400"></p>
+
+#### Sample Input/Output
+``` 
+Input:
+
+2  
+4  
+1 2 3 4  
+10 20 30 40  
+8  
+1 2 3 4 1 2 3 4  
+10 20 30 40 15 15 15 50
+
+
+Output:
+
+100  
+110
+
+
+```
+
+#### Explanation:
+
+```
+
+In the first sequence, the maximum size increasing subsequence is 4, and there's only one of them. We choose B = [(1, 10), (2, 20), (3, 30), (4, 40)], and we have Weight(B) = 100.
+In the second sequence, the maximum size increasing subsequence is still 4, but there are now 5 possible subsequences:
+1 2 3 4  
+10 20 30 40
+
+1 2 3 4  
+10 20 30 50
+
+1 2 3 4  
+10 20 15 50
+
+1 2 3 4  
+10 15 15 50
+
+1 2 3 4  
+15 15 15 50
+
+Of those, the one with the greatest weight is B = [(1, 10), (2, 20), (3, 30), (4, 50)], with Weight(B) = 110.
+Please note that this is not the maximum weight generated from picking the highest value element of each index. That value, 115, comes from [(1, 15), (2, 20), (3, 30), (4, 50)], which is not a valid subsequence because it cannot be created by only deleting elements in the original sequence.
+
+
+```
+- **References**
+    - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
+    - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
+    - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
+    - [Dynamic Programming](https://www.geeksforgeeks.org/dynamic-programming/)
+
+
+----
 FAQ
 ======
 
