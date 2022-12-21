@@ -1326,6 +1326,22 @@ The only reference Jonah has in order to correctly translate the given text into
 
 Upon studying them he discovered that the method of encryption, used a series of interwoven Caesar ciphers, that takes a codeword and given a plaintext repeats the codeword until it matches the length of the plaintext.
 
+L E M O N L E M O N L E
+A T T A C K A T D A W N
+
+The algorithm should encrypt every letter using a Caesar cipher shifted to the corresponding letter of the codeword. 
+
+So, for example:
+
+    - The first "A" is encrypted using a Caesar cipher of A → L (+11), so it becomes L.
+    
+    - The first "T" is encrypted using a Caesar cipher of A → E (+4), so it becomes X.
+    
+    - The second "T" is encrypted using a Caesar cipher of A → M (+12), so it becomes F.
+
+    Subsequently, we get:
+    LXFOPVEFRNHR
+
 Help Jonah by writing a program to encrypt the bogus messages correctly.
 
 
@@ -1377,24 +1393,9 @@ FBWVOYTQFOBLYHQULVEAZDUDIAEQICLATUKPYLHNNZALVHNBZMJHKONITQAMHBAFVSVKHV
 
 The first line of input is the codeword in this case “LEMON” and the next line of input is the message to be encrypted. 
 The message as well as the codeword do not have any spaces between the words.
- 
-L E M O N L E M O N L E
-A T T A C K A T D A W N
-
-The algorithm should encrypt every letter using a Caesar cipher shifted to the corresponding letter of the codeword. 
-
-So, for example:
-
-    - The first "A" is encrypted using a Caesar cipher of A → L (+11), so it becomes L.
-    
-    - The first "T" is encrypted using a Caesar cipher of A → E (+4), so it becomes X.
-    
-    - The second "T" is encrypted using a Caesar cipher of A → M (+12), so it becomes F.
-
-    Subsequently, we get:
-    LXFOPVEFRNHR
 
 ```
+
 - **References**
     - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
     - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
