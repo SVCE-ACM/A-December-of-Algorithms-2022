@@ -1327,6 +1327,7 @@ The only reference Jonah has in order to correctly translate the given text into
 Upon studying them he discovered that the method of encryption, used a series of interwoven Caesar ciphers, that takes a codeword and given a plaintext repeats the codeword until it matches the length of the plaintext.
 
 L E M O N L E M O N L E
+
 A T T A C K A T D A W N
 
 The algorithm should encrypt every letter using a Caesar cipher shifted to the corresponding letter of the codeword. 
@@ -1339,8 +1340,8 @@ So, for example:
     
     - The second "T" is encrypted using a Caesar cipher of A → M (+12), so it becomes F.
 
-    Subsequently, we get:
-    LXFOPVEFRNHR
+Subsequently, we get:
+LXFOPVEFRNHR
 
 Help Jonah by writing a program to encrypt the bogus messages correctly.
 
