@@ -3,8 +3,8 @@ public class Java_tarpandas {
 
     static boolean wordSearch(char arr[][], int i, int j, String input) {
         
-        int xDirection[] = {-1, -1, -1, 0, 0, 1, 1, 1};
-        int yDirection[] = {-1, 0, 1, -1, 1, -1, 0, 1};
+        int xDirection[] = {-1, 0, 0, 1};
+        int yDirection[] = {-1, -1, 1, 1};
         
         
         if(arr[i][j] != input.charAt(0)) {
