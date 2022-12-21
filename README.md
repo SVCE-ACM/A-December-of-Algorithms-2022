@@ -1316,7 +1316,7 @@ Your output must be the sequence of moves for the given number of discs.
 
 #### Problem Statement
 
-In the year 1977, Meyer Offerman, a rich Jewish businessman in New York and his covert associates called began hunting down all Nazi officials given asylum in the United States of America as a part of Operation Paperclip. 
+In the year 1977, Meyer Offerman, a rich Jewish businessman in New York and his covert associates began hunting down all Nazi officials given asylum in the United States of America as a part of Operation Paperclip. 
 
 On one of their missions they intercepted some messages hinting at a possible Third Reich in the works, but most of the message was encrypted into some code language meant only for the Reich. After spending weeks on trying to decode the messages and worried that the Third Reich of Nazi Germany may be inevitable, Murray Markowitz was finally able to interpret them and uncover one of the most sinister plots in American history. 
 
