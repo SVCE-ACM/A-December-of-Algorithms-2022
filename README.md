@@ -47,6 +47,7 @@ Check out our FAQ for more information.
   - [**December 19 - Hidden Anagram**](#december-19---hidden-anagram)
   - [**December 20 - Code a Subsequence**](#december-20---code-a-subsequence)
   - [**December 21 - The Devil Towers**](#december-21---the-devil-towers)
+  - [**December 22 - The Markowitz Paradox**](#december-22---the-markowitz-paradox)
   - [**FAQ**](#faq)
   
   
@@ -1307,6 +1308,100 @@ Your output must be the sequence of moves for the given number of discs.
 ```
 - **References**
     - [Recursive Algorithms](https://www.geeksforgeeks.org/introduction-to-recursion-data-structure-and-algorithm-tutorials/)
+
+
+----
+
+### December 22 - The Markowitz Paradox
+
+#### Problem Statement
+
+In the year 1977, Meyer Offerman, a rich Jewish businessman in New York and his covert associates began hunting down all Nazi officials given asylum in the United States of America as a part of Operation Paperclip. 
+
+On one of their missions they intercepted some messages hinting at a possible Third Reich in the works, but most of the message was encrypted into some code language meant only for the Reich. After spending weeks on trying to decode the messages and worried that the Third Reich of Nazi Germany may be inevitable, Murray Markowitz was finally able to interpret them and uncover one of the most sinister plots in American history. 
+
+The Hunters devised a plan to send bogus messages to the other Nazis on behalf of their Colonel, altering their plan of action and in the process destabilising the Reich. However, before Murray was able to encrypt the bogus messages he was killed in a subway explosion leaving Jonah Heidlbaum, the responsibility of completing his task.
+
+The only reference Jonah has in order to correctly translate the given text into the secret message is Murray’s old Caesar Cipher notes as the encryption algorithm he discovered was destroyed during the explosion. 
+
+Upon studying them he discovered that the method of encryption, used a series of interwoven Caesar ciphers, that takes a codeword and given a plaintext repeats the codeword until it matches the length of the plaintext.
+
+L E M O N L E M O N L E
+
+A T T A C K A T D A W N
+
+The algorithm should encrypt every letter using a Caesar cipher shifted to the corresponding letter of the codeword. 
+
+So, for example:
+
+    - The first "A" is encrypted using a Caesar cipher of A → L (+11), so it becomes L.
+    
+    - The first "T" is encrypted using a Caesar cipher of A → E (+4), so it becomes X.
+    
+    - The second "T" is encrypted using a Caesar cipher of A → M (+12), so it becomes F.
+
+Subsequently, we get:
+LXFOPVEFRNHR
+
+Help Jonah by writing a program to encrypt the bogus messages correctly.
+
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/208968039-bfda545d-7a79-47c6-ab1d-caf7ff7b9cdc.jpg" width="400"></p>
+
+
+#### Sample Input/Output
+``` 
+Input:
+
+LEMON
+ATTACKATDAWN
+
+Output:
+
+LXFOPVEFRNHR
+
+```
+
+``` 
+Input:
+
+HOTDOG
+CONEYISLANDONFRI
+
+
+Output:
+
+JCGHMOZZTQRUUTKL
+
+```
+
+``` 
+Input:
+
+MUSTANG
+THECOLNELWILLBEATCENTRALPARKWITHTHEDETONATORDONOTAPPROACHWITHOUTBACKUP
+
+Output:
+
+FBWVOYTQFOBLYHQULVEAZDUDIAEQICLATUKPYLHNNZALVHNBZMJHKONITQAMHBAFVSVKHV
+
+```
+
+#### Explanation:
+
+```
+
+The first line of input is the codeword in this case “LEMON” and the next line of input is the message to be encrypted. 
+The message as well as the codeword do not have any spaces between the words.
+
+```
+
+- **References**
+    - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
+    - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
+    - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
+    - [Caesar Cipher](https://www.geeksforgeeks.org/caesar-cipher-in-cryptography/)
 
 
 ----
