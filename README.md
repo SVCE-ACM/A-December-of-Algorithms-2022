@@ -48,7 +48,7 @@ Check out our FAQ for more information.
   - [**December 20 - Code a Subsequence**](#december-20---code-a-subsequence)
   - [**December 21 - The Devil Towers**](#december-21---the-devil-towers)
   - [**December 22 - The Markowitz Paradox**](#december-22---the-markowitz-paradox)
-  - [**December 23 - Meeting Rooms**](#december-22---meeting-rooms)
+  - [**December 23 - Meeting Rooms**](#december-23---meeting-rooms)
   - [**FAQ**](#faq)
   
   
