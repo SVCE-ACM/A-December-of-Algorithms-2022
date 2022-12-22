@@ -1192,6 +1192,19 @@ Output:
 100  
 110
 
+Input:
+
+2
+5 6
+2 4 3 5 1
+7 15
+6 3 12 4 5 1 2
+
+
+Output:
+
+1 1 2 2 3 1 
+1 1 1 2 3 2 2 3 1 1 2 2 0 0 0
 
 ```
 
@@ -1199,7 +1212,7 @@ Output:
 
 ```
 
-In the first sequence, the maximum size increasing subsequence is 4, and there's only one of them. We choose B = [(1, 10), (2, 20), (3, 30), (4, 40)], and we have Weight(B) = 100.
+In the first Example,at the first sequence, the maximum size increasing subsequence is 4, and there's only one of them. We choose B = [(1, 10), (2, 20), (3, 30), (4, 40)], and we have Weight(B) = 100.
 In the second sequence, the maximum size increasing subsequence is still 4, but there are now 5 possible subsequences:
 1 2 3 4  
 10 20 30 40
@@ -1229,6 +1242,8 @@ Please note that this is not the maximum weight generated from picking the highe
 
 
 ----
+
+
 
 ### December 21 - The Devil Towers
 
