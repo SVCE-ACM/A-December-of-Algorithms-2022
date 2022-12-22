@@ -4,14 +4,14 @@ public class Java_tarpandas {
     static boolean wordSearch(char arr[][], int i, int j, String input) {
         
         int xDirection[] = {-1, 0, 0, 1};
-        int yDirection[] = {-1, -1, 1, 1};
+        int yDirection[] = {0,-1,1,0};
         
         
         if(arr[i][j] != input.charAt(0)) {
             return false;
         }
 
-        for(int k = 0; k < 8; k++) {
+        for(int k = 0; k < 4; k++) {
             int l;
             int rowDir = i + xDirection[k];
             int colDir = j + yDirection[k];
@@ -35,7 +35,6 @@ public class Java_tarpandas {
     static boolean searchPattern(char arr[][], String input) {
         int rowSize = arr.length;
         int columnSize = arr[0].length;
-        System.out.println(rowSize+" "+columnSize);
 
         for(int i=0; i<rowSize;i++) {
             for(int j=0; j< columnSize; j++) {
