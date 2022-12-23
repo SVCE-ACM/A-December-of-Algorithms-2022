@@ -46,6 +46,9 @@ Check out our FAQ for more information.
   - [**December 18 - Find the way**](#december-18---find-the-way)
   - [**December 19 - Hidden Anagram**](#december-19---hidden-anagram)
   - [**December 20 - Code a Subsequence**](#december-20---code-a-subsequence)
+  - [**December 21 - The Devil Towers**](#december-21---the-devil-towers)
+  - [**December 22 - The Markowitz Paradox**](#december-22---the-markowitz-paradox)
+  - [**December 23 - Meeting Rooms**](#december-23---meeting-rooms)
   - [**FAQ**](#faq)
   
   
@@ -1192,6 +1195,19 @@ Output:
 100  
 110
 
+Input:
+
+2
+5 6
+2 4 3 5 1
+7 15
+6 3 12 4 5 1 2
+
+
+Output:
+
+1 1 2 2 3 1 
+1 1 1 2 3 2 2 3 1 1 2 2 0 0 0
 
 ```
 
@@ -1199,7 +1215,7 @@ Output:
 
 ```
 
-In the first sequence, the maximum size increasing subsequence is 4, and there's only one of them. We choose B = [(1, 10), (2, 20), (3, 30), (4, 40)], and we have Weight(B) = 100.
+In the first Example,at the first sequence, the maximum size increasing subsequence is 4, and there's only one of them. We choose B = [(1, 10), (2, 20), (3, 30), (4, 40)], and we have Weight(B) = 100.
 In the second sequence, the maximum size increasing subsequence is still 4, but there are now 5 possible subsequences:
 1 2 3 4  
 10 20 30 40
@@ -1229,6 +1245,269 @@ Please note that this is not the maximum weight generated from picking the highe
 
 
 ----
+
+
+
+### December 21 - The Devil Towers
+
+#### Problem Statement
+
+Morpheus, the ruler of the Kingdom of Dreaming was summoned and robbed of his possessions and kept in confinement for 106 years. Upon his escape from the shackles of time, Morpheus now wishes to find his lost possessions, a scarlet ruby, a pouch of sand, and his helm, a ceremonial crown he must dorn to become King of Dreaming again.
+
+To his utter shock, his helm resides in the hands of a Lesser Daemon in the depths of Hell. Morpheus descends into hell and is immediately in an audience with Pandaemonium’s ruler, Lucifer Morningstar. The Lesser Daemon challenges Morpheus to a tourney of brilliance, to a game known as the Devil Towers.
+
+The Daemon gives Morpheus 3 towers. At the end of the game, all discs must be stacked on only a single tower, leaving the others empty.
+
+The Daemon claims Lucifer as his champion, while Morpheus calls you in as his, and so you are tasked with moving all discs from the first to the third tower, heeding the Daemon’s rules:-
+
+        - You can only move one disc at a time.
+        
+        - Only the disc at the top of the tower can be moved. 
+        
+        - Discs can only be moved by first moving discs above them.
+        
+        - No disc may be placed on top of a smaller disc.
+        
+        - You have only certain fixed moves:
+        
+                    left->right, left->middle
+               
+                    middle->left, middle->right
+                    
+                    right->left, right->middle
+                    
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/208724678-d03ae57c-2940-42ad-bbae-1721df372728.gif" width="400"></p>
+
+
+#### Sample Input/Output
+``` 
+Input:
+
+Number of discs: 3
+
+Output:
+
+The sequence of moves :
+Move disk 1 from tower I to tower III
+Move disk 2 from tower I to tower II
+Move disk 1 from tower III to tower II
+Move disk 3 from tower I to tower III
+Move disk 1 from tower II to tower I
+Move disk 2 from tower II to tower III
+Move disk 1 from tower I to tower III
+
+```
+
+``` 
+Input:
+
+Number of discs: 2
+
+Output:
+
+The sequence of moves :
+ Move disk 1 from tower I to tower II
+ Move disk 2 from tower I to tower III
+ Move disk 1 from tower II to tower III
+
+```
+
+#### Explanation:
+
+```
+
+Your input will be a number indicating the total number of disks on the first (left) tower.
+Your output must be the sequence of moves for the given number of discs.
+
+```
+- **References**
+    - [Recursive Algorithms](https://www.geeksforgeeks.org/introduction-to-recursion-data-structure-and-algorithm-tutorials/)
+
+
+----
+
+### December 22 - The Markowitz Paradox
+
+#### Problem Statement
+
+In the year 1977, Meyer Offerman, a rich Jewish businessman in New York and his covert associates began hunting down all Nazi officials given asylum in the United States of America as a part of Operation Paperclip. 
+
+On one of their missions they intercepted some messages hinting at a possible Third Reich in the works, but most of the message was encrypted into some code language meant only for the Reich. After spending weeks on trying to decode the messages and worried that the Third Reich of Nazi Germany may be inevitable, Murray Markowitz was finally able to interpret them and uncover one of the most sinister plots in American history. 
+
+The Hunters devised a plan to send bogus messages to the other Nazis on behalf of their Colonel, altering their plan of action and in the process destabilising the Reich. However, before Murray was able to encrypt the bogus messages he was killed in a subway explosion leaving Jonah Heidlbaum, the responsibility of completing his task.
+
+The only reference Jonah has in order to correctly translate the given text into the secret message is Murray’s old Caesar Cipher notes as the encryption algorithm he discovered was destroyed during the explosion. 
+
+Upon studying them he discovered that the method of encryption, used a series of interwoven Caesar ciphers, that takes a codeword and given a plaintext repeats the codeword until it matches the length of the plaintext.
+
+L E M O N L E M O N L E
+
+A T T A C K A T D A W N
+
+The algorithm should encrypt every letter using a Caesar cipher shifted to the corresponding letter of the codeword. 
+
+So, for example:
+
+    - The first "A" is encrypted using a Caesar cipher of A → L (+11), so it becomes L.
+    
+    - The first "T" is encrypted using a Caesar cipher of A → E (+4), so it becomes X.
+    
+    - The second "T" is encrypted using a Caesar cipher of A → M (+12), so it becomes F.
+
+Subsequently, we get:
+LXFOPVEFRNHR
+
+Help Jonah by writing a program to encrypt the bogus messages correctly.
+
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/208968039-bfda545d-7a79-47c6-ab1d-caf7ff7b9cdc.jpg" width="400"></p>
+
+
+#### Sample Input/Output
+``` 
+Input:
+
+LEMON
+ATTACKATDAWN
+
+Output:
+
+LXFOPVEFRNHR
+
+```
+
+``` 
+Input:
+
+HOTDOG
+CONEYISLANDONFRI
+
+
+Output:
+
+JCGHMOZZTQRUUTKL
+
+```
+
+``` 
+Input:
+
+MUSTANG
+THECOLNELWILLBEATCENTRALPARKWITHTHEDETONATORDONOTAPPROACHWITHOUTBACKUP
+
+Output:
+
+FBWVOYTQFOBLYHQULVEAZDUDIAEQICLATUKPYLHNNZALVHNBZMJHKONITQAMHBAFVSVKHV
+
+```
+
+#### Explanation:
+
+```
+
+The first line of input is the codeword in this case “LEMON” and the next line of input is the message to be encrypted. 
+The message as well as the codeword do not have any spaces between the words.
+
+```
+
+- **References**
+    - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
+    - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
+    - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
+    - [Caesar Cipher](https://www.geeksforgeeks.org/caesar-cipher-in-cryptography/)
+
+
+----
+
+### December 23 - Meeting Rooms
+
+#### Problem Statement
+
+You are given an integer n. There are n rooms numbered from 0 to n - 1.
+
+You are given a 2D integer array meetings where meetings[i] = [starti, endi] means that a meeting will be held during the half-closed time interval [starti, endi). All the values of starti are unique.
+
+Meetings are allocated to rooms in the following manner:
+
+Each meeting will take place in the unused room with the lowest number.
+
+If there are no available rooms, the meeting will be delayed until a room becomes free. The delayed meeting should have the same duration as the original meeting.
+
+When a room becomes unused, meetings that have an earlier original start time should be given the room.
+
+Return the number of the room that held the most meetings. If there are multiple rooms, return the room with the lowest number.
+
+A half-closed interval [a, b) is the interval between a and b including a and not including b.
+
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/209187411-30d43abd-04df-473d-9e81-ad9665b88ba2.jpg" width="400"></p>
+
+
+#### Sample Input/Output
+``` 
+Input:
+
+n = 2
+
+meetings = [[0,10],[1,5],[2,7],[3,4]]
+
+
+Output:
+
+0
+
+```
+
+``` 
+Input:
+
+n = 3
+
+meetings = [[1,20],[2,10],[3,5],[4,9],[6,8]]
+
+
+Output:
+
+1
+
+```
+
+
+#### Explanation:
+
+```
+
+For the first sample input the first line is the number of rooms and the second line of input is the meetings with the start and end time.
+
+- At time 0, both rooms are not being used. The first meeting starts in room 0.
+
+- At time 1, only room 1 is not being used. The second meeting starts in room 1.
+
+- At time 2, both rooms are being used. The third meeting is delayed.
+
+- At time 3, both rooms are being used. The fourth meeting is delayed.
+
+- At time 5, the meeting in room 1 finishes. The third meeting starts in room 1 for the time period [5,10).
+
+- At time 10, the meetings in both rooms finish. The fourth meeting starts in room 0 for the time period [10,11).
+  
+  Both rooms 0 and 1 held 2 meetings, so we return 0. 
+
+
+
+```
+- **References**
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+
+
+----
+
 FAQ
 ======
 
