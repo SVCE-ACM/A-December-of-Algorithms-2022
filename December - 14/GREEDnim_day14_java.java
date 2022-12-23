@@ -57,6 +57,7 @@ public class GREEDnim_day14_java {
                 q.offer(i);
             }
         }
+        //bfs
         while(!q.isEmpty()){
             int row=q.poll();
             int curG=map.get(row);
