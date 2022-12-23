@@ -49,6 +49,7 @@ Check out our FAQ for more information.
   - [**December 21 - The Devil Towers**](#december-21---the-devil-towers)
   - [**December 22 - The Markowitz Paradox**](#december-22---the-markowitz-paradox)
   - [**December 23 - Meeting Rooms**](#december-23---meeting-rooms)
+  - [**December 24 - Cracking The Safe**](#december-24---cracking-the-safe)
   - [**FAQ**](#faq)
   
   
@@ -1503,6 +1504,101 @@ For the first sample input the first line is the number of rooms and the second 
 
 
 ----
+
+### December 24 - Cracking The Safe
+
+#### Problem Statement
+
+There is a safe protected by a password. The password is a sequence of n digits where each digit can be in the range [0, k - 1].
+
+The safe has a peculiar way of checking the password. When you enter in a sequence, it checks the most recent n digits that were entered each time you type a digit.
+
+For example, the correct password is "345" and you enter in "012345":
+
+    - After typing 0, the most recent 3 digits is "0", which is incorrect.
+    
+    - After typing 1, the most recent 3 digits is "01", which is incorrect.
+    
+    - After typing 2, the most recent 3 digits is "012", which is incorrect.
+    
+    - After typing 3, the most recent 3 digits is "123", which is incorrect.
+    
+    - After typing 4, the most recent 3 digits is "234", which is incorrect.
+    
+    - After typing 5, the most recent 3 digits is "345", which is correct and the safe unlocks.
+    
+Return any string of minimum length that will unlock the safe at some point of entering it
+
+
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/209376144-4c112416-46de-42bb-b93f-de62683ae156.jpg" width="400"></p>
+
+
+
+#### Sample Input/Output
+``` 
+Input:
+
+ n = 1
+ k = 2
+
+
+Output:
+
+"10"
+
+```
+
+``` 
+Input:
+
+n = 2
+k = 2
+
+
+Output:
+
+"01100"
+
+```
+
+
+#### Explanation:
+
+```
+Sample - 1
+
+ The password is a single digit, so enter each digit. "01" would also unlock the safe.
+
+
+Sample - 2
+
+For each possible password:
+
+- "00" is typed in starting from the 4th digit.
+
+- "01" is typed in starting from the 1st digit.
+
+- "10" is typed in starting from the 3rd digit.
+
+- "11" is typed in starting from the 2nd digit.
+
+Thus "01100" will unlock the safe. "01100", "10011", and "11001" would also unlock the safe.
+
+
+```
+- **References**
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
+    - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
+    - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
+
+
+----
+
 
 FAQ
 ======
