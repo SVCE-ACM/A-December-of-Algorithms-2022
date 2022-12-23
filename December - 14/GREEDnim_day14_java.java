@@ -8,7 +8,10 @@ import java.util.Scanner;
 
 public class GREEDnim_day14_java {
 
+// map for every vetex and its group 
     static HashMap<Integer,Integer>map=new HashMap<>();
+
+// checker to check if ive already visited the node and placed it in correct group
     static boolean[] check;
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
@@ -41,9 +44,10 @@ public class GREEDnim_day14_java {
     public static boolean isBipartate(int[][] inp,int cur)
     {
 
+        // making the current element as group 0, adding group to its neighbours as 1 and putting neighbours into queue for bfs
         Queue<Integer>q=new LinkedList<>();
         map.put(cur,0);
-        check[0]=true;
+        check[cur]=true;
         for(int i=0;i<inp[0].length;i++)
         {
             if(inp[0][i]==1)
