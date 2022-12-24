@@ -50,6 +50,7 @@ Check out our FAQ for more information.
   - [**December 22 - The Markowitz Paradox**](#december-22---the-markowitz-paradox)
   - [**December 23 - Meeting Rooms**](#december-23---meeting-rooms)
   - [**December 24 - Cracking The Safe**](#december-24---cracking-the-safe)
+  - [**December 25 - The Motorbike Race**](#december-25---the-motorbike-race)
   - [**FAQ**](#faq)
   
   
@@ -1599,6 +1600,90 @@ Thus "01100" will unlock the safe. "01100", "10011", and "11001" would also unlo
 
 ----
 
+### December 25 - The Motorbike Race
+
+#### Problem Statement
+
+It's time for the annual exciting Motorbike Race in Bangalore.
+
+There are N motorcyclists taking part in the competition. George is watching the race. 
+
+At the present moment (time 0),  he has taken note of the current velocity and position of each motorcyclist.
+
+He wants to know at a given point of time, which motorcyclist is in a specific place in the rank list. 
+
+Please help him!
+
+If at any given time two motorcyclists are in same position, the motorcyclist with the smaller index will be placed before the one with the larger index.
+
+To make the problem simple,  he  assumes that each motorcyclist is moving at a constant velocity.
+
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/209445111-2485a080-c031-4688-b8a8-172ec6410654.jpg" width="400"></p>
+
+
+
+#### Sample Input/Output
+``` 
+Input:
+
+1
+4
+2 100
+3 50
+4 60
+5 1
+4
+1 1
+50 2
+60 4
+100 1
+
+
+
+Output:
+
+1
+4
+1
+4
+
+
+```
+
+
+#### Explanation:
+
+```
+Input
+
+The first line contains a number t (about 10) which is the number of test cases. 
+
+Then t test cases follow. Each test case has the following form.
+
+The first line of the test case contains a number N (1 <= N <= 2000), the number of motorcyclists.
+
+The i-th line in the next N lines contains two numbers, v and x, which are the velocity and the current position of the i-th motorcyclist (1 <= v, x <= 100,000).
+
+The next line contains a number Q (1 <= Q <= 2000), the number of time queries.
+
+Each line in the next Q lines contains two numbers, t (1 <= t <= 1,000,000,000) and k (1 <= k <= n), representing the query: "at time t, which motorcyclist is positioned k-th in the rank list?"
+
+Output:
+
+For each test case, print Q lines, with each line containing the index of the motorcyclist for the corresponding query.
+
+Remember to print a new line after each test case.
+
+```
+- **References**
+    - [Looping in C](https://www.tutorialspoint.com/cprogramming/c_loops.htm)
+    - [Looping in C++](https://www.programiz.com/cpp-programming/for-loop)
+    - [Looping in Java](https://www.geeksforgeeks.org/loops-in-java/)
+    - [Looping in Python](https://www.w3schools.com/python/python_for_loops.asp)
+
+----
 
 FAQ
 ======
