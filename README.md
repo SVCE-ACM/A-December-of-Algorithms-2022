@@ -51,6 +51,7 @@ Check out our FAQ for more information.
   - [**December 23 - Meeting Rooms**](#december-23---meeting-rooms)
   - [**December 24 - Cracking The Safe**](#december-24---cracking-the-safe)
   - [**December 25 - The Motorbike Race**](#december-25---the-motorbike-race)
+  - [**December 26 - Circulate**](#december-26---circulate)
   - [**FAQ**](#faq)
   
   
@@ -1683,6 +1684,81 @@ Remember to print a new line after each test case.
     - [Looping in Java](https://www.geeksforgeeks.org/loops-in-java/)
     - [Looping in Python](https://www.w3schools.com/python/python_for_loops.asp)
 
+----
+
+### December 26 - Circulate
+
+#### Problem Statement
+
+A group of n people are trying to spread a word among themselves. 
+
+The word is initially only known by the first person in the group. 
+
+The first person may share the word with a few people that he knows, and those people may share the word with the people they know, and so on. 
+
+The task is to determine whether the word has been successfully spread to all n people in the group. 
+
+If the word has been successfully spread to all n people, the program should print "Spread". 
+
+If the word has not yet been successfully spread to all n people, the program should print "Nope".
+
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/209476068-c5ec3edd-9da8-4ebc-b5cf-3b955fff9b81.jpg" width="400"></p>
+
+
+
+#### Sample Input/Output
+``` 
+Input:
+
+[[2], [3, 4], [2], [2]]
+
+
+Output:
+
+Spread
+
+
+```
+
+``` 
+Input:
+
+[[2], [5, 4, 6], [3], [4], [5], [6]]
+
+
+Output: 
+
+Nope
+
+
+```
+
+
+#### Explanation:
+
+```
+
+The first person said the word to the second person. 
+
+The second person said the word to the third and fourth person.
+
+Third person shares the word with the second person.
+
+The list has four persons and everyone knows what the word is so the output is “Spread”.
+
+
+```
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/209476058-e08a4bc6-9a28-4846-99c0-e47333015739.png" width="400"></p>
+
+
+- **References**
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    
 ----
 
 FAQ
