@@ -1754,6 +1754,7 @@ The list has four persons and everyone knows what the word is so the output is �
 
 <p align="center"><img src="https://user-images.githubusercontent.com/105559815/209476058-e08a4bc6-9a28-4846-99c0-e47333015739.png" width="400"></p>
 
+----
 
 ### December 27 - Mission to Earth: Re-Calibrated
 
@@ -1767,7 +1768,9 @@ Fuel gauges indicate, often with fractions, just how much fuel is in a tank. For
 
 You are the Fuel Engine Calibrator, FEC and WALL-E needs your help. 
 
-The Fuel Tank’s capacity is 30,000 L. Implement a program that prompts the user for a fraction, formatted as X/Y, wherein each of X and Y is an integer, and then outputs, as a percentage rounded to the nearest integer, how much fuel is in the tank.
+The Fuel Tank’s capacity is 30,000 L. 
+
+Implement a program that prompts the user for a fraction, formatted as X/Y, wherein each of X and Y is an integer, and then outputs, as a percentage rounded to the nearest integer, how much fuel is in the tank.
 
 If 1% or less remains, output E instead indicates that the tank is essentially empty. And if 99% or more remains, output F instead to indicate that the tank is essentially full. Calculate the total fuel in the Fuel Tank.
 
@@ -1786,22 +1789,28 @@ Enter the Hydrogen fuel fraction:
 5/7
 
 Output:
-Fuel calibration:
-71.428%
-Amount of fuel in tank:
-21,428.4 L out of 30,000 L
 
+Fuel calibration: 71.428%
+Amount of fuel in tank: 21,428.4 L out of 30,000 L
+
+```
+
+```
 
 Input: 
+
 Enter the Hydrogen fuel fraction:
 722/729
 
 Output:
-Fuel calibration:
-99.039%
-Amount of fuel in tank:
-29,711.7 L out of 30,000 L
-The tank is FULL!!!
+
+Fuel calibration: 99.039%
+Amount of fuel in tank: 29,711.7 L out of 30,000 L
+The tank is FULL!
+
+```
+
+```
 
 Input: 
 Enter the Hydrogen fuel fraction:
@@ -1809,12 +1818,18 @@ Enter the Hydrogen fuel fraction:
 
 Output:
 
-Fuel calibration:
-0.160%
-Amount of fuel in tank:
-48 L out of 30,000 L
+Fuel calibration: 0.160%
+Amount of fuel in tank: 48 L out of 30,000 L
 The tank is EMPTY!!!
 Refill tank.
+
+```
+
+- **References**
+    - [Looping in C](https://www.tutorialspoint.com/cprogramming/c_loops.htm)
+    - [Looping in C++](https://www.programiz.com/cpp-programming/for-loop)
+    - [Looping in Java](https://www.geeksforgeeks.org/loops-in-java/)
+    - [Looping in Python](https://www.w3schools.com/python/python_for_loops.asp)
 
 ----
 
