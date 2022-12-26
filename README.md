@@ -52,7 +52,7 @@ Check out our FAQ for more information.
   - [**December 24 - Cracking The Safe**](#december-24---cracking-the-safe)
   - [**December 25 - The Motorbike Race**](#december-25---the-motorbike-race)
   - [**December 26 - Circulate**](#december-26---circulate)
-  - [**December 27 - Mission to Earth: Re Calibrated**](#december-27---mission-to-earth:-re-calibrated)
+  - [**December 27 - Mission to Earth: Re-Calibrated**](#december-27---mission-to-earth-re-calibrated)
   - [**FAQ**](#faq)
   
   
