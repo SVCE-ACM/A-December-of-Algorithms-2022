@@ -1754,11 +1754,62 @@ The list has four persons and everyone knows what the word is so the output is �
 <p align="center"><img src="https://user-images.githubusercontent.com/105559815/209476058-e08a4bc6-9a28-4846-99c0-e47333015739.png" width="400"></p>
 
 
-- **References**
-    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
-    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
-    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
-    
+### December 27 - Mission to Earth: Re-Calibrated
+
+#### Problem Statement
+
+AUTO, the autopilot helm of the starliner The Axiom lead a coup of robots and breached security, infiltrating the Boiler Room and Fuel Tank mechanics to steer the Axiom away from the Earth. 
+WALL-E manages to follow the robots who joined AUTO’s cause in disguise to annihilate him and recalibrate the Fuel Tank mechanics so that humans can finally set foot on their home planet in 2805.
+Fuel gauges indicate, often with fractions, just how much fuel is in a tank. For instance, 1/4 indicates that a tank is 25% full, 1/2 indicates that a tank is 50% full, and 3/4 indicates that a tank is 75% full.
+You are the Fuel Engine Calibrator, FEC and WALL-E needs your help. 
+The Fuel Tank’s capacity is 30,000 L. Implement a program that prompts the user for a fraction, formatted as X/Y, wherein each of X and Y is an integer, and then outputs, as a percentage rounded to the nearest integer, how much fuel is in the tank.
+If 1% or less remains, output E instead indicates that the tank is essentially empty. And if 99% or more remains, output F instead to indicate that the tank is essentially full. Calculate the total fuel in the Fuel Tank.
+If X or Y is not an integer, X is greater than Y, or Y is 0, prompt the user again. (It is optional for Y to be 4.) Be sure to catch any exceptions like ValueError or ZeroDivisionError.
+
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/209476068-c5ec3edd-9da8-4ebc-b5cf-3b955fff9b81.jpg" width="400"></p>
+
+
+
+#### Sample Input/Output
+``` 
+Input: 
+
+Enter the Hydrogen fuel fraction:
+5/7
+
+Output:
+Fuel calibration:
+71.428%
+Amount of fuel in tank:
+21,428.4 L out of 30,000 L
+
+
+Input: 
+Enter the Hydrogen fuel fraction:
+722/729
+
+Output:
+Fuel calibration:
+99.039%
+Amount of fuel in tank:
+29,711.7 L out of 30,000 L
+The tank is FULL!!!
+
+Input: 
+Enter the Hydrogen fuel fraction:
+25/156
+
+Output:
+
+Fuel calibration:
+0.160%
+Amount of fuel in tank:
+48 L out of 30,000 L
+The tank is EMPTY!!!
+Refill tank.
+
 ----
 
 FAQ
