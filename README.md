@@ -53,6 +53,7 @@ Check out our FAQ for more information.
   - [**December 25 - The Motorbike Race**](#december-25---the-motorbike-race)
   - [**December 26 - Circulate**](#december-26---circulate)
   - [**December 27 - Mission to Earth: Re-Calibrated**](#december-27---mission-to-earth-re-calibrated)
+  - [**December 28 - The Journey to the Eternal Engine**](#december-28---the-journey-to-the-eternal-engine)
   - [**FAQ**](#faq)
   
   
@@ -1832,6 +1833,68 @@ Refill tank.
     - [Looping in Python](https://www.w3schools.com/python/python_for_loops.asp)
 
 ----
+
+### December 28 - The Journey to the Eternal Engine
+
+#### Problem Statement
+
+In a dystopian world where a failed attempt at reversing the effects of global warming has left the Earth frozen over and has eradicated most of life, the only surviving souls live on a perpetually moving train called Snowpiercer. The passengers of the train are divided based on class (First, Second and Third). Passengers who did not purchase a ticket and are not of the working class of the train have been locked up in the back of the train called the Tail. Andre Layton the head Tailie inspires a rebellion along with the other Tailies to take over the Eternal Engine from the Head Engineer. 
+In order for them to do this, they must leave the tail without getting caught by the Jackboots or the Brakemen.  
+Layton comes up with a plan to help him and a few of the other Tailies reach the Engine. They must scale the outside of the train to go from the Tail to the nearest third class compartment, in order to not get caught. One of their allies in the third class has agreed to keep the compartment door open and keep a watch for the Jackboots or the Brakemen patrolling the train.  
+
+Conditions:
+There are only 2 breach suits and without them, if one is exposed to the freezing air, they will instantly succumb to frostbite.
+There needs to be at least 3 Tailies (including Layton) to even attempt to take over the engine.
+One Tailie must move back and forth along the same path in order to bring back a breach suit for the remaining Tailies left to make it to the third class compartment.
+While moving along the path, both the Tailies must walk at the slower person’s pace.
+
+Given the time taken for each individual Tailie to walk in seconds, calculate the minimum amount of time, in minutes,  it will take for all the Tailies to make it from the Tail to the Third Class compartment successfully.
+
+<p align="center"><img src="https://user-images.githubusercontent.com/119505502/209691779-d89eebd2-ceec-4944-ad02-0cdbdef59ce6.jpg" width="400"></p>
+
+
+#### Sample Input/Output
+``` 
+Input: 
+
+n=3
+
+Walking time: { 15, 40, 60 }
+
+Output:
+
+1.916
+
+Input: 
+
+n=9
+ 
+Walking time: { 3, 10, 12, 13, 15, 17, 21, 35, 23 }
+
+Output:
+
+2.683
+
+``` 
+EXPLANATION
+``` 
+Input format:
+In the first line of the input you are given the number of Tailies (including Layton).
+In the second line of the input you are given the walking time of each of the Tailies in seconds as an array in sorted order.
+
+In the first example, the first person, say Layton (15) and the second (40) travel together, this takes 40 seconds.
+Layton walks back to the Tail with the breach suit and this takes another 15 seconds.
+
+With the last Tailie he walks to the third class compartment and this takes 60 seconds.
+Adding all this we get, 40+15+60= 115 seconds which is 1.916 minutes.  
+
+```
+
+- **References**
+    - [Looping in C](https://www.tutorialspoint.com/cprogramming/c_loops.htm)
+    - [Looping in C++](https://www.programiz.com/cpp-programming/for-loop)
+    - [Looping in Java](https://www.geeksforgeeks.org/loops-in-java/)
+    - [Looping in Python](https://www.w3schools.com/python/python_for_loops.asp)
 
 FAQ
 ======
