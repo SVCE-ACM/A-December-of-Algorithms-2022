@@ -1854,7 +1854,7 @@ Conditions:
 
     There needs to be at least 3 Tailies (including Layton) to even attempt to take over the engine.
 
-    One Tailie must move back and forth along the same path in order to bring back a breach suit for the remaining Tailies left to make it to the third class compartment.
+    One Tailie must move back and forth along the same path in order to bring back a breach suit for the remaining Tailies left to make it to the third class compartment. It is not necessary that the same Tailie moves back and forth the whole time. 
 
     While moving along the path, both the Tailies must walk at the slower person’s pace.
 
