@@ -1882,7 +1882,7 @@ Input:
 
 n=9
  
-Walking time: { 3, 10, 12, 13, 15, 17, 21, 23, 35 }
+Walking time: { 3, 10, 12, 13, 15, 17, 21, 35, 23 }
 
 Output:
 
@@ -1897,7 +1897,7 @@ Input format:
 
 In the first line of the input you are given the number of Tailies (including Layton).
 
-In the second line of the input you are given the walking time of each of the Tailies in seconds as an array in sorted order.
+In the second line of the input you are given the walking time of each of the Tailies in seconds as an array.
 
 
 In the first example, the first person, say Layton (15) and the second (40) travel together, this takes 40 seconds.
