@@ -1881,6 +1881,19 @@ Output:
 ```
 Input: 
 
+n=4
+ 
+Walking time: { 1, 2, 8, 5 }
+
+Output:
+
+0.25 
+
+``` 
+
+```
+Input: 
+
 n=9
  
 Walking time: { 3, 10, 12, 13, 15, 17, 21, 35, 23 }
@@ -1890,6 +1903,7 @@ Output:
 2.683
 
 ``` 
+
 
 #### Explanation
 
