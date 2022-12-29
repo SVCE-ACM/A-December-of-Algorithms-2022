@@ -1820,7 +1820,7 @@ The tank is FULL!
 
 Input: 
 Enter the Hydrogen fuel fraction:
-25/156
+25/15600
 
 Output:
 
