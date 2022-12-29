@@ -48,6 +48,13 @@ Check out our FAQ for more information.
   - [**December 20 - Code a Subsequence**](#december-20---code-a-subsequence)
   - [**December 21 - The Devil Towers**](#december-21---the-devil-towers)
   - [**December 22 - The Markowitz Paradox**](#december-22---the-markowitz-paradox)
+  - [**December 23 - Meeting Rooms**](#december-23---meeting-rooms)
+  - [**December 24 - Cracking The Safe**](#december-24---cracking-the-safe)
+  - [**December 25 - The Motorbike Race**](#december-25---the-motorbike-race)
+  - [**December 26 - Circulate**](#december-26---circulate)
+  - [**December 27 - Mission to Earth: Re-Calibrated**](#december-27---mission-to-earth-re-calibrated)
+  - [**December 28 - The Journey to the Eternal Engine**](#december-28---the-journey-to-the-eternal-engine)
+  - [**December 29 - Candies**](#december-29---candies)
   - [**FAQ**](#faq)
   
   
@@ -1194,6 +1201,19 @@ Output:
 100  
 110
 
+Input:
+
+2
+5 6
+2 4 3 5 1
+7 15
+6 3 12 4 5 1 2
+
+
+Output:
+
+1 1 2 2 3 1 
+1 1 1 2 3 2 2 3 1 1 2 2 0 0 0
 
 ```
 
@@ -1201,7 +1221,7 @@ Output:
 
 ```
 
-In the first sequence, the maximum size increasing subsequence is 4, and there's only one of them. We choose B = [(1, 10), (2, 20), (3, 30), (4, 40)], and we have Weight(B) = 100.
+In the first Example,at the first sequence, the maximum size increasing subsequence is 4, and there's only one of them. We choose B = [(1, 10), (2, 20), (3, 30), (4, 40)], and we have Weight(B) = 100.
 In the second sequence, the maximum size increasing subsequence is still 4, but there are now 5 possible subsequences:
 1 2 3 4  
 10 20 30 40
@@ -1231,6 +1251,8 @@ Please note that this is not the maximum weight generated from picking the highe
 
 
 ----
+
+
 
 ### December 21 - The Devil Towers
 
@@ -1405,6 +1427,598 @@ The message as well as the codeword do not have any spaces between the words.
 
 
 ----
+
+### December 23 - Meeting Rooms
+
+#### Problem Statement
+
+You are given an integer n. There are n rooms numbered from 0 to n - 1.
+
+You are given a 2D integer array meetings where meetings[i] = [starti, endi] means that a meeting will be held during the half-closed time interval [starti, endi). All the values of starti are unique.
+
+Meetings are allocated to rooms in the following manner:
+
+Each meeting will take place in the unused room with the lowest number.
+
+If there are no available rooms, the meeting will be delayed until a room becomes free. The delayed meeting should have the same duration as the original meeting.
+
+When a room becomes unused, meetings that have an earlier original start time should be given the room.
+
+Return the number of the room that held the most meetings. If there are multiple rooms, return the room with the lowest number.
+
+A half-closed interval [a, b) is the interval between a and b including a and not including b.
+
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/209187411-30d43abd-04df-473d-9e81-ad9665b88ba2.jpg" width="400"></p>
+
+
+#### Sample Input/Output
+``` 
+Input:
+
+n = 2
+
+meetings = [[0,10],[1,5],[2,7],[3,4]]
+
+
+Output:
+
+0
+
+```
+
+``` 
+Input:
+
+n = 3
+
+meetings = [[1,20],[2,10],[3,5],[4,9],[6,8]]
+
+
+Output:
+
+1
+
+```
+
+
+#### Explanation:
+
+```
+
+For the first sample input the first line is the number of rooms and the second line of input is the meetings with the start and end time.
+
+- At time 0, both rooms are not being used. The first meeting starts in room 0.
+
+- At time 1, only room 1 is not being used. The second meeting starts in room 1.
+
+- At time 2, both rooms are being used. The third meeting is delayed.
+
+- At time 3, both rooms are being used. The fourth meeting is delayed.
+
+- At time 5, the meeting in room 1 finishes. The third meeting starts in room 1 for the time period [5,10).
+
+- At time 10, the meetings in both rooms finish. The fourth meeting starts in room 0 for the time period [10,11).
+  
+  Both rooms 0 and 1 held 2 meetings, so we return 0. 
+
+
+
+```
+- **References**
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+
+
+----
+
+### December 24 - Cracking The Safe
+
+#### Problem Statement
+
+There is a safe protected by a password. The password is a sequence of n digits where each digit can be in the range [0, k - 1].
+
+The safe has a peculiar way of checking the password. When you enter in a sequence, it checks the most recent n digits that were entered each time you type a digit.
+
+For example, the correct password is "345" and you enter in "012345":
+
+    - After typing 0, the most recent 3 digits is "0", which is incorrect.
+    
+    - After typing 1, the most recent 3 digits is "01", which is incorrect.
+    
+    - After typing 2, the most recent 3 digits is "012", which is incorrect.
+    
+    - After typing 3, the most recent 3 digits is "123", which is incorrect.
+    
+    - After typing 4, the most recent 3 digits is "234", which is incorrect.
+    
+    - After typing 5, the most recent 3 digits is "345", which is correct and the safe unlocks.
+    
+Return any string of minimum length that will unlock the safe at some point of entering it
+
+
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/209376144-4c112416-46de-42bb-b93f-de62683ae156.jpg" width="400"></p>
+
+
+
+#### Sample Input/Output
+``` 
+Input:
+
+ n = 1
+ k = 2
+
+
+Output:
+
+"10"
+
+```
+
+``` 
+Input:
+
+n = 2
+k = 2
+
+
+Output:
+
+"01100"
+
+```
+
+
+#### Explanation:
+
+```
+Sample - 1
+
+ The password is a single digit, so enter each digit. "01" would also unlock the safe.
+
+
+Sample - 2
+
+For each possible password:
+
+- "00" is typed in starting from the 4th digit.
+
+- "01" is typed in starting from the 1st digit.
+
+- "10" is typed in starting from the 3rd digit.
+
+- "11" is typed in starting from the 2nd digit.
+
+Thus "01100" will unlock the safe. "01100", "10011", and "11001" would also unlock the safe.
+
+
+```
+- **References**
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
+    - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
+    - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
+
+
+----
+
+### December 25 - The Motorbike Race
+
+#### Problem Statement
+
+It's time for the annual exciting Motorbike Race in Bangalore.
+
+There are N motorcyclists taking part in the competition. George is watching the race. 
+
+At the present moment (time 0),  he has taken note of the current velocity and position of each motorcyclist.
+
+He wants to know at a given point of time, which motorcyclist is in a specific place in the rank list. 
+
+Please help him!
+
+If at any given time two motorcyclists are in same position, the motorcyclist with the smaller index will be placed before the one with the larger index.
+
+To make the problem simple,  he  assumes that each motorcyclist is moving at a constant velocity.
+
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/209445111-2485a080-c031-4688-b8a8-172ec6410654.jpg" width="400"></p>
+
+
+
+#### Sample Input/Output
+``` 
+Input:
+
+1
+4
+2 100
+3 50
+4 60
+5 1
+4
+1 1
+50 2
+60 4
+100 1
+
+
+
+Output:
+
+1
+4
+1
+4
+
+
+```
+
+
+#### Explanation:
+
+```
+Input
+
+The first line contains a number t (about 10) which is the number of test cases. 
+
+Then t test cases follow. Each test case has the following form.
+
+The first line of the test case contains a number N (1 <= N <= 2000), the number of motorcyclists.
+
+The i-th line in the next N lines contains two numbers, v and x, which are the velocity and the current position of the i-th motorcyclist (1 <= v, x <= 100,000).
+
+The next line contains a number Q (1 <= Q <= 2000), the number of time queries.
+
+Each line in the next Q lines contains two numbers, t (1 <= t <= 1,000,000,000) and k (1 <= k <= n), representing the query: "at time t, which motorcyclist is positioned k-th in the rank list?"
+
+Output:
+
+For each test case, print Q lines, with each line containing the index of the motorcyclist for the corresponding query.
+
+Remember to print a new line after each test case.
+
+```
+- **References**
+    - [Looping in C](https://www.tutorialspoint.com/cprogramming/c_loops.htm)
+    - [Looping in C++](https://www.programiz.com/cpp-programming/for-loop)
+    - [Looping in Java](https://www.geeksforgeeks.org/loops-in-java/)
+    - [Looping in Python](https://www.w3schools.com/python/python_for_loops.asp)
+
+----
+
+### December 26 - Circulate
+
+#### Problem Statement
+
+A group of n people are trying to spread a word among themselves. 
+
+The word is initially only known by the first person in the group. 
+
+The first person may share the word with a few people that he knows, and those people may share the word with the people they know, and so on. 
+
+The task is to determine whether the word has been successfully spread to all n people in the group. 
+
+If the word has been successfully spread to all n people, the program should print "Spread". 
+
+If the word has not yet been successfully spread to all n people, the program should print "Nope".
+
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/209476068-c5ec3edd-9da8-4ebc-b5cf-3b955fff9b81.jpg" width="400"></p>
+
+
+
+#### Sample Input/Output
+``` 
+Input:
+
+[[2], [3, 4], [2], [2]]
+
+
+Output:
+
+Spread
+
+
+```
+
+``` 
+Input:
+
+[[2], [5, 4, 6], [3], [4], [5], [6]]
+
+
+Output: 
+
+Nope
+
+
+```
+
+
+#### Explanation:
+
+```
+
+The first person said the word to the second person. 
+
+The second person said the word to the third and fourth person.
+
+Third person shares the word with the second person.
+
+The list has four persons and everyone knows what the word is so the output is “Spread”.
+
+
+```
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/209476058-e08a4bc6-9a28-4846-99c0-e47333015739.png" width="400"></p>
+
+----
+
+### December 27 - Mission to Earth: Re-Calibrated
+
+#### Problem Statement
+
+AUTO, the autopilot helm of the starliner The Axiom lead a coup of robots and breached security, infiltrating the Boiler Room and Fuel Tank mechanics to steer the Axiom away from the Earth. 
+
+WALL-E manages to follow the robots who joined AUTO’s cause in disguise to annihilate him and recalibrate the Fuel Tank mechanics so that humans can finally set foot on their home planet in 2805.
+
+Fuel gauges indicate, often with fractions, just how much fuel is in a tank. For instance, 1/4 indicates that a tank is 25% full, 1/2 indicates that a tank is 50% full, and 3/4 indicates that a tank is 75% full.
+
+You are the Fuel Engine Calibrator, FEC and WALL-E needs your help. 
+
+The Fuel Tank’s capacity is 30,000 L. 
+
+Implement a program that prompts the user for a fraction, formatted as X/Y, wherein each of X and Y is an integer, and then outputs, as a percentage rounded to the nearest integer, how much fuel is in the tank.
+
+If 1% or less remains, output E instead indicates that the tank is essentially empty. And if 99% or more remains, output F instead to indicate that the tank is essentially full. Calculate the total fuel in the Fuel Tank.
+
+If X or Y is not an integer, X is greater than Y, or Y is 0, prompt the user again. (It is optional for Y to be 4.) Be sure to catch any exceptions like ValueError or ZeroDivisionError.
+
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/118124756/209569016-4948ca1e-21de-4f05-b758-70a9fb0edf20.jpg" width="400"></p>
+
+
+#### Sample Input/Output
+``` 
+Input: 
+
+Enter the Hydrogen fuel fraction:
+5/7
+
+Output:
+
+Fuel calibration: 71.428%
+Amount of fuel in tank: 21,428.4 L out of 30,000 L
+
+```
+
+```
+
+Input: 
+
+Enter the Hydrogen fuel fraction:
+722/729
+
+Output:
+
+Fuel calibration: 99.039%
+Amount of fuel in tank: 29,711.7 L out of 30,000 L
+The tank is FULL!
+
+```
+
+```
+
+Input: 
+Enter the Hydrogen fuel fraction:
+25/15600
+
+Output:
+
+Fuel calibration: 0.160%
+Amount of fuel in tank: 48 L out of 30,000 L
+The tank is EMPTY!!!
+Refill tank.
+
+```
+
+- **References**
+    - [Looping in C](https://www.tutorialspoint.com/cprogramming/c_loops.htm)
+    - [Looping in C++](https://www.programiz.com/cpp-programming/for-loop)
+    - [Looping in Java](https://www.geeksforgeeks.org/loops-in-java/)
+    - [Looping in Python](https://www.w3schools.com/python/python_for_loops.asp)
+
+----
+
+### December 28 - The Journey to the Eternal Engine
+
+#### Problem Statement
+
+In a dystopian world where a failed attempt at reversing the effects of global warming has left the Earth frozen over and has eradicated most of life, the only surviving souls live on a perpetually moving train called Snowpiercer. The passengers of the train are divided based on class (First, Second and Third). Passengers who did not purchase a ticket and are not of the working class of the train have been locked up in the back of the train called the Tail. Andre Layton the head Tailie inspires a rebellion along with the other Tailies to take over the Eternal Engine from the Head Engineer. 
+
+In order for them to do this, they must leave the tail without getting caught by the Jackboots or the Brakemen.  
+Layton comes up with a plan to help him and a few of the other Tailies reach the Engine. They must scale the outside of the train to go from the Tail to the nearest third class compartment, in order to not get caught. One of their allies in the third class has agreed to keep the compartment door open and keep a watch for the Jackboots or the Brakemen patrolling the train.  
+
+Conditions:
+
+    There are only 2 breach suits and without them, if one is exposed to the freezing air, they will instantly succumb to frostbite.
+
+    There needs to be at least 3 Tailies (including Layton) to even attempt to take over the engine.
+
+   In order to bring back the breach suit for the other Tailies, one of the Tailies already in the compartment must come back. It is not necessary that the same Tailie comes back everytime.
+
+    While moving along the path, both the Tailies must walk at the slower person’s pace.
+
+
+Given the time taken for each individual Tailie to walk in seconds, calculate the minimum amount of time, in minutes, it will take for all the Tailies to make it from the Tail to the Third Class compartment successfully.
+
+<p align="center"><img src="https://user-images.githubusercontent.com/119505502/209691779-d89eebd2-ceec-4944-ad02-0cdbdef59ce6.jpg" width="400"></p>
+
+
+#### Sample Input/Output
+``` 
+Input: 
+
+n=3
+
+Walking time: { 15, 40, 60 }
+
+Output:
+
+1.916
+
+```
+
+```
+Input: 
+
+n=4
+ 
+Walking time: { 1, 4, 7, 8, 3, 2 }
+
+Output:
+
+0.4
+
+``` 
+
+```
+Input: 
+
+n=9
+ 
+Walking time: { 3, 10, 12, 13, 15, 17, 21, 35, 23 }
+
+Output:
+
+2.683
+
+``` 
+
+
+#### Explanation
+
+``` 
+Input format:
+
+In the first line of the input you are given the number of Tailies (including Layton).
+
+In the second line of the input you are given the walking time of each of the Tailies in seconds as an array.
+
+
+In the first example, the first person, say Layton (15) and the second (40) travel together, this takes 40 seconds.
+
+Layton walks back to the Tail with the breach suit and this takes another 15 seconds.
+
+With the last Tailie he walks to the third class compartment and this takes 60 seconds.
+
+Adding all this we get, 40+15+60= 115 seconds which is 1.916 minutes.  
+
+Sample -2
+
+{ 1, 4, 7, 8, 3, 2 }
+
+The tailes are identified using indices 1 to 6. The Tail is T and the third class compartment is C:
+
+1. 1 and 6 move to C = 2s
+2. 1 moves to T = 1
+3. 3 and 4 move to C= 8
+4. 6 moves to T = 2
+5. 1 and 2 move to C= 4
+6. 1 moves to T= 1
+7. 1 and 5 move to C= 3
+8. 1 moves to T = 1
+9. 1 and 6 move to C= 2
+
+Adding the time:
+2+1+8+2+4+1+3+1+2=24 seconds = 0.4 minutes
+
+```
+
+- **References**
+    - [Looping in C](https://www.tutorialspoint.com/cprogramming/c_loops.htm)
+    - [Looping in C++](https://www.programiz.com/cpp-programming/for-loop)
+    - [Looping in Java](https://www.geeksforgeeks.org/loops-in-java/)
+    - [Looping in Python](https://www.w3schools.com/python/python_for_loops.asp)
+
+----
+
+### December 29 - Candies
+
+#### Problem Statement
+
+There are n children standing in a line. Each child is assigned a rating value given in the integer array ratings.
+
+You are giving candies to these children subjected to the following requirements:
+    
+    Each child must have at least one candy.
+
+    Children with a higher rating get more candies than their neighbors.
+
+Return the minimum number of candies you need to have to distribute the candies to the children
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/209849316-c736a74e-d106-4070-8a14-814c7036ca6c.jpg" width="400"></p>
+
+
+#### Sample Input/Output
+``` 
+Input: 
+
+n=3
+ratings = {1,2,2}
+
+Output:
+
+4
+
+```
+
+```
+Input: 
+
+n=11
+ratings = {1, 4, 3, 6, 2, 1, 8, 1, 3, 7, 7}
+
+Output:
+
+73
+
+``` 
+
+#### Explanation
+
+``` 
+Input format:
+
+In the first line of the input you are given the number of children.
+
+In the second line of the input you are given the rating of each child.
+
+Sample -1 :
+
+You can allocate to the first, second and third child with 1, 2, 1 candies respectively.
+The third child gets 1 candy because it satisfies the above two conditions.
+
+```
+
+- **References**
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+
+----
+
 
 FAQ
 ======
