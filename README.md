@@ -1883,11 +1883,11 @@ Input:
 
 n=4
  
-Walking time: { 1, 2, 8, 5 }
+Walking time: { 1, 4, 7, 8, 3, 2 }
 
 Output:
 
-0.25 
+0.4
 
 ``` 
 
@@ -1922,6 +1922,10 @@ Layton walks back to the Tail with the breach suit and this takes another 15 sec
 With the last Tailie he walks to the third class compartment and this takes 60 seconds.
 
 Adding all this we get, 40+15+60= 115 seconds which is 1.916 minutes.  
+
+Sample -2
+
+2+1+8+2+4+1+3+1+2=24 seconds = 0.4 minutes
 
 ```
 
