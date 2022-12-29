@@ -2024,11 +2024,10 @@ The third child gets 1 candy because it satisfies the above two conditions.
 
 #### Problem Statement
 
-The Elite students society in Nevermore changed their riddle in order not to allow further more people to enter into their library.
+The Elite students society in Nevermore changed their riddle in order to not allow non- members of the society to enter their library.
 
-The puzzle is now with 2 jugs, with different volumes  and a fountain instead of the statue.
-
-And a riddle engraved on a plate with the target volume made from the two jugs.
+The puzzle is currently with 2 jugs, with different volumes and a fountain instead of the statue.
+And a riddle engraved on a plate with the target volume of water made from the two jugs.
 
                                          “Wednesday’s child is full of woe,
                     
