@@ -54,6 +54,7 @@ Check out our FAQ for more information.
   - [**December 26 - Circulate**](#december-26---circulate)
   - [**December 27 - Mission to Earth: Re-Calibrated**](#december-27---mission-to-earth-re-calibrated)
   - [**December 28 - The Journey to the Eternal Engine**](#december-28---the-journey-to-the-eternal-engine)
+  - [**December 29 - Candies**](#december-29---candies)
   - [**FAQ**](#faq)
   
   
@@ -1853,7 +1854,7 @@ Conditions:
 
     There needs to be at least 3 Tailies (including Layton) to even attempt to take over the engine.
 
-    One Tailie must move back and forth along the same path in order to bring back a breach suit for the remaining Tailies left to make it to the third class compartment.
+    One Tailie must move back and forth along the same path in order to bring back a breach suit for the remaining Tailies left to make it to the third class compartment. It is not necessary that the same Tailie moves back and forth the whole time. 
 
     While moving along the path, both the Tailies must walk at the slower person’s pace.
 
@@ -1880,6 +1881,19 @@ Output:
 ```
 Input: 
 
+n=4
+ 
+Walking time: { 1, 4, 7, 8, 3, 2 }
+
+Output:
+
+0.4
+
+``` 
+
+```
+Input: 
+
 n=9
  
 Walking time: { 3, 10, 12, 13, 15, 17, 21, 35, 23 }
@@ -1890,6 +1904,7 @@ Output:
 
 ``` 
 
+
 #### Explanation
 
 ``` 
@@ -1897,7 +1912,7 @@ Input format:
 
 In the first line of the input you are given the number of Tailies (including Layton).
 
-In the second line of the input you are given the walking time of each of the Tailies in seconds as an array in sorted order.
+In the second line of the input you are given the walking time of each of the Tailies in seconds as an array.
 
 
 In the first example, the first person, say Layton (15) and the second (40) travel together, this takes 40 seconds.
@@ -1908,6 +1923,10 @@ With the last Tailie he walks to the third class compartment and this takes 60 s
 
 Adding all this we get, 40+15+60= 115 seconds which is 1.916 minutes.  
 
+Sample -2
+
+2+1+8+2+4+1+3+1+2=24 seconds = 0.4 minutes
+
 ```
 
 - **References**
@@ -1917,6 +1936,74 @@ Adding all this we get, 40+15+60= 115 seconds which is 1.916 minutes.
     - [Looping in Python](https://www.w3schools.com/python/python_for_loops.asp)
 
 ----
+
+### December 29 - Candies
+
+#### Problem Statement
+
+There are n children standing in a line. Each child is assigned a rating value given in the integer array ratings.
+
+You are giving candies to these children subjected to the following requirements:
+    
+    Each child must have at least one candy.
+
+    Children with a higher rating get more candies than their neighbors.
+
+Return the minimum number of candies you need to have to distribute the candies to the children
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/209849316-c736a74e-d106-4070-8a14-814c7036ca6c.jpg" width="400"></p>
+
+
+#### Sample Input/Output
+``` 
+Input: 
+
+n=3
+ratings = {1,2,2}
+
+Output:
+
+4
+
+```
+
+```
+Input: 
+
+n=11
+ratings = {1, 4, 3, 6, 2, 1, 8, 1, 3, 7, 7}
+
+Output:
+
+73
+
+``` 
+
+#### Explanation
+
+``` 
+Input format:
+
+In the first line of the input you are given the number of children.
+
+In the second line of the input you are given the rating of each child.
+
+Sample -1 :
+
+You can allocate to the first, second and third child with 1, 2, 1 candies respectively.
+The third child gets 1 candy because it satisfies the above two conditions.
+
+```
+
+- **References**
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+
+----
+
 
 FAQ
 ======
