@@ -1925,6 +1925,8 @@ Adding all this we get, 40+15+60= 115 seconds which is 1.916 minutes.
 
 Sample -2
 
+{ 1, 4, 7, 8, 3, 2 }
+
 The tailes are identified using indices 1 to 6. The Tail is T and the third class compartment is C:
 
 1. 1 and 6 move to C = 2s
