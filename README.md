@@ -1854,7 +1854,7 @@ Conditions:
 
     There needs to be at least 3 Tailies (including Layton) to even attempt to take over the engine.
 
-    One Tailie must move back and forth along the same path in order to bring back a breach suit for the remaining Tailies left to make it to the third class compartment. It is not necessary that the same Tailie moves back and forth the whole time. 
+   In order to bring back the breach suit for the other Tailies, one of the Tailies already in the compartment must come back. It is not necessary that the same Tailie comes back everytime.
 
     While moving along the path, both the Tailies must walk at the slower person’s pace.
 
@@ -1925,6 +1925,19 @@ Adding all this we get, 40+15+60= 115 seconds which is 1.916 minutes.
 
 Sample -2
 
+The tailes are identified using indices 1 to 6. The Tail is T and the third class compartment is C:
+
+1. 1 and 6 move to C = 2s
+2. 1 moves to T = 1
+3. 3 and 4 move to C= 8
+4. 6 moves to T = 2
+5. 1 and 2 move to C= 4
+6. 1 moves to T= 1
+7. 1 and 5 move to C= 3
+8. 1 moves to T = 1
+9. 1 and 6 move to C= 2
+
+Adding the time:
 2+1+8+2+4+1+3+1+2=24 seconds = 0.4 minutes
 
 ```
