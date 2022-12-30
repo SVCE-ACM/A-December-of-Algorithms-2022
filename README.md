@@ -55,6 +55,7 @@ Check out our FAQ for more information.
   - [**December 27 - Mission to Earth: Re-Calibrated**](#december-27---mission-to-earth-re-calibrated)
   - [**December 28 - The Journey to the Eternal Engine**](#december-28---the-journey-to-the-eternal-engine)
   - [**December 29 - Candies**](#december-29---candies)
+  - [**December 30 - Precise Portion**](#december-30---precise-portion)
   - [**FAQ**](#faq)
   
   
@@ -1820,7 +1821,7 @@ The tank is FULL!
 
 Input: 
 Enter the Hydrogen fuel fraction:
-25/156
+25/15600
 
 Output:
 
@@ -1854,7 +1855,7 @@ Conditions:
 
     There needs to be at least 3 Tailies (including Layton) to even attempt to take over the engine.
 
-    One Tailie must move back and forth along the same path in order to bring back a breach suit for the remaining Tailies left to make it to the third class compartment. It is not necessary that the same Tailie moves back and forth the whole time. 
+   In order to bring back the breach suit for the other Tailies, one of the Tailies already in the compartment must come back. It is not necessary that the same Tailie comes back everytime.
 
     While moving along the path, both the Tailies must walk at the slower person’s pace.
 
@@ -1925,6 +1926,21 @@ Adding all this we get, 40+15+60= 115 seconds which is 1.916 minutes.
 
 Sample -2
 
+{ 1, 4, 7, 8, 3, 2 }
+
+The tailes are identified using indices 1 to 6. The Tail is T and the third class compartment is C:
+
+1. 1 and 6 move to C = 2s
+2. 1 moves to T = 1
+3. 3 and 4 move to C= 8
+4. 6 moves to T = 2
+5. 1 and 2 move to C= 4
+6. 1 moves to T= 1
+7. 1 and 5 move to C= 3
+8. 1 moves to T = 1
+9. 1 and 6 move to C= 2
+
+Adding the time:
 2+1+8+2+4+1+3+1+2=24 seconds = 0.4 minutes
 
 ```
@@ -2004,6 +2020,167 @@ The third child gets 1 candy because it satisfies the above two conditions.
 
 ----
 
+### December 30 - Precise Portion
+
+#### Problem Statement
+
+The Elite students society in Nevermore changed their riddle in order to not allow non- members of the society to enter their library.
+
+The puzzle is currently with 2 jugs, with different volumes and a fountain instead of the statue.
+And a riddle engraved on a plate with the target volume of water made from the two jugs.
+
+                                         “Wednesday’s child is full of woe,
+                    
+                                                   Amount of wisdom,
+                            
+                                                   And amount of foe.
+                           
+                                            The wisdom of Wednesday I seek,
+                    
+                                Is her position from the first workday of the week.”
+
+
+Being in the shoes of Wednesday Addams, in order to enter the library , formulate a code  to fill a particular jug with the amount of water specified in the riddle with only the two jugs given.
+
+Note:
+
+    1. You can fill the jugs from the fountain
+    2.Transfer water from one jug to another
+    3.Empty the water from the jug into the fountain
+    4.None of the jugs have markings on them, nor do you have any additional measuring device.
+
+Note: The examples given for the input and output format must NOT be used as sample input and must only be used to understand the FORMAT of the input.
+
+Input format:
+
+    The first line of input is a 1 Dimensional array with 2 elements representing the 2 jugs with their respective volumes in ounces.
+
+        eg. (8,1)
+
+        Jug 1 has volume = 8 ounces
+
+        Jug 2 has volume = 1 ounces
+
+    The second line of input is a 1 Dimensional array with 2 elements representing the 2 jugs.
+
+        eg. (5, 0)
+
+        The target we must reach is : Jug 1 is filled with 5 ounces of water and Jug 2 is empty.
+        
+
+Output format:
+
+    The output must contain the sequence of steps, where each line is a different step. 
+    
+    Every line of the output is a 1 dimensional array with 2 elements representing the current volume of water in each jug at the end of that step.
+
+    You must start with both jugs being empty, that is, (0,0)
+
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/209995446-3803be14-df2c-4224-8f73-4b511f80dfef.gif" width="400"></p>
+
+
+
+#### Sample Input/Output
+``` 
+Input: 
+
+(4, 9)
+(3, 0)
+
+Output:
+
+(0, 0)
+(4, 0)
+(0, 4)
+(4, 4)
+(0, 8)
+(4, 8)
+(3, 9)
+(3, 0)
+
+
+```
+
+```
+Input: 
+
+ ( 5, 4)
+ ( 3, 0)
+
+Output:
+
+ (0, 0)
+ (5, 0)
+ (1, 4)
+ (1, 0)
+ (0, 1)
+ (5, 1)
+ (2, 4)
+ (2, 0)
+ (0, 2)
+ (5, 2)
+ (3, 4)
+ (3, 0)
+
+``` 
+
+```
+Input:
+
+(11,9)
+(0,3)
+
+Output:
+(0, 0)
+(11, 0)
+(2, 9)
+(0, 9)
+(9, 0)
+(9, 9)
+(11, 7)
+(0, 7)
+(7, 0)
+(7, 9)
+(11, 5)
+(0, 5)
+(5, 0)
+(5, 9)
+(11, 3)
+(0, 3)
+
+``` 
+
+#### Explanation
+
+``` 
+Sample 1: 
+(4,9) Jug 1 is the 4 ounce jug and Jug 2 is the 9 ounce jug.
+We have to get (3,0)
+
+1. We first start with both the jugs being empty
+2. We fill the 4 ounce jug to the brim from the fountain.
+3. Then we transfer the water from the 4 ounce jug to the 9 ounce jug. The 4 ounce jug is now empty and the 9 ounce jug      has 4 ounces of water.
+4. Fill the 4 ounce jug from the fountain.
+5. Transfer the water in the 4 ounce jug to the 9 ounce jug. The 4 ounce jug is empty and the 9 ounce jug has 8 ounces of    water.
+6. Fill the 4 ounce jug to the brim.
+7. Fill the 9 ounce jug to the brim by transferring water from the 4 ounce jug to the 9 ounce jug. The 4 ounce jug has 3      ounces of water and the 9 ounce jug is filled completely.
+8. Empty the contents of the 9 ounce jug into the fountain. 
+
+ We now have the target which is (3,0) that is, jug 1 is filled with 3 ounces of water and jug 2 is empty.
+
+
+```
+
+- **References**
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+    - [BFS](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
+
+----
 
 FAQ
 ======
