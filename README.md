@@ -56,6 +56,7 @@ Check out our FAQ for more information.
   - [**December 28 - The Journey to the Eternal Engine**](#december-28---the-journey-to-the-eternal-engine)
   - [**December 29 - Candies**](#december-29---candies)
   - [**December 30 - Precise Portion**](#december-30---precise-portion)
+  - [**December 31 - The Quad of Queens**](#december-31---the-quad-of-queens)
   - [**FAQ**](#faq)
   
   
@@ -1992,7 +1993,7 @@ ratings = {1, 4, 3, 6, 2, 1, 8, 1, 3, 7, 7}
 
 Output:
 
-73
+19
 
 ``` 
 
@@ -2170,6 +2171,8 @@ We have to get (3,0)
 
  We now have the target which is (3,0) that is, jug 1 is filled with 3 ounces of water and jug 2 is empty.
 
+Note: There maybe more than one solution for the given input
+If you do get another solution, you can still submit it. 
 
 ```
 
@@ -2179,6 +2182,194 @@ We have to get (3,0)
     - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
     - [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
     - [BFS](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
+
+----
+
+### December 31 - The Quad of Queens
+
+#### Problem Statement
+
+The queens of the Hogwarts realm were invited to a chess themed royal ball held at the kingdom’s capital city.
+
+The chess themed royal ball assigned each “square” of the chessboard themed floor for each royalty, with Kings, Queens and Bishops having similar stride as that of chess to keep it fun.
+
+But here’s the catch. The Queens hate each other.
+
+Now, being the prime minister of this realm, how many distinct ways would you assign seats to the Queens without them being able to attack each other, and make this more generalised for ‘N’ number of such Queens.
+
+Assume the floor to be an N x N grid , with N being the number of queens.
+
+The Queens must be placed on the grid, such that they are unable to attack another Queen, or be attacked by another Queen.  
+
+The input must have:
+
+    A single line input with the number of Queens. This will be the N value mentioned above.
+    
+Each solution must contain : 
+
+    1. The number of distinct solutions in the first line
+    2. All the distinct board configurations of the N-queens' placement, where 'Q' and '.' , indicate a Queen and an empty space, respectively. 
+    They must be printed one after the other. 
+    They can be printed in any order.
+    
+Note:  all the Queens must be represented only as 'Q' and the empty spaces, only as '.'.
+
+CONSTRAINT: 1 <= N <= 9
+
+
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/210098027-2f2ce89b-cac7-4c02-8e5e-98944c790458.jpg" height="300"></p>
+
+
+
+#### Sample Input/Output
+``` 
+Input: 
+
+4
+
+Output:
+
+2
+
+. Q . . 
+. . . Q 
+Q . . . 
+. . Q . 
+
+. . Q . 
+Q . . . 
+. . . Q 
+. Q . . 
+
+
+```
+
+```
+Input: 
+
+1
+
+Output:
+
+1
+Q
+
+``` 
+
+```
+Input:
+
+5
+
+Output:
+
+10
+
+Q . . . . 
+. . Q . . 
+. . . . Q 
+. Q . . . 
+. . . Q . 
+
+Q . . . . 
+. . . Q . 
+. Q . . . 
+. . . . Q 
+. . Q . . 
+
+. Q . . . 
+. . . Q . 
+Q . . . . 
+. . Q . . 
+. . . . Q 
+
+. Q . . . 
+. . . . Q 
+. . Q . . 
+Q . . . . 
+. . . Q . 
+
+. . Q . . 
+Q . . . . 
+. . . Q . 
+. Q . . . 
+. . . . Q 
+
+. . Q . . 
+. . . . Q 
+. Q . . . 
+. . . Q . 
+Q . . . . 
+
+. . . Q . 
+Q . . . . 
+. . Q . . 
+. . . . Q 
+. Q . . . 
+
+. . . Q . 
+. Q . . . 
+. . . . Q 
+. . Q . . 
+Q . . . . 
+
+. . . . Q 
+. Q . . . 
+. . . Q . 
+Q . . . . 
+. . Q . . 
+
+. . . . Q 
+. . Q . . 
+Q . . . . 
+. . . Q . 
+. Q . . .
+
+``` 
+
+#### Explanation
+
+``` 
+For N=4 
+There are 4 queens: Q1, Q2, Q3, Q4
+Let’s suppose we’re putting our first queen Q1 at position (1, 1) now for  Q2 we can’t put it in  row 1( because they will conflict ). 
+ Q   .   .   . 
+ .   .   .   .
+ .   .   .   .  
+ .   .   .   . 
+
+So for Q2 we will have to consider row 2. In row 2 we can place it in column 3 I.e at (2, 3) but then there will be no option for placing Q3 in row 3. 
+ Q   .   .   . 
+ .   .   Q   .
+ .   .   .   .  
+ .   .   .   . 
+
+So we backtrack one step and place Q2 at (2, 4) then we find the position for placing  Q3 is (3, 2) but by this, no option will be left for placing Q4.
+
+
+ Q   .   .   . 
+ .   .   .   Q
+ .   Q   .   .  
+ .   .   .   . 
+
+Then we have to backtrack till ‘Q1’ and put it at (1, 2) instead of (1, 1) and then all other queens can be placed safely by moving Q2 to the position (2, 4), Q3  to (3, 1), and Q4 to (4, 3).
+ .   Q   .   . 
+ .   .   .   Q
+ Q   .   .   .  
+ .   .   Q   . 
+
+Similarly the other output for N=4 is also evaluated. 
+Proceed using this example as reference to evaluate the other inputs.
+
+
+```
+
+- **References**
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
 
 ----
 
