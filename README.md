@@ -2171,6 +2171,8 @@ We have to get (3,0)
 
  We now have the target which is (3,0) that is, jug 1 is filled with 3 ounces of water and jug 2 is empty.
 
+Note: There maybe more than one solution for the given input
+If you do get another solution, you can still submit it. 
 
 ```
 
