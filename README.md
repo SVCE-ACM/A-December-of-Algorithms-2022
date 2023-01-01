@@ -55,6 +55,8 @@ Check out our FAQ for more information.
   - [**December 27 - Mission to Earth: Re-Calibrated**](#december-27---mission-to-earth-re-calibrated)
   - [**December 28 - The Journey to the Eternal Engine**](#december-28---the-journey-to-the-eternal-engine)
   - [**December 29 - Candies**](#december-29---candies)
+  - [**December 30 - Precise Portion**](#december-30---precise-portion)
+  - [**December 31 - The Quad of Queens**](#december-31---the-quad-of-queens)
   - [**FAQ**](#faq)
   
   
@@ -1991,7 +1993,7 @@ ratings = {1, 4, 3, 6, 2, 1, 8, 1, 3, 7, 7}
 
 Output:
 
-73
+19
 
 ``` 
 
@@ -2019,6 +2021,357 @@ The third child gets 1 candy because it satisfies the above two conditions.
 
 ----
 
+### December 30 - Precise Portion
+
+#### Problem Statement
+
+The Elite students society in Nevermore changed their riddle in order to not allow non- members of the society to enter their library.
+
+The puzzle is currently with 2 jugs, with different volumes and a fountain instead of the statue.
+And a riddle engraved on a plate with the target volume of water made from the two jugs.
+
+                                         “Wednesday’s child is full of woe,
+                    
+                                                   Amount of wisdom,
+                            
+                                                   And amount of foe.
+                           
+                                            The wisdom of Wednesday I seek,
+                    
+                                Is her position from the first workday of the week.”
+
+
+Being in the shoes of Wednesday Addams, in order to enter the library , formulate a code  to fill a particular jug with the amount of water specified in the riddle with only the two jugs given.
+
+Note:
+
+    1. You can fill the jugs from the fountain
+    2.Transfer water from one jug to another
+    3.Empty the water from the jug into the fountain
+    4.None of the jugs have markings on them, nor do you have any additional measuring device.
+
+Note: The examples given for the input and output format must NOT be used as sample input and must only be used to understand the FORMAT of the input.
+
+Input format:
+
+    The first line of input is a 1 Dimensional array with 2 elements representing the 2 jugs with their respective volumes in ounces.
+
+        eg. (8,1)
+
+        Jug 1 has volume = 8 ounces
+
+        Jug 2 has volume = 1 ounces
+
+    The second line of input is a 1 Dimensional array with 2 elements representing the 2 jugs.
+
+        eg. (5, 0)
+
+        The target we must reach is : Jug 1 is filled with 5 ounces of water and Jug 2 is empty.
+        
+
+Output format:
+
+    The output must contain the sequence of steps, where each line is a different step. 
+    
+    Every line of the output is a 1 dimensional array with 2 elements representing the current volume of water in each jug at the end of that step.
+
+    You must start with both jugs being empty, that is, (0,0)
+
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/209995446-3803be14-df2c-4224-8f73-4b511f80dfef.gif" width="400"></p>
+
+
+
+#### Sample Input/Output
+``` 
+Input: 
+
+(4, 9)
+(3, 0)
+
+Output:
+
+(0, 0)
+(4, 0)
+(0, 4)
+(4, 4)
+(0, 8)
+(4, 8)
+(3, 9)
+(3, 0)
+
+
+```
+
+```
+Input: 
+
+ ( 5, 4)
+ ( 3, 0)
+
+Output:
+
+ (0, 0)
+ (5, 0)
+ (1, 4)
+ (1, 0)
+ (0, 1)
+ (5, 1)
+ (2, 4)
+ (2, 0)
+ (0, 2)
+ (5, 2)
+ (3, 4)
+ (3, 0)
+
+``` 
+
+```
+Input:
+
+(11,9)
+(0,3)
+
+Output:
+(0, 0)
+(11, 0)
+(2, 9)
+(0, 9)
+(9, 0)
+(9, 9)
+(11, 7)
+(0, 7)
+(7, 0)
+(7, 9)
+(11, 5)
+(0, 5)
+(5, 0)
+(5, 9)
+(11, 3)
+(0, 3)
+
+``` 
+
+#### Explanation
+
+``` 
+Sample 1: 
+(4,9) Jug 1 is the 4 ounce jug and Jug 2 is the 9 ounce jug.
+We have to get (3,0)
+
+1. We first start with both the jugs being empty
+2. We fill the 4 ounce jug to the brim from the fountain.
+3. Then we transfer the water from the 4 ounce jug to the 9 ounce jug. The 4 ounce jug is now empty and the 9 ounce jug      has 4 ounces of water.
+4. Fill the 4 ounce jug from the fountain.
+5. Transfer the water in the 4 ounce jug to the 9 ounce jug. The 4 ounce jug is empty and the 9 ounce jug has 8 ounces of    water.
+6. Fill the 4 ounce jug to the brim.
+7. Fill the 9 ounce jug to the brim by transferring water from the 4 ounce jug to the 9 ounce jug. The 4 ounce jug has 3      ounces of water and the 9 ounce jug is filled completely.
+8. Empty the contents of the 9 ounce jug into the fountain. 
+
+ We now have the target which is (3,0) that is, jug 1 is filled with 3 ounces of water and jug 2 is empty.
+
+Note: There maybe more than one solution for the given input
+If you do get another solution, you can still submit it. 
+
+```
+
+- **References**
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+    - [BFS](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
+
+----
+
+### December 31 - The Quad of Queens
+
+#### Problem Statement
+
+The queens of the Hogwarts realm were invited to a chess themed royal ball held at the kingdom’s capital city.
+
+The chess themed royal ball assigned each “square” of the chessboard themed floor for each royalty, with Kings, Queens and Bishops having similar stride as that of chess to keep it fun.
+
+But here’s the catch. The Queens hate each other.
+
+Now, being the prime minister of this realm, how many distinct ways would you assign seats to the Queens without them being able to attack each other, and make this more generalised for ‘N’ number of such Queens.
+
+Assume the floor to be an N x N grid , with N being the number of queens.
+
+The Queens must be placed on the grid, such that they are unable to attack another Queen, or be attacked by another Queen.  
+
+The input must have:
+
+    A single line input with the number of Queens. This will be the N value mentioned above.
+    
+Each solution must contain : 
+
+    1. The number of distinct solutions in the first line
+    2. All the distinct board configurations of the N-queens' placement, where 'Q' and '.' , indicate a Queen and an empty space, respectively. 
+    They must be printed one after the other. 
+    They can be printed in any order.
+    
+Note:  all the Queens must be represented only as 'Q' and the empty spaces, only as '.'.
+
+CONSTRAINT: 1 <= N <= 9
+
+
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/210098027-2f2ce89b-cac7-4c02-8e5e-98944c790458.jpg" height="300"></p>
+
+
+
+#### Sample Input/Output
+``` 
+Input: 
+
+4
+
+Output:
+
+2
+
+. Q . . 
+. . . Q 
+Q . . . 
+. . Q . 
+
+. . Q . 
+Q . . . 
+. . . Q 
+. Q . . 
+
+
+```
+
+```
+Input: 
+
+1
+
+Output:
+
+1
+Q
+
+``` 
+
+```
+Input:
+
+5
+
+Output:
+
+10
+
+Q . . . . 
+. . Q . . 
+. . . . Q 
+. Q . . . 
+. . . Q . 
+
+Q . . . . 
+. . . Q . 
+. Q . . . 
+. . . . Q 
+. . Q . . 
+
+. Q . . . 
+. . . Q . 
+Q . . . . 
+. . Q . . 
+. . . . Q 
+
+. Q . . . 
+. . . . Q 
+. . Q . . 
+Q . . . . 
+. . . Q . 
+
+. . Q . . 
+Q . . . . 
+. . . Q . 
+. Q . . . 
+. . . . Q 
+
+. . Q . . 
+. . . . Q 
+. Q . . . 
+. . . Q . 
+Q . . . . 
+
+. . . Q . 
+Q . . . . 
+. . Q . . 
+. . . . Q 
+. Q . . . 
+
+. . . Q . 
+. Q . . . 
+. . . . Q 
+. . Q . . 
+Q . . . . 
+
+. . . . Q 
+. Q . . . 
+. . . Q . 
+Q . . . . 
+. . Q . . 
+
+. . . . Q 
+. . Q . . 
+Q . . . . 
+. . . Q . 
+. Q . . .
+
+``` 
+
+#### Explanation
+
+``` 
+For N=4 
+There are 4 queens: Q1, Q2, Q3, Q4
+Let’s suppose we’re putting our first queen Q1 at position (1, 1) now for  Q2 we can’t put it in  row 1( because they will conflict ). 
+ Q   .   .   . 
+ .   .   .   .
+ .   .   .   .  
+ .   .   .   . 
+
+So for Q2 we will have to consider row 2. In row 2 we can place it in column 3 I.e at (2, 3) but then there will be no option for placing Q3 in row 3. 
+ Q   .   .   . 
+ .   .   Q   .
+ .   .   .   .  
+ .   .   .   . 
+
+So we backtrack one step and place Q2 at (2, 4) then we find the position for placing  Q3 is (3, 2) but by this, no option will be left for placing Q4.
+
+
+ Q   .   .   . 
+ .   .   .   Q
+ .   Q   .   .  
+ .   .   .   . 
+
+Then we have to backtrack till ‘Q1’ and put it at (1, 2) instead of (1, 1) and then all other queens can be placed safely by moving Q2 to the position (2, 4), Q3  to (3, 1), and Q4 to (4, 3).
+ .   Q   .   . 
+ .   .   .   Q
+ Q   .   .   .  
+ .   .   Q   . 
+
+Similarly the other output for N=4 is also evaluated. 
+Proceed using this example as reference to evaluate the other inputs.
+
+
+```
+
+- **References**
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+
+----
 
 FAQ
 ======
