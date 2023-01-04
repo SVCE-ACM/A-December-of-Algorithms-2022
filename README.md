@@ -699,13 +699,13 @@ Since in the 8th jump the monkey touches water, the total jump count before he t
 ```
 
 - **References**
-- [Looping in C](https://www.tutorialspoint.com/cprogramming/c_loops.htm)
-- [Looping in C++](https://www.programiz.com/cpp-programming/for-loop)
-- [Looping in Java](https://www.geeksforgeeks.org/loops-in-java/)
-- [Looping in Python](https://www.w3schools.com/python/python_for_loops.asp)
-- [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
-- [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
-- [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Looping in C](https://www.tutorialspoint.com/cprogramming/c_loops.htm)
+    - [Looping in C++](https://www.programiz.com/cpp-programming/for-loop)
+    - [Looping in Java](https://www.geeksforgeeks.org/loops-in-java/)
+    - [Looping in Python](https://www.w3schools.com/python/python_for_loops.asp)
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
 
 
 ----
@@ -768,6 +768,14 @@ From 7 she has 4 options; paths of costs 6,6,3,4 (Taking path 4 is not advisable
 
 ```
 
+- **References**
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+    - [Shortest Path Algorithms](https://brilliant.org/wiki/shortest-path-algorithms/#:~:text=There%20are%20two%20main%20types,because%20of%20the%20added%20complexity.)
+
+
 ----
 ### December 13 - The Labyrinth
 #### Problem Statement
@@ -827,6 +835,12 @@ In the given samples, the input matrix specifies the structure of the maze in wh
 After computing a path to the destination, the output matrix represents the path to the destination block using 1’s.
 
 ```
+- **References**
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+    - [Backtracking Algorithms](https://www.geeksforgeeks.org/backtracking-algorithms/)
 
 ----
 ### December 14 - Math Mystery 
@@ -887,11 +901,12 @@ You are required to divide the given vertices into two sets such that:
 
 ```
 - **References**
-- [Bipartite graphs](https://www.tutorialspoint.com/bipartite-graphs)
-- [Adjacency matrices](https://www.javatpoint.com/what-is-an-adjacency-matrix)
-- [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
-- [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
-- [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Bipartite graphs](https://www.geeksforgeeks.org/bipartite-graph/)
+    - [Adjacency matrices](https://www.javatpoint.com/what-is-an-adjacency-matrix)
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
 
 ----
 
