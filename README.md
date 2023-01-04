@@ -1543,6 +1543,8 @@ For the first sample input the first line is the number of rooms and the second 
     - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
     - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
     - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Sorting](https://www.geeksforgeeks.org/sorting-algorithms/)
+    - [Heap (Priority Queue)](https://www.geeksforgeeks.org/priority-queue-using-binary-heap/)
 
 
 ----
@@ -1634,9 +1636,10 @@ Thus "01100" will unlock the safe. "01100", "10011", and "11001" would also unlo
     - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
     - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
     - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
-    - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
-    - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
-    - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
+    - [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+    - [Hierholzer’s Algorithm](https://www.geeksforgeeks.org/hierholzers-algorithm-directed-graph/)
+    - [Eulerian Path and Circuit](https://www.geeksforgeeks.org/eulerian-path-and-circuit/)
+    - [Depth First Search](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)
 
 
 ----
