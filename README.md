@@ -948,9 +948,9 @@ They will now be organized into a queue based on when they pressed the microphon
 
 ```
 - **References**
-- [Queue data structure](https://www.javatpoint.com/data-structure-queue)
-- [Queue in Java](https://www.geeksforgeeks.org/queue-interface-java/)
-- [Queue in Python](https://www.geeksforgeeks.org/queue-interface-java/)
+    - [Queue data structure](https://www.javatpoint.com/data-structure-queue)
+    - [Queue in Java](https://www.geeksforgeeks.org/queue-interface-java/)
+    - [Queue in Python](https://www.geeksforgeeks.org/queue-interface-java/)
 
 ----
 
@@ -991,11 +991,17 @@ In this case,the area between lines 7 and 8 will be maximum.
 
 Height of the container is min(7,8)= 7. So the max area of water (blue section) the container can contain is 49.
 
+The selected two heights need not necessarily be maximum but including the max distance between them at the same time.
+Considering both the length and breadth to be maximum the area is found. So it is a combination of height and distance between the two heights.
+So that the resultant area will be the maximum amount of water in the the given container.
+
 ```
 - **References**
-- [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
-- [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
-- [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Sorting Algorithms](https://www.geeksforgeeks.org/sorting-algorithms/)
+    - [Two Pointer Approach](https://www.geeksforgeeks.org/two-pointers-technique//)
 
 ----
 
@@ -1050,9 +1056,9 @@ Output for each test case should be printed in a separate line.
 
 ```
 - **References**
-- [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
-- [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
-- [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
+    - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
+    - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
 
 ----
 
@@ -1097,11 +1103,11 @@ Time complexity is 0(V^2)
 
 ```
 - **References**
-- [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
-- [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
-- [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
-- [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
-- [Adjacency matrices](https://www.javatpoint.com/what-is-an-adjacency-matrix)
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+    - [Shortest Path Algorithms](https://brilliant.org/wiki/shortest-path-algorithms/#:~:text=There%20are%20two%20main%20types,because%20of%20the%20added%20complexity.)
 
 ----
 
@@ -1273,6 +1279,7 @@ Please note that this is not the maximum weight generated from picking the highe
     - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
     - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
     - [Dynamic Programming](https://www.geeksforgeeks.org/dynamic-programming/)
+    - [Subsequences in Arrays and Strings](https://www.geeksforgeeks.org/subarraysubstring-vs-subsequence-and-programs-to-generate-them/)
 
 
 ----
@@ -1449,6 +1456,7 @@ The message as well as the codeword do not have any spaces between the words.
     - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
     - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
     - [Caesar Cipher](https://www.geeksforgeeks.org/caesar-cipher-in-cryptography/)
+    - [Caesar Cipher Techniques](https://www.javatpoint.com/caesar-cipher-technique)
 
 
 ----
