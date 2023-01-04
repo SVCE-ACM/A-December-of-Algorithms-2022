@@ -100,7 +100,9 @@ Check out our FAQ for more information.
    #### Explanation
    ```
      
-        The first line of input will specify the number of words (n). The subsequent 'n' lines will specify the word to be translated.
+        The first line of input will specify the number of words (n). 
+        
+        The subsequent 'n' lines will specify the word to be translated, where each letter is separated by a comma.
         
    ```
     
@@ -337,7 +339,7 @@ Expenditure=6050
  #### Explanation
  ```
  
-         The input is the rate of the fuel in the beginning of the month.
+        The input is the rate of the fuel in the beginning of the month.
         The output is the amount he must spend on fueling his bike. 
         If the expenditure exceeds 10% of the income (i.e greater than 5000), then an alert message must be displayed.
         
@@ -472,6 +474,8 @@ Output:
     - [Strings in C++](https://www.tutorialspoint.com/cplusplus/cpp_strings.htm)
     - [Strings in Java](https://www.tutorialspoint.com/java/java_strings.htm)
     - [String in Python](https://www.tutorialspoint.com/python/python_strings.htm)
+    - [2D Arrays](https://www.simplilearn.com/tutorials/data-structure-tutorial/two-dimensional-arrays#:~:text=ExpertView%20Course-,What%20Are%20Two%2DDimensional%20Arrays%3F,similar%20to%20the%20data%20structure.)
+    - [Pattern Searching in Strings](https://www.geeksforgeeks.org/algorithms-gq/pattern-searching/)
     
 ----
     
@@ -505,6 +509,7 @@ Help Arshith develop a way to translate any given word to that particular langua
     - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
     - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
     - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
+    - [Pattern Searching in Strings](https://www.geeksforgeeks.org/algorithms-gq/pattern-searching/)
 
 ----
 
@@ -562,6 +567,7 @@ Better luck next time
     - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
     - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
     - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
+    - [Pattern Searching in Strings](https://www.geeksforgeeks.org/algorithms-gq/pattern-searching/)
 
 ----
 
@@ -641,6 +647,8 @@ S contains only lowercase Latin characters, i.e, the characters {a,b,c…….z}
     - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
     - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
     - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
+    - [Pattern Searching in Strings](https://www.geeksforgeeks.org/algorithms-gq/pattern-searching/)
+
 
 ----
 
