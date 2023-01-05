@@ -1662,6 +1662,26 @@ If at any given time two motorcyclists are in same position, the motorcyclist wi
 
 To make the problem simple,  he  assumes that each motorcyclist is moving at a constant velocity.
 
+Input Format:
+
+    The first line contains a number t (about 10) which is the number of test cases. 
+
+    Then t test cases follow. Each test case has the following form.
+
+    The first line of the test case contains a number N (1 <= N <= 2000), the number of motorcyclists.
+
+    The i-th line in the next N lines contains two numbers, v and x, which are the velocity and the current position of the i-th motorcyclist (1 <= v, x <= 100,000).
+
+    The next line contains a number Q (1 <= Q <= 2000), the number of time queries.
+
+    Each line in the next Q lines contains two numbers, t (1 <= t <= 1,000,000,000) and k (1 <= k <= n), representing the query: "at time t, which motorcyclist is  positioned k-th in the rank list?"
+
+Output Format:
+
+    For each test case, print Q lines, with each line containing the index of the motorcyclist for the corresponding query.
+
+    Remember to print a new line after each test case.
+
 
 
 <p align="center"><img src="https://user-images.githubusercontent.com/105559815/209445111-2485a080-c031-4688-b8a8-172ec6410654.jpg" width="400"></p>
@@ -1696,31 +1716,6 @@ Output:
 
 ```
 
-
-#### Explanation:
-
-```
-Input
-
-The first line contains a number t (about 10) which is the number of test cases. 
-
-Then t test cases follow. Each test case has the following form.
-
-The first line of the test case contains a number N (1 <= N <= 2000), the number of motorcyclists.
-
-The i-th line in the next N lines contains two numbers, v and x, which are the velocity and the current position of the i-th motorcyclist (1 <= v, x <= 100,000).
-
-The next line contains a number Q (1 <= Q <= 2000), the number of time queries.
-
-Each line in the next Q lines contains two numbers, t (1 <= t <= 1,000,000,000) and k (1 <= k <= n), representing the query: "at time t, which motorcyclist is positioned k-th in the rank list?"
-
-Output:
-
-For each test case, print Q lines, with each line containing the index of the motorcyclist for the corresponding query.
-
-Remember to print a new line after each test case.
-
-```
 - **References**
     - [Looping in C](https://www.tutorialspoint.com/cprogramming/c_loops.htm)
     - [Looping in C++](https://www.programiz.com/cpp-programming/for-loop)
