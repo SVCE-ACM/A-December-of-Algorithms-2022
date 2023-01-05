@@ -8,6 +8,8 @@ using namespace std;
 int NO_PARENTS = -1; // Flag to indicate a node does not have a parent node
 
 void dijkstras(vector<vector<int>>& adjMat, int start);
+void printSolution(int start, vector<int>& allPathShortestDistance, vector<int>& parentOfNode); 
+void printPath(int end, vector<int>& parentOfNode);
 
 int main() {
     vector<vector<int>> adjMat{
@@ -27,7 +29,6 @@ int main() {
     cin >> charChoice;
     charChoice = tolower(charChoice);
     int ch = charChoice - 112;
-    cout<<ch;
 
     // To find shortest distance from ch to W
     dijkstras(adjMat, ch);
@@ -73,4 +74,22 @@ void dijkstras(vector<vector<int>>& adjMat, int start){
             }
         }
     }
+    printSolution(start, allPathShortestDistance, parentOfNode);
 }
+
+void printSolution(int start, vector<int>& allPathShortestDistance, vector<int>& parentOfNode){
+    int n = allPathShortestDistance.size();
+    int end = 7; // node W
+    cout<<"Vertex\t Distance \t Path";
+    cout<<"\n"<<((char)(start + 112))<<" -> ";
+    cout<<((char)(end + 112))<<"\t   ";
+    cout<<allPathShortestDistance[end]<<" hrs\t  ";
+    printPath(end, parentOfNode);
+}
+
+void printPath(int node, vector<int>& parentOfNode){
+    if(node == NO_PARENTS) return;
+    printPath(parentOfNode[node], parentOfNode);
+    cout<<(char)(node + 112)<<" ";
+}
+
