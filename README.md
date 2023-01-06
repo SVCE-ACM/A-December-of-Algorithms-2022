@@ -1721,6 +1721,8 @@ Output:
     - [Looping in C++](https://www.programiz.com/cpp-programming/for-loop)
     - [Looping in Java](https://www.geeksforgeeks.org/loops-in-java/)
     - [Looping in Python](https://www.w3schools.com/python/python_for_loops.asp)
+    - [Sorting Algorithms](https://www.geeksforgeeks.org/sorting-algorithms/)
+    - [Searching Algorithms](https://www.geeksforgeeks.org/searching-algorithms/)
 
 ----
 
@@ -1791,6 +1793,11 @@ The list has four persons and everyone knows what the word is so the output is â
 
 <p align="center"><img src="https://user-images.githubusercontent.com/105559815/209476058-e08a4bc6-9a28-4846-99c0-e47333015739.png" width="400"></p>
 
+- **References**
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+
 ----
 
 ### December 27 - Mission to Earth: Re-Calibrated
@@ -1859,6 +1866,18 @@ Fuel calibration: 0.160%
 Amount of fuel in tank: 48 L out of 30,000 L
 The tank is EMPTY!!!
 Refill tank.
+
+```
+
+``` 
+Input: 
+
+Enter the Hydrogen fuel fraction:
+583/0
+
+Output:
+
+Error!
 
 ```
 
@@ -1980,6 +1999,7 @@ Adding the time:
     - [Looping in C++](https://www.programiz.com/cpp-programming/for-loop)
     - [Looping in Java](https://www.geeksforgeeks.org/loops-in-java/)
     - [Looping in Python](https://www.w3schools.com/python/python_for_loops.asp)
+    - [Dynamic Programming](https://www.geeksforgeeks.org/introduction-to-dynamic-programming-data-structures-and-algorithm-tutorials/)
 
 ----
 
@@ -2047,6 +2067,8 @@ The third child gets 1 candy because it satisfies the above two conditions.
     - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
     - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
     - [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+    - [Dynamic Programming](https://www.geeksforgeeks.org/introduction-to-dynamic-programming-data-structures-and-algorithm-tutorials/)
+    - [Greedy Algorithms](https://www.geeksforgeeks.org/greedy-algorithms/)
 
 ----
 
