@@ -21,18 +21,15 @@ public class GREEDnim_day19_java {
         int e=0;
         while(e<big.length())
         {
-
-            int index=big.charAt(e)-'a';
+            int index=big.charAt(e++)-'a';
             map[index]--;
             if(map[index]<0)
             {
-                for(;s<=e;s++) map[big.charAt(s)-'a']++;
+                for(;map[index]<0;s++) map[big.charAt(s)-'a']++;
             }
-            if(e-s+1 == smol.length()) break;
-            e++;
-
+            if(e-s == smol.length()) break;
         }
-        System.out.println(big.substring(s,e+1));
+        System.out.println(big.substring(s,e));
 
     }
 }
