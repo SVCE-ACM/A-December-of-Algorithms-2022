@@ -1,0 +1,5 @@
+Position = 3
+Set of numbers: 544
+Player going first: Tanika
+Tanika wins the game!
+Bob loses the game
