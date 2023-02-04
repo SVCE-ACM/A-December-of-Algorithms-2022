@@ -100,7 +100,9 @@ Check out our FAQ for more information.
    #### Explanation
    ```
      
-        The first line of input will specify the number of words (n). The subsequent 'n' lines will specify the word to be translated.
+        The first line of input will specify the number of words (n). 
+        
+        The subsequent 'n' lines will specify the word to be translated, where each letter is separated by a comma.
         
    ```
     
@@ -337,7 +339,7 @@ Expenditure=6050
  #### Explanation
  ```
  
-         The input is the rate of the fuel in the beginning of the month.
+        The input is the rate of the fuel in the beginning of the month.
         The output is the amount he must spend on fueling his bike. 
         If the expenditure exceeds 10% of the income (i.e greater than 5000), then an alert message must be displayed.
         
@@ -472,6 +474,8 @@ Output:
     - [Strings in C++](https://www.tutorialspoint.com/cplusplus/cpp_strings.htm)
     - [Strings in Java](https://www.tutorialspoint.com/java/java_strings.htm)
     - [String in Python](https://www.tutorialspoint.com/python/python_strings.htm)
+    - [2D Arrays](https://www.simplilearn.com/tutorials/data-structure-tutorial/two-dimensional-arrays#:~:text=ExpertView%20Course-,What%20Are%20Two%2DDimensional%20Arrays%3F,similar%20to%20the%20data%20structure.)
+    - [Pattern Searching in Strings](https://www.geeksforgeeks.org/algorithms-gq/pattern-searching/)
     
 ----
     
@@ -505,6 +509,7 @@ Help Arshith develop a way to translate any given word to that particular langua
     - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
     - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
     - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
+    - [Pattern Searching in Strings](https://www.geeksforgeeks.org/algorithms-gq/pattern-searching/)
 
 ----
 
@@ -562,6 +567,7 @@ Better luck next time
     - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
     - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
     - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
+    - [Pattern Searching in Strings](https://www.geeksforgeeks.org/algorithms-gq/pattern-searching/)
 
 ----
 
@@ -641,6 +647,8 @@ S contains only lowercase Latin characters, i.e, the characters {a,b,c…….z}
     - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
     - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
     - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
+    - [Pattern Searching in Strings](https://www.geeksforgeeks.org/algorithms-gq/pattern-searching/)
+
 
 ----
 
@@ -691,13 +699,13 @@ Since in the 8th jump the monkey touches water, the total jump count before he t
 ```
 
 - **References**
-- [Looping in C](https://www.tutorialspoint.com/cprogramming/c_loops.htm)
-- [Looping in C++](https://www.programiz.com/cpp-programming/for-loop)
-- [Looping in Java](https://www.geeksforgeeks.org/loops-in-java/)
-- [Looping in Python](https://www.w3schools.com/python/python_for_loops.asp)
-- [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
-- [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
-- [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Looping in C](https://www.tutorialspoint.com/cprogramming/c_loops.htm)
+    - [Looping in C++](https://www.programiz.com/cpp-programming/for-loop)
+    - [Looping in Java](https://www.geeksforgeeks.org/loops-in-java/)
+    - [Looping in Python](https://www.w3schools.com/python/python_for_loops.asp)
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
 
 
 ----
@@ -760,6 +768,14 @@ From 7 she has 4 options; paths of costs 6,6,3,4 (Taking path 4 is not advisable
 
 ```
 
+- **References**
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+    - [Shortest Path Algorithms](https://brilliant.org/wiki/shortest-path-algorithms/#:~:text=There%20are%20two%20main%20types,because%20of%20the%20added%20complexity.)
+
+
 ----
 ### December 13 - The Labyrinth
 #### Problem Statement
@@ -819,6 +835,12 @@ In the given samples, the input matrix specifies the structure of the maze in wh
 After computing a path to the destination, the output matrix represents the path to the destination block using 1’s.
 
 ```
+- **References**
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+    - [Backtracking Algorithms](https://www.geeksforgeeks.org/backtracking-algorithms/)
 
 ----
 ### December 14 - Math Mystery 
@@ -879,11 +901,12 @@ You are required to divide the given vertices into two sets such that:
 
 ```
 - **References**
-- [Bipartite graphs](https://www.tutorialspoint.com/bipartite-graphs)
-- [Adjacency matrices](https://www.javatpoint.com/what-is-an-adjacency-matrix)
-- [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
-- [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
-- [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Bipartite graphs](https://www.geeksforgeeks.org/bipartite-graph/)
+    - [Adjacency matrices](https://www.javatpoint.com/what-is-an-adjacency-matrix)
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
 
 ----
 
@@ -925,9 +948,9 @@ They will now be organized into a queue based on when they pressed the microphon
 
 ```
 - **References**
-- [Queue data structure](https://www.javatpoint.com/data-structure-queue)
-- [Queue in Java](https://www.geeksforgeeks.org/queue-interface-java/)
-- [Queue in Python](https://www.geeksforgeeks.org/queue-interface-java/)
+    - [Queue data structure](https://www.javatpoint.com/data-structure-queue)
+    - [Queue in Java](https://www.geeksforgeeks.org/queue-interface-java/)
+    - [Queue in Python](https://www.geeksforgeeks.org/queue-interface-java/)
 
 ----
 
@@ -968,11 +991,17 @@ In this case,the area between lines 7 and 8 will be maximum.
 
 Height of the container is min(7,8)= 7. So the max area of water (blue section) the container can contain is 49.
 
+The selected two heights need not necessarily be maximum but including the max distance between them at the same time.
+Considering both the length and breadth to be maximum the area is found. So it is a combination of height and distance between the two heights.
+So that the resultant area will be the maximum amount of water in the the given container.
+
 ```
 - **References**
-- [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
-- [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
-- [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Sorting Algorithms](https://www.geeksforgeeks.org/sorting-algorithms/)
+    - [Two Pointer Approach](https://www.geeksforgeeks.org/two-pointers-technique//)
 
 ----
 
@@ -1027,9 +1056,9 @@ Output for each test case should be printed in a separate line.
 
 ```
 - **References**
-- [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
-- [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
-- [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
+    - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
+    - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
 
 ----
 
@@ -1074,11 +1103,11 @@ Time complexity is 0(V^2)
 
 ```
 - **References**
-- [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
-- [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
-- [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
-- [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
-- [Adjacency matrices](https://www.javatpoint.com/what-is-an-adjacency-matrix)
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+    - [Shortest Path Algorithms](https://brilliant.org/wiki/shortest-path-algorithms/#:~:text=There%20are%20two%20main%20types,because%20of%20the%20added%20complexity.)
 
 ----
 
@@ -1250,6 +1279,7 @@ Please note that this is not the maximum weight generated from picking the highe
     - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
     - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
     - [Dynamic Programming](https://www.geeksforgeeks.org/dynamic-programming/)
+    - [Subsequences in Arrays and Strings](https://www.geeksforgeeks.org/subarraysubstring-vs-subsequence-and-programs-to-generate-them/)
 
 
 ----
@@ -1426,6 +1456,7 @@ The message as well as the codeword do not have any spaces between the words.
     - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
     - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
     - [Caesar Cipher](https://www.geeksforgeeks.org/caesar-cipher-in-cryptography/)
+    - [Caesar Cipher Techniques](https://www.javatpoint.com/caesar-cipher-technique)
 
 
 ----
@@ -1512,6 +1543,8 @@ For the first sample input the first line is the number of rooms and the second 
     - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
     - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
     - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Sorting](https://www.geeksforgeeks.org/sorting-algorithms/)
+    - [Heap (Priority Queue)](https://www.geeksforgeeks.org/priority-queue-using-binary-heap/)
 
 
 ----
@@ -1603,9 +1636,10 @@ Thus "01100" will unlock the safe. "01100", "10011", and "11001" would also unlo
     - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
     - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
     - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
-    - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
-    - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
-    - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
+    - [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+    - [Hierholzer’s Algorithm](https://www.geeksforgeeks.org/hierholzers-algorithm-directed-graph/)
+    - [Eulerian Path and Circuit](https://www.geeksforgeeks.org/eulerian-path-and-circuit/)
+    - [Depth First Search](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)
 
 
 ----
@@ -1627,6 +1661,26 @@ Please help him!
 If at any given time two motorcyclists are in same position, the motorcyclist with the smaller index will be placed before the one with the larger index.
 
 To make the problem simple,  he  assumes that each motorcyclist is moving at a constant velocity.
+
+Input Format:
+
+    The first line contains a number t (about 10) which is the number of test cases. 
+
+    Then t test cases follow. Each test case has the following form.
+
+    The first line of the test case contains a number N (1 <= N <= 2000), the number of motorcyclists.
+
+    The i-th line in the next N lines contains two numbers, v and x, which are the velocity and the current position of the i-th motorcyclist (1 <= v, x <= 100,000).
+
+    The next line contains a number Q (1 <= Q <= 2000), the number of time queries.
+
+    Each line in the next Q lines contains two numbers, t (1 <= t <= 1,000,000,000) and k (1 <= k <= n), representing the query: "at time t, which motorcyclist is  positioned k-th in the rank list?"
+
+Output Format:
+
+    For each test case, print Q lines, with each line containing the index of the motorcyclist for the corresponding query.
+
+    Remember to print a new line after each test case.
 
 
 
@@ -1662,36 +1716,13 @@ Output:
 
 ```
 
-
-#### Explanation:
-
-```
-Input
-
-The first line contains a number t (about 10) which is the number of test cases. 
-
-Then t test cases follow. Each test case has the following form.
-
-The first line of the test case contains a number N (1 <= N <= 2000), the number of motorcyclists.
-
-The i-th line in the next N lines contains two numbers, v and x, which are the velocity and the current position of the i-th motorcyclist (1 <= v, x <= 100,000).
-
-The next line contains a number Q (1 <= Q <= 2000), the number of time queries.
-
-Each line in the next Q lines contains two numbers, t (1 <= t <= 1,000,000,000) and k (1 <= k <= n), representing the query: "at time t, which motorcyclist is positioned k-th in the rank list?"
-
-Output:
-
-For each test case, print Q lines, with each line containing the index of the motorcyclist for the corresponding query.
-
-Remember to print a new line after each test case.
-
-```
 - **References**
     - [Looping in C](https://www.tutorialspoint.com/cprogramming/c_loops.htm)
     - [Looping in C++](https://www.programiz.com/cpp-programming/for-loop)
     - [Looping in Java](https://www.geeksforgeeks.org/loops-in-java/)
     - [Looping in Python](https://www.w3schools.com/python/python_for_loops.asp)
+    - [Sorting Algorithms](https://www.geeksforgeeks.org/sorting-algorithms/)
+    - [Searching Algorithms](https://www.geeksforgeeks.org/searching-algorithms/)
 
 ----
 
@@ -1762,6 +1793,11 @@ The list has four persons and everyone knows what the word is so the output is �
 
 <p align="center"><img src="https://user-images.githubusercontent.com/105559815/209476058-e08a4bc6-9a28-4846-99c0-e47333015739.png" width="400"></p>
 
+- **References**
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+
 ----
 
 ### December 27 - Mission to Earth: Re-Calibrated
@@ -1830,6 +1866,18 @@ Fuel calibration: 0.160%
 Amount of fuel in tank: 48 L out of 30,000 L
 The tank is EMPTY!!!
 Refill tank.
+
+```
+
+``` 
+Input: 
+
+Enter the Hydrogen fuel fraction:
+583/0
+
+Output:
+
+Error!
 
 ```
 
@@ -1951,6 +1999,7 @@ Adding the time:
     - [Looping in C++](https://www.programiz.com/cpp-programming/for-loop)
     - [Looping in Java](https://www.geeksforgeeks.org/loops-in-java/)
     - [Looping in Python](https://www.w3schools.com/python/python_for_loops.asp)
+    - [Dynamic Programming](https://www.geeksforgeeks.org/introduction-to-dynamic-programming-data-structures-and-algorithm-tutorials/)
 
 ----
 
@@ -2018,6 +2067,8 @@ The third child gets 1 candy because it satisfies the above two conditions.
     - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
     - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
     - [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+    - [Dynamic Programming](https://www.geeksforgeeks.org/introduction-to-dynamic-programming-data-structures-and-algorithm-tutorials/)
+    - [Greedy Algorithms](https://www.geeksforgeeks.org/greedy-algorithms/)
 
 ----
 
