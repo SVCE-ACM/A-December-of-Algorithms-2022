@@ -1,0 +1,11 @@
+No. of days: 19
+Given stock market change values: 5 -4 12 -2 -5 6 -2 -3 1 5 -6 -11 7 -31 9 2 -3 8 -5
+Profit Value: 16
+Proposed days to sell: Day: 15 Day: 18
+Stock market Change Values: 9 2 -3 8
+
+No. of days: 5
+Given stock market change values: 5 4 -1 7 8 
+Profit Value: 23
+Proposed days to sell: Day: 1 Day: 5
+Stock market Change Values: 5 4 -1 7 8
