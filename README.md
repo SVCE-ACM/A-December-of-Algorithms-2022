@@ -46,6 +46,17 @@ Check out our FAQ for more information.
   - [**December 18 - Find the way**](#december-18---find-the-way)
   - [**December 19 - Hidden Anagram**](#december-19---hidden-anagram)
   - [**December 20 - Code a Subsequence**](#december-20---code-a-subsequence)
+  - [**December 21 - The Devil Towers**](#december-21---the-devil-towers)
+  - [**December 22 - The Markowitz Paradox**](#december-22---the-markowitz-paradox)
+  - [**December 23 - Meeting Rooms**](#december-23---meeting-rooms)
+  - [**December 24 - Cracking The Safe**](#december-24---cracking-the-safe)
+  - [**December 25 - The Motorbike Race**](#december-25---the-motorbike-race)
+  - [**December 26 - Circulate**](#december-26---circulate)
+  - [**December 27 - Mission to Earth: Re-Calibrated**](#december-27---mission-to-earth-re-calibrated)
+  - [**December 28 - The Journey to the Eternal Engine**](#december-28---the-journey-to-the-eternal-engine)
+  - [**December 29 - Candies**](#december-29---candies)
+  - [**December 30 - Precise Portion**](#december-30---precise-portion)
+  - [**December 31 - The Quad of Queens**](#december-31---the-quad-of-queens)
   - [**FAQ**](#faq)
   
   
@@ -89,7 +100,9 @@ Check out our FAQ for more information.
    #### Explanation
    ```
      
-        The first line of input will specify the number of words (n). The subsequent 'n' lines will specify the word to be translated.
+        The first line of input will specify the number of words (n). 
+        
+        The subsequent 'n' lines will specify the word to be translated, where each letter is separated by a comma.
         
    ```
     
@@ -326,7 +339,7 @@ Expenditure=6050
  #### Explanation
  ```
  
-         The input is the rate of the fuel in the beginning of the month.
+        The input is the rate of the fuel in the beginning of the month.
         The output is the amount he must spend on fueling his bike. 
         If the expenditure exceeds 10% of the income (i.e greater than 5000), then an alert message must be displayed.
         
@@ -461,6 +474,8 @@ Output:
     - [Strings in C++](https://www.tutorialspoint.com/cplusplus/cpp_strings.htm)
     - [Strings in Java](https://www.tutorialspoint.com/java/java_strings.htm)
     - [String in Python](https://www.tutorialspoint.com/python/python_strings.htm)
+    - [2D Arrays](https://www.simplilearn.com/tutorials/data-structure-tutorial/two-dimensional-arrays#:~:text=ExpertView%20Course-,What%20Are%20Two%2DDimensional%20Arrays%3F,similar%20to%20the%20data%20structure.)
+    - [Pattern Searching in Strings](https://www.geeksforgeeks.org/algorithms-gq/pattern-searching/)
     
 ----
     
@@ -494,6 +509,7 @@ Help Arshith develop a way to translate any given word to that particular langua
     - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
     - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
     - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
+    - [Pattern Searching in Strings](https://www.geeksforgeeks.org/algorithms-gq/pattern-searching/)
 
 ----
 
@@ -551,6 +567,7 @@ Better luck next time
     - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
     - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
     - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
+    - [Pattern Searching in Strings](https://www.geeksforgeeks.org/algorithms-gq/pattern-searching/)
 
 ----
 
@@ -630,6 +647,8 @@ S contains only lowercase Latin characters, i.e, the characters {a,b,c…….z}
     - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
     - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
     - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
+    - [Pattern Searching in Strings](https://www.geeksforgeeks.org/algorithms-gq/pattern-searching/)
+
 
 ----
 
@@ -680,13 +699,13 @@ Since in the 8th jump the monkey touches water, the total jump count before he t
 ```
 
 - **References**
-- [Looping in C](https://www.tutorialspoint.com/cprogramming/c_loops.htm)
-- [Looping in C++](https://www.programiz.com/cpp-programming/for-loop)
-- [Looping in Java](https://www.geeksforgeeks.org/loops-in-java/)
-- [Looping in Python](https://www.w3schools.com/python/python_for_loops.asp)
-- [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
-- [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
-- [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Looping in C](https://www.tutorialspoint.com/cprogramming/c_loops.htm)
+    - [Looping in C++](https://www.programiz.com/cpp-programming/for-loop)
+    - [Looping in Java](https://www.geeksforgeeks.org/loops-in-java/)
+    - [Looping in Python](https://www.w3schools.com/python/python_for_loops.asp)
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
 
 
 ----
@@ -749,6 +768,14 @@ From 7 she has 4 options; paths of costs 6,6,3,4 (Taking path 4 is not advisable
 
 ```
 
+- **References**
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+    - [Shortest Path Algorithms](https://brilliant.org/wiki/shortest-path-algorithms/#:~:text=There%20are%20two%20main%20types,because%20of%20the%20added%20complexity.)
+
+
 ----
 ### December 13 - The Labyrinth
 #### Problem Statement
@@ -808,6 +835,12 @@ In the given samples, the input matrix specifies the structure of the maze in wh
 After computing a path to the destination, the output matrix represents the path to the destination block using 1’s.
 
 ```
+- **References**
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+    - [Backtracking Algorithms](https://www.geeksforgeeks.org/backtracking-algorithms/)
 
 ----
 ### December 14 - Math Mystery 
@@ -868,11 +901,12 @@ You are required to divide the given vertices into two sets such that:
 
 ```
 - **References**
-- [Bipartite graphs](https://www.tutorialspoint.com/bipartite-graphs)
-- [Adjacency matrices](https://www.javatpoint.com/what-is-an-adjacency-matrix)
-- [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
-- [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
-- [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Bipartite graphs](https://www.geeksforgeeks.org/bipartite-graph/)
+    - [Adjacency matrices](https://www.javatpoint.com/what-is-an-adjacency-matrix)
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
 
 ----
 
@@ -914,9 +948,9 @@ They will now be organized into a queue based on when they pressed the microphon
 
 ```
 - **References**
-- [Queue data structure](https://www.javatpoint.com/data-structure-queue)
-- [Queue in Java](https://www.geeksforgeeks.org/queue-interface-java/)
-- [Queue in Python](https://www.geeksforgeeks.org/queue-interface-java/)
+    - [Queue data structure](https://www.javatpoint.com/data-structure-queue)
+    - [Queue in Java](https://www.geeksforgeeks.org/queue-interface-java/)
+    - [Queue in Python](https://www.geeksforgeeks.org/queue-interface-java/)
 
 ----
 
@@ -957,11 +991,17 @@ In this case,the area between lines 7 and 8 will be maximum.
 
 Height of the container is min(7,8)= 7. So the max area of water (blue section) the container can contain is 49.
 
+The selected two heights need not necessarily be maximum but including the max distance between them at the same time.
+Considering both the length and breadth to be maximum the area is found. So it is a combination of height and distance between the two heights.
+So that the resultant area will be the maximum amount of water in the the given container.
+
 ```
 - **References**
-- [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
-- [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
-- [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Sorting Algorithms](https://www.geeksforgeeks.org/sorting-algorithms/)
+    - [Two Pointer Approach](https://www.geeksforgeeks.org/two-pointers-technique//)
 
 ----
 
@@ -1016,9 +1056,9 @@ Output for each test case should be printed in a separate line.
 
 ```
 - **References**
-- [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
-- [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
-- [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
+    - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
+    - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
 
 ----
 
@@ -1063,11 +1103,11 @@ Time complexity is 0(V^2)
 
 ```
 - **References**
-- [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
-- [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
-- [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
-- [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
-- [Adjacency matrices](https://www.javatpoint.com/what-is-an-adjacency-matrix)
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+    - [Shortest Path Algorithms](https://brilliant.org/wiki/shortest-path-algorithms/#:~:text=There%20are%20two%20main%20types,because%20of%20the%20added%20complexity.)
 
 ----
 
@@ -1192,6 +1232,19 @@ Output:
 100  
 110
 
+Input:
+
+2
+5 6
+2 4 3 5 1
+7 15
+6 3 12 4 5 1 2
+
+
+Output:
+
+1 1 2 2 3 1 
+1 1 1 2 3 2 2 3 1 1 2 2 0 0 0
 
 ```
 
@@ -1199,7 +1252,7 @@ Output:
 
 ```
 
-In the first sequence, the maximum size increasing subsequence is 4, and there's only one of them. We choose B = [(1, 10), (2, 20), (3, 30), (4, 40)], and we have Weight(B) = 100.
+In the first Example,at the first sequence, the maximum size increasing subsequence is 4, and there's only one of them. We choose B = [(1, 10), (2, 20), (3, 30), (4, 40)], and we have Weight(B) = 100.
 In the second sequence, the maximum size increasing subsequence is still 4, but there are now 5 possible subsequences:
 1 2 3 4  
 10 20 30 40
@@ -1226,9 +1279,1151 @@ Please note that this is not the maximum weight generated from picking the highe
     - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
     - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
     - [Dynamic Programming](https://www.geeksforgeeks.org/dynamic-programming/)
+    - [Subsequences in Arrays and Strings](https://www.geeksforgeeks.org/subarraysubstring-vs-subsequence-and-programs-to-generate-them/)
 
 
 ----
+
+
+
+### December 21 - The Devil Towers
+
+#### Problem Statement
+
+Morpheus, the ruler of the Kingdom of Dreaming was summoned and robbed of his possessions and kept in confinement for 106 years. Upon his escape from the shackles of time, Morpheus now wishes to find his lost possessions, a scarlet ruby, a pouch of sand, and his helm, a ceremonial crown he must dorn to become King of Dreaming again.
+
+To his utter shock, his helm resides in the hands of a Lesser Daemon in the depths of Hell. Morpheus descends into hell and is immediately in an audience with Pandaemonium’s ruler, Lucifer Morningstar. The Lesser Daemon challenges Morpheus to a tourney of brilliance, to a game known as the Devil Towers.
+
+The Daemon gives Morpheus 3 towers. At the end of the game, all discs must be stacked on only a single tower, leaving the others empty.
+
+The Daemon claims Lucifer as his champion, while Morpheus calls you in as his, and so you are tasked with moving all discs from the first to the third tower, heeding the Daemon’s rules:-
+
+        - You can only move one disc at a time.
+        
+        - Only the disc at the top of the tower can be moved. 
+        
+        - Discs can only be moved by first moving discs above them.
+        
+        - No disc may be placed on top of a smaller disc.
+        
+        - You have only certain fixed moves:
+        
+                    left->right, left->middle
+               
+                    middle->left, middle->right
+                    
+                    right->left, right->middle
+                    
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/208724678-d03ae57c-2940-42ad-bbae-1721df372728.gif" width="400"></p>
+
+
+#### Sample Input/Output
+``` 
+Input:
+
+Number of discs: 3
+
+Output:
+
+The sequence of moves :
+Move disk 1 from tower I to tower III
+Move disk 2 from tower I to tower II
+Move disk 1 from tower III to tower II
+Move disk 3 from tower I to tower III
+Move disk 1 from tower II to tower I
+Move disk 2 from tower II to tower III
+Move disk 1 from tower I to tower III
+
+```
+
+``` 
+Input:
+
+Number of discs: 2
+
+Output:
+
+The sequence of moves :
+ Move disk 1 from tower I to tower II
+ Move disk 2 from tower I to tower III
+ Move disk 1 from tower II to tower III
+
+```
+
+#### Explanation:
+
+```
+
+Your input will be a number indicating the total number of disks on the first (left) tower.
+Your output must be the sequence of moves for the given number of discs.
+
+```
+- **References**
+    - [Recursive Algorithms](https://www.geeksforgeeks.org/introduction-to-recursion-data-structure-and-algorithm-tutorials/)
+
+
+----
+
+### December 22 - The Markowitz Paradox
+
+#### Problem Statement
+
+In the year 1977, Meyer Offerman, a rich Jewish businessman in New York and his covert associates began hunting down all Nazi officials given asylum in the United States of America as a part of Operation Paperclip. 
+
+On one of their missions they intercepted some messages hinting at a possible Third Reich in the works, but most of the message was encrypted into some code language meant only for the Reich. After spending weeks on trying to decode the messages and worried that the Third Reich of Nazi Germany may be inevitable, Murray Markowitz was finally able to interpret them and uncover one of the most sinister plots in American history. 
+
+The Hunters devised a plan to send bogus messages to the other Nazis on behalf of their Colonel, altering their plan of action and in the process destabilising the Reich. However, before Murray was able to encrypt the bogus messages he was killed in a subway explosion leaving Jonah Heidlbaum, the responsibility of completing his task.
+
+The only reference Jonah has in order to correctly translate the given text into the secret message is Murray’s old Caesar Cipher notes as the encryption algorithm he discovered was destroyed during the explosion. 
+
+Upon studying them he discovered that the method of encryption, used a series of interwoven Caesar ciphers, that takes a codeword and given a plaintext repeats the codeword until it matches the length of the plaintext.
+
+L E M O N L E M O N L E
+
+A T T A C K A T D A W N
+
+The algorithm should encrypt every letter using a Caesar cipher shifted to the corresponding letter of the codeword. 
+
+So, for example:
+
+    - The first "A" is encrypted using a Caesar cipher of A → L (+11), so it becomes L.
+    
+    - The first "T" is encrypted using a Caesar cipher of A → E (+4), so it becomes X.
+    
+    - The second "T" is encrypted using a Caesar cipher of A → M (+12), so it becomes F.
+
+Subsequently, we get:
+LXFOPVEFRNHR
+
+Help Jonah by writing a program to encrypt the bogus messages correctly.
+
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/208968039-bfda545d-7a79-47c6-ab1d-caf7ff7b9cdc.jpg" width="400"></p>
+
+
+#### Sample Input/Output
+``` 
+Input:
+
+LEMON
+ATTACKATDAWN
+
+Output:
+
+LXFOPVEFRNHR
+
+```
+
+``` 
+Input:
+
+HOTDOG
+CONEYISLANDONFRI
+
+
+Output:
+
+JCGHMOZZTQRUUTKL
+
+```
+
+``` 
+Input:
+
+MUSTANG
+THECOLNELWILLBEATCENTRALPARKWITHTHEDETONATORDONOTAPPROACHWITHOUTBACKUP
+
+Output:
+
+FBWVOYTQFOBLYHQULVEAZDUDIAEQICLATUKPYLHNNZALVHNBZMJHKONITQAMHBAFVSVKHV
+
+```
+
+#### Explanation:
+
+```
+
+The first line of input is the codeword in this case “LEMON” and the next line of input is the message to be encrypted. 
+The message as well as the codeword do not have any spaces between the words.
+
+```
+
+- **References**
+    - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
+    - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
+    - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
+    - [Caesar Cipher](https://www.geeksforgeeks.org/caesar-cipher-in-cryptography/)
+    - [Caesar Cipher Techniques](https://www.javatpoint.com/caesar-cipher-technique)
+
+
+----
+
+### December 23 - Meeting Rooms
+
+#### Problem Statement
+
+You are given an integer n. There are n rooms numbered from 0 to n - 1.
+
+You are given a 2D integer array meetings where meetings[i] = [starti, endi] means that a meeting will be held during the half-closed time interval [starti, endi). All the values of starti are unique.
+
+Meetings are allocated to rooms in the following manner:
+
+Each meeting will take place in the unused room with the lowest number.
+
+If there are no available rooms, the meeting will be delayed until a room becomes free. The delayed meeting should have the same duration as the original meeting.
+
+When a room becomes unused, meetings that have an earlier original start time should be given the room.
+
+Return the number of the room that held the most meetings. If there are multiple rooms, return the room with the lowest number.
+
+A half-closed interval [a, b) is the interval between a and b including a and not including b.
+
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/209187411-30d43abd-04df-473d-9e81-ad9665b88ba2.jpg" width="400"></p>
+
+
+#### Sample Input/Output
+``` 
+Input:
+
+n = 2
+
+meetings = [[0,10],[1,5],[2,7],[3,4]]
+
+
+Output:
+
+0
+
+```
+
+``` 
+Input:
+
+n = 3
+
+meetings = [[1,20],[2,10],[3,5],[4,9],[6,8]]
+
+
+Output:
+
+1
+
+```
+
+
+#### Explanation:
+
+```
+
+For the first sample input the first line is the number of rooms and the second line of input is the meetings with the start and end time.
+
+- At time 0, both rooms are not being used. The first meeting starts in room 0.
+
+- At time 1, only room 1 is not being used. The second meeting starts in room 1.
+
+- At time 2, both rooms are being used. The third meeting is delayed.
+
+- At time 3, both rooms are being used. The fourth meeting is delayed.
+
+- At time 5, the meeting in room 1 finishes. The third meeting starts in room 1 for the time period [5,10).
+
+- At time 10, the meetings in both rooms finish. The fourth meeting starts in room 0 for the time period [10,11).
+  
+  Both rooms 0 and 1 held 2 meetings, so we return 0. 
+
+
+
+```
+- **References**
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Sorting](https://www.geeksforgeeks.org/sorting-algorithms/)
+    - [Heap (Priority Queue)](https://www.geeksforgeeks.org/priority-queue-using-binary-heap/)
+
+
+----
+
+### December 24 - Cracking The Safe
+
+#### Problem Statement
+
+There is a safe protected by a password. The password is a sequence of n digits where each digit can be in the range [0, k - 1].
+
+The safe has a peculiar way of checking the password. When you enter in a sequence, it checks the most recent n digits that were entered each time you type a digit.
+
+For example, the correct password is "345" and you enter in "012345":
+
+    - After typing 0, the most recent 3 digits is "0", which is incorrect.
+    
+    - After typing 1, the most recent 3 digits is "01", which is incorrect.
+    
+    - After typing 2, the most recent 3 digits is "012", which is incorrect.
+    
+    - After typing 3, the most recent 3 digits is "123", which is incorrect.
+    
+    - After typing 4, the most recent 3 digits is "234", which is incorrect.
+    
+    - After typing 5, the most recent 3 digits is "345", which is correct and the safe unlocks.
+    
+Return any string of minimum length that will unlock the safe at some point of entering it
+
+
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/209376144-4c112416-46de-42bb-b93f-de62683ae156.jpg" width="400"></p>
+
+
+
+#### Sample Input/Output
+``` 
+Input:
+
+ n = 1
+ k = 2
+
+
+Output:
+
+"10"
+
+```
+
+``` 
+Input:
+
+n = 2
+k = 2
+
+
+Output:
+
+"01100"
+
+```
+
+
+#### Explanation:
+
+```
+Sample - 1
+
+ The password is a single digit, so enter each digit. "01" would also unlock the safe.
+
+
+Sample - 2
+
+For each possible password:
+
+- "00" is typed in starting from the 4th digit.
+
+- "01" is typed in starting from the 1st digit.
+
+- "10" is typed in starting from the 3rd digit.
+
+- "11" is typed in starting from the 2nd digit.
+
+Thus "01100" will unlock the safe. "01100", "10011", and "11001" would also unlock the safe.
+
+
+```
+- **References**
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+    - [Hierholzer’s Algorithm](https://www.geeksforgeeks.org/hierholzers-algorithm-directed-graph/)
+    - [Eulerian Path and Circuit](https://www.geeksforgeeks.org/eulerian-path-and-circuit/)
+    - [Depth First Search](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)
+
+
+----
+
+### December 25 - The Motorbike Race
+
+#### Problem Statement
+
+It's time for the annual exciting Motorbike Race in Bangalore.
+
+There are N motorcyclists taking part in the competition. George is watching the race. 
+
+At the present moment (time 0),  he has taken note of the current velocity and position of each motorcyclist.
+
+He wants to know at a given point of time, which motorcyclist is in a specific place in the rank list. 
+
+Please help him!
+
+If at any given time two motorcyclists are in same position, the motorcyclist with the smaller index will be placed before the one with the larger index.
+
+To make the problem simple,  he  assumes that each motorcyclist is moving at a constant velocity.
+
+Input Format:
+
+    The first line contains a number t (about 10) which is the number of test cases. 
+
+    Then t test cases follow. Each test case has the following form.
+
+    The first line of the test case contains a number N (1 <= N <= 2000), the number of motorcyclists.
+
+    The i-th line in the next N lines contains two numbers, v and x, which are the velocity and the current position of the i-th motorcyclist (1 <= v, x <= 100,000).
+
+    The next line contains a number Q (1 <= Q <= 2000), the number of time queries.
+
+    Each line in the next Q lines contains two numbers, t (1 <= t <= 1,000,000,000) and k (1 <= k <= n), representing the query: "at time t, which motorcyclist is  positioned k-th in the rank list?"
+
+Output Format:
+
+    For each test case, print Q lines, with each line containing the index of the motorcyclist for the corresponding query.
+
+    Remember to print a new line after each test case.
+
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/209445111-2485a080-c031-4688-b8a8-172ec6410654.jpg" width="400"></p>
+
+
+
+#### Sample Input/Output
+``` 
+Input:
+
+1
+4
+2 100
+3 50
+4 60
+5 1
+4
+1 1
+50 2
+60 4
+100 1
+
+
+
+Output:
+
+1
+4
+1
+4
+
+
+```
+
+- **References**
+    - [Looping in C](https://www.tutorialspoint.com/cprogramming/c_loops.htm)
+    - [Looping in C++](https://www.programiz.com/cpp-programming/for-loop)
+    - [Looping in Java](https://www.geeksforgeeks.org/loops-in-java/)
+    - [Looping in Python](https://www.w3schools.com/python/python_for_loops.asp)
+    - [Sorting Algorithms](https://www.geeksforgeeks.org/sorting-algorithms/)
+    - [Searching Algorithms](https://www.geeksforgeeks.org/searching-algorithms/)
+
+----
+
+### December 26 - Circulate
+
+#### Problem Statement
+
+A group of n people are trying to spread a word among themselves. 
+
+The word is initially only known by the first person in the group. 
+
+The first person may share the word with a few people that he knows, and those people may share the word with the people they know, and so on. 
+
+The task is to determine whether the word has been successfully spread to all n people in the group. 
+
+If the word has been successfully spread to all n people, the program should print "Spread". 
+
+If the word has not yet been successfully spread to all n people, the program should print "Nope".
+
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/209476068-c5ec3edd-9da8-4ebc-b5cf-3b955fff9b81.jpg" width="400"></p>
+
+
+
+#### Sample Input/Output
+``` 
+Input:
+
+[[2], [3, 4], [2], [2]]
+
+
+Output:
+
+Spread
+
+
+```
+
+``` 
+Input:
+
+[[2], [5, 4, 6], [3], [4], [5], [6]]
+
+
+Output: 
+
+Nope
+
+
+```
+
+
+#### Explanation:
+
+```
+
+The first person said the word to the second person. 
+
+The second person said the word to the third and fourth person.
+
+Third person shares the word with the second person.
+
+The list has four persons and everyone knows what the word is so the output is “Spread”.
+
+
+```
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/209476058-e08a4bc6-9a28-4846-99c0-e47333015739.png" width="400"></p>
+
+- **References**
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+
+----
+
+### December 27 - Mission to Earth: Re-Calibrated
+
+#### Problem Statement
+
+AUTO, the autopilot helm of the starliner The Axiom lead a coup of robots and breached security, infiltrating the Boiler Room and Fuel Tank mechanics to steer the Axiom away from the Earth. 
+
+WALL-E manages to follow the robots who joined AUTO’s cause in disguise to annihilate him and recalibrate the Fuel Tank mechanics so that humans can finally set foot on their home planet in 2805.
+
+Fuel gauges indicate, often with fractions, just how much fuel is in a tank. For instance, 1/4 indicates that a tank is 25% full, 1/2 indicates that a tank is 50% full, and 3/4 indicates that a tank is 75% full.
+
+You are the Fuel Engine Calibrator, FEC and WALL-E needs your help. 
+
+The Fuel Tank’s capacity is 30,000 L. 
+
+Implement a program that prompts the user for a fraction, formatted as X/Y, wherein each of X and Y is an integer, and then outputs, as a percentage rounded to the nearest integer, how much fuel is in the tank.
+
+If 1% or less remains, output E instead indicates that the tank is essentially empty. And if 99% or more remains, output F instead to indicate that the tank is essentially full. Calculate the total fuel in the Fuel Tank.
+
+If X or Y is not an integer, X is greater than Y, or Y is 0, prompt the user again. (It is optional for Y to be 4.) Be sure to catch any exceptions like ValueError or ZeroDivisionError.
+
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/118124756/209569016-4948ca1e-21de-4f05-b758-70a9fb0edf20.jpg" width="400"></p>
+
+
+#### Sample Input/Output
+``` 
+Input: 
+
+Enter the Hydrogen fuel fraction:
+5/7
+
+Output:
+
+Fuel calibration: 71.428%
+Amount of fuel in tank: 21,428.4 L out of 30,000 L
+
+```
+
+```
+
+Input: 
+
+Enter the Hydrogen fuel fraction:
+722/729
+
+Output:
+
+Fuel calibration: 99.039%
+Amount of fuel in tank: 29,711.7 L out of 30,000 L
+The tank is FULL!
+
+```
+
+```
+
+Input: 
+Enter the Hydrogen fuel fraction:
+25/15600
+
+Output:
+
+Fuel calibration: 0.160%
+Amount of fuel in tank: 48 L out of 30,000 L
+The tank is EMPTY!!!
+Refill tank.
+
+```
+
+``` 
+Input: 
+
+Enter the Hydrogen fuel fraction:
+583/0
+
+Output:
+
+Error!
+
+```
+
+- **References**
+    - [Looping in C](https://www.tutorialspoint.com/cprogramming/c_loops.htm)
+    - [Looping in C++](https://www.programiz.com/cpp-programming/for-loop)
+    - [Looping in Java](https://www.geeksforgeeks.org/loops-in-java/)
+    - [Looping in Python](https://www.w3schools.com/python/python_for_loops.asp)
+
+----
+
+### December 28 - The Journey to the Eternal Engine
+
+#### Problem Statement
+
+In a dystopian world where a failed attempt at reversing the effects of global warming has left the Earth frozen over and has eradicated most of life, the only surviving souls live on a perpetually moving train called Snowpiercer. The passengers of the train are divided based on class (First, Second and Third). Passengers who did not purchase a ticket and are not of the working class of the train have been locked up in the back of the train called the Tail. Andre Layton the head Tailie inspires a rebellion along with the other Tailies to take over the Eternal Engine from the Head Engineer. 
+
+In order for them to do this, they must leave the tail without getting caught by the Jackboots or the Brakemen.  
+Layton comes up with a plan to help him and a few of the other Tailies reach the Engine. They must scale the outside of the train to go from the Tail to the nearest third class compartment, in order to not get caught. One of their allies in the third class has agreed to keep the compartment door open and keep a watch for the Jackboots or the Brakemen patrolling the train.  
+
+Conditions:
+
+    There are only 2 breach suits and without them, if one is exposed to the freezing air, they will instantly succumb to frostbite.
+
+    There needs to be at least 3 Tailies (including Layton) to even attempt to take over the engine.
+
+   In order to bring back the breach suit for the other Tailies, one of the Tailies already in the compartment must come back. It is not necessary that the same Tailie comes back everytime.
+
+    While moving along the path, both the Tailies must walk at the slower person’s pace.
+
+
+Given the time taken for each individual Tailie to walk in seconds, calculate the minimum amount of time, in minutes, it will take for all the Tailies to make it from the Tail to the Third Class compartment successfully.
+
+<p align="center"><img src="https://user-images.githubusercontent.com/119505502/209691779-d89eebd2-ceec-4944-ad02-0cdbdef59ce6.jpg" width="400"></p>
+
+
+#### Sample Input/Output
+``` 
+Input: 
+
+n=3
+
+Walking time: { 15, 40, 60 }
+
+Output:
+
+1.916
+
+```
+
+```
+Input: 
+
+n=4
+ 
+Walking time: { 1, 4, 7, 8, 3, 2 }
+
+Output:
+
+0.4
+
+``` 
+
+```
+Input: 
+
+n=9
+ 
+Walking time: { 3, 10, 12, 13, 15, 17, 21, 35, 23 }
+
+Output:
+
+2.683
+
+``` 
+
+
+#### Explanation
+
+``` 
+Input format:
+
+In the first line of the input you are given the number of Tailies (including Layton).
+
+In the second line of the input you are given the walking time of each of the Tailies in seconds as an array.
+
+
+In the first example, the first person, say Layton (15) and the second (40) travel together, this takes 40 seconds.
+
+Layton walks back to the Tail with the breach suit and this takes another 15 seconds.
+
+With the last Tailie he walks to the third class compartment and this takes 60 seconds.
+
+Adding all this we get, 40+15+60= 115 seconds which is 1.916 minutes.  
+
+Sample -2
+
+{ 1, 4, 7, 8, 3, 2 }
+
+The tailes are identified using indices 1 to 6. The Tail is T and the third class compartment is C:
+
+1. 1 and 6 move to C = 2s
+2. 1 moves to T = 1
+3. 3 and 4 move to C= 8
+4. 6 moves to T = 2
+5. 1 and 2 move to C= 4
+6. 1 moves to T= 1
+7. 1 and 5 move to C= 3
+8. 1 moves to T = 1
+9. 1 and 6 move to C= 2
+
+Adding the time:
+2+1+8+2+4+1+3+1+2=24 seconds = 0.4 minutes
+
+```
+
+- **References**
+    - [Looping in C](https://www.tutorialspoint.com/cprogramming/c_loops.htm)
+    - [Looping in C++](https://www.programiz.com/cpp-programming/for-loop)
+    - [Looping in Java](https://www.geeksforgeeks.org/loops-in-java/)
+    - [Looping in Python](https://www.w3schools.com/python/python_for_loops.asp)
+    - [Dynamic Programming](https://www.geeksforgeeks.org/introduction-to-dynamic-programming-data-structures-and-algorithm-tutorials/)
+
+----
+
+### December 29 - Candies
+
+#### Problem Statement
+
+There are n children standing in a line. Each child is assigned a rating value given in the integer array ratings.
+
+You are giving candies to these children subjected to the following requirements:
+    
+    Each child must have at least one candy.
+
+    Children with a higher rating get more candies than their neighbors.
+
+Return the minimum number of candies you need to have to distribute the candies to the children
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/209849316-c736a74e-d106-4070-8a14-814c7036ca6c.jpg" width="400"></p>
+
+
+#### Sample Input/Output
+``` 
+Input: 
+
+n=3
+ratings = {1,2,2}
+
+Output:
+
+4
+
+```
+
+```
+Input: 
+
+n=11
+ratings = {1, 4, 3, 6, 2, 1, 8, 1, 3, 7, 7}
+
+Output:
+
+19
+
+``` 
+
+#### Explanation
+
+``` 
+Input format:
+
+In the first line of the input you are given the number of children.
+
+In the second line of the input you are given the rating of each child.
+
+Sample -1 :
+
+You can allocate to the first, second and third child with 1, 2, 1 candies respectively.
+The third child gets 1 candy because it satisfies the above two conditions.
+
+```
+
+- **References**
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+    - [Dynamic Programming](https://www.geeksforgeeks.org/introduction-to-dynamic-programming-data-structures-and-algorithm-tutorials/)
+    - [Greedy Algorithms](https://www.geeksforgeeks.org/greedy-algorithms/)
+
+----
+
+### December 30 - Precise Portion
+
+#### Problem Statement
+
+The Elite students society in Nevermore changed their riddle in order to not allow non- members of the society to enter their library.
+
+The puzzle is currently with 2 jugs, with different volumes and a fountain instead of the statue.
+And a riddle engraved on a plate with the target volume of water made from the two jugs.
+
+                                         “Wednesday’s child is full of woe,
+                    
+                                                   Amount of wisdom,
+                            
+                                                   And amount of foe.
+                           
+                                            The wisdom of Wednesday I seek,
+                    
+                                Is her position from the first workday of the week.”
+
+
+Being in the shoes of Wednesday Addams, in order to enter the library , formulate a code  to fill a particular jug with the amount of water specified in the riddle with only the two jugs given.
+
+Note:
+
+    1. You can fill the jugs from the fountain
+    2.Transfer water from one jug to another
+    3.Empty the water from the jug into the fountain
+    4.None of the jugs have markings on them, nor do you have any additional measuring device.
+
+Note: The examples given for the input and output format must NOT be used as sample input and must only be used to understand the FORMAT of the input.
+
+Input format:
+
+    The first line of input is a 1 Dimensional array with 2 elements representing the 2 jugs with their respective volumes in ounces.
+
+        eg. (8,1)
+
+        Jug 1 has volume = 8 ounces
+
+        Jug 2 has volume = 1 ounces
+
+    The second line of input is a 1 Dimensional array with 2 elements representing the 2 jugs.
+
+        eg. (5, 0)
+
+        The target we must reach is : Jug 1 is filled with 5 ounces of water and Jug 2 is empty.
+        
+
+Output format:
+
+    The output must contain the sequence of steps, where each line is a different step. 
+    
+    Every line of the output is a 1 dimensional array with 2 elements representing the current volume of water in each jug at the end of that step.
+
+    You must start with both jugs being empty, that is, (0,0)
+
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/209995446-3803be14-df2c-4224-8f73-4b511f80dfef.gif" width="400"></p>
+
+
+
+#### Sample Input/Output
+``` 
+Input: 
+
+(4, 9)
+(3, 0)
+
+Output:
+
+(0, 0)
+(4, 0)
+(0, 4)
+(4, 4)
+(0, 8)
+(4, 8)
+(3, 9)
+(3, 0)
+
+
+```
+
+```
+Input: 
+
+ ( 5, 4)
+ ( 3, 0)
+
+Output:
+
+ (0, 0)
+ (5, 0)
+ (1, 4)
+ (1, 0)
+ (0, 1)
+ (5, 1)
+ (2, 4)
+ (2, 0)
+ (0, 2)
+ (5, 2)
+ (3, 4)
+ (3, 0)
+
+``` 
+
+```
+Input:
+
+(11,9)
+(0,3)
+
+Output:
+(0, 0)
+(11, 0)
+(2, 9)
+(0, 9)
+(9, 0)
+(9, 9)
+(11, 7)
+(0, 7)
+(7, 0)
+(7, 9)
+(11, 5)
+(0, 5)
+(5, 0)
+(5, 9)
+(11, 3)
+(0, 3)
+
+``` 
+
+#### Explanation
+
+``` 
+Sample 1: 
+(4,9) Jug 1 is the 4 ounce jug and Jug 2 is the 9 ounce jug.
+We have to get (3,0)
+
+1. We first start with both the jugs being empty
+2. We fill the 4 ounce jug to the brim from the fountain.
+3. Then we transfer the water from the 4 ounce jug to the 9 ounce jug. The 4 ounce jug is now empty and the 9 ounce jug      has 4 ounces of water.
+4. Fill the 4 ounce jug from the fountain.
+5. Transfer the water in the 4 ounce jug to the 9 ounce jug. The 4 ounce jug is empty and the 9 ounce jug has 8 ounces of    water.
+6. Fill the 4 ounce jug to the brim.
+7. Fill the 9 ounce jug to the brim by transferring water from the 4 ounce jug to the 9 ounce jug. The 4 ounce jug has 3      ounces of water and the 9 ounce jug is filled completely.
+8. Empty the contents of the 9 ounce jug into the fountain. 
+
+ We now have the target which is (3,0) that is, jug 1 is filled with 3 ounces of water and jug 2 is empty.
+
+Note: There maybe more than one solution for the given input
+If you do get another solution, you can still submit it. 
+
+```
+
+- **References**
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+    - [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+    - [BFS](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
+
+----
+
+### December 31 - The Quad of Queens
+
+#### Problem Statement
+
+The queens of the Hogwarts realm were invited to a chess themed royal ball held at the kingdom’s capital city.
+
+The chess themed royal ball assigned each “square” of the chessboard themed floor for each royalty, with Kings, Queens and Bishops having similar stride as that of chess to keep it fun.
+
+But here’s the catch. The Queens hate each other.
+
+Now, being the prime minister of this realm, how many distinct ways would you assign seats to the Queens without them being able to attack each other, and make this more generalised for ‘N’ number of such Queens.
+
+Assume the floor to be an N x N grid , with N being the number of queens.
+
+The Queens must be placed on the grid, such that they are unable to attack another Queen, or be attacked by another Queen.  
+
+The input must have:
+
+    A single line input with the number of Queens. This will be the N value mentioned above.
+    
+Each solution must contain : 
+
+    1. The number of distinct solutions in the first line
+    2. All the distinct board configurations of the N-queens' placement, where 'Q' and '.' , indicate a Queen and an empty space, respectively. 
+    They must be printed one after the other. 
+    They can be printed in any order.
+    
+Note:  all the Queens must be represented only as 'Q' and the empty spaces, only as '.'.
+
+CONSTRAINT: 1 <= N <= 9
+
+
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/210098027-2f2ce89b-cac7-4c02-8e5e-98944c790458.jpg" height="300"></p>
+
+
+
+#### Sample Input/Output
+``` 
+Input: 
+
+4
+
+Output:
+
+2
+
+. Q . . 
+. . . Q 
+Q . . . 
+. . Q . 
+
+. . Q . 
+Q . . . 
+. . . Q 
+. Q . . 
+
+
+```
+
+```
+Input: 
+
+1
+
+Output:
+
+1
+Q
+
+``` 
+
+```
+Input:
+
+5
+
+Output:
+
+10
+
+Q . . . . 
+. . Q . . 
+. . . . Q 
+. Q . . . 
+. . . Q . 
+
+Q . . . . 
+. . . Q . 
+. Q . . . 
+. . . . Q 
+. . Q . . 
+
+. Q . . . 
+. . . Q . 
+Q . . . . 
+. . Q . . 
+. . . . Q 
+
+. Q . . . 
+. . . . Q 
+. . Q . . 
+Q . . . . 
+. . . Q . 
+
+. . Q . . 
+Q . . . . 
+. . . Q . 
+. Q . . . 
+. . . . Q 
+
+. . Q . . 
+. . . . Q 
+. Q . . . 
+. . . Q . 
+Q . . . . 
+
+. . . Q . 
+Q . . . . 
+. . Q . . 
+. . . . Q 
+. Q . . . 
+
+. . . Q . 
+. Q . . . 
+. . . . Q 
+. . Q . . 
+Q . . . . 
+
+. . . . Q 
+. Q . . . 
+. . . Q . 
+Q . . . . 
+. . Q . . 
+
+. . . . Q 
+. . Q . . 
+Q . . . . 
+. . . Q . 
+. Q . . .
+
+``` 
+
+#### Explanation
+
+``` 
+For N=4 
+There are 4 queens: Q1, Q2, Q3, Q4
+Let’s suppose we’re putting our first queen Q1 at position (1, 1) now for  Q2 we can’t put it in  row 1( because they will conflict ). 
+ Q   .   .   . 
+ .   .   .   .
+ .   .   .   .  
+ .   .   .   . 
+
+So for Q2 we will have to consider row 2. In row 2 we can place it in column 3 I.e at (2, 3) but then there will be no option for placing Q3 in row 3. 
+ Q   .   .   . 
+ .   .   Q   .
+ .   .   .   .  
+ .   .   .   . 
+
+So we backtrack one step and place Q2 at (2, 4) then we find the position for placing  Q3 is (3, 2) but by this, no option will be left for placing Q4.
+
+
+ Q   .   .   . 
+ .   .   .   Q
+ .   Q   .   .  
+ .   .   .   . 
+
+Then we have to backtrack till ‘Q1’ and put it at (1, 2) instead of (1, 1) and then all other queens can be placed safely by moving Q2 to the position (2, 4), Q3  to (3, 1), and Q4 to (4, 3).
+ .   Q   .   . 
+ .   .   .   Q
+ Q   .   .   .  
+ .   .   Q   . 
+
+Similarly the other output for N=4 is also evaluated. 
+Proceed using this example as reference to evaluate the other inputs.
+
+
+```
+
+- **References**
+    - [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+    - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+    - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+
+----
+
 FAQ
 ======
 
